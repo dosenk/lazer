@@ -997,3 +997,2391 @@ Stack trace:
 2019-08-01 11:22:25 pid:25609 Workerman[tcp.php] stopping ...
 2019-08-01 11:22:25 pid:25609 Workerman[tcp.php] has been stopped
 2019-08-01 11:22:27 pid:26067 Workerman[tcp.php] start in DEBUG mode
+2019-08-29 12:36:49 pid:14 Workerman[tcp.php] start in DEBUG mode
+2019-08-29 13:17:20 pid:15 Workerman[tcp.php] start in DEBUG mode
+2019-08-29 13:17:59 pid:17 Workerman[tcp.php] start in DAEMON mode
+2019-08-29 14:17:21 pid:1369 Workerman[tcp.php] start in DEBUG mode
+2019-08-29 14:19:39 pid:1673 Workerman[tcp.php] status 
+2019-08-29 14:53:51 pid:1369 Workerman[tcp.php] stopping ...
+2019-08-29 14:53:51 pid:1369 worker[none:1370] exit with status 5247
+2019-08-29 14:53:51 pid:1369 Workerman[tcp.php] has been stopped
+2019-09-03 07:16:00 pid:27824 Workerman[tcp.php] status 
+2019-09-03 07:16:00 pid:27824 Workerman[tcp.php] not run
+2019-09-03 07:16:06 pid:27828 Workerman[tcp.php] start in DEBUG mode
+2019-09-03 07:21:42 pid:28157 Workerman[web.php] start in DEBUG mode
+2019-09-03 07:51:58 pid:27828 Workerman[tcp.php] stopping ...
+2019-09-03 07:51:58 pid:28157 Workerman[web.php] stopping ...
+2019-09-03 07:52:49 pid:612 Workerman[tcp.php] start in DEBUG mode
+2019-09-03 08:00:53 pid:612 Workerman[tcp.php] stopping ...
+2019-09-03 08:06:50 pid:615 Workerman[tcp.php] start in DEBUG mode
+2019-09-03 08:07:31 pid:621 Workerman[web.php] start in DEBUG mode
+2019-09-03 08:11:51 pid:616 Error: Call to a member function fetch_assoc() on null in /var/www/lazer/tcp.php:121
+Stack trace:
+#0 /var/www/lazer/tcp.php(30): check_imei('swd\r\n')
+#1 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'swd\r\n')
+#2 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'swd\r\n')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#4 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(510): Workerman\Worker::forkWorkers()
+#10 /var/www/lazer/tcp.php(137): Workerman\Worker::runAll()
+#11 {main}
+2019-09-03 08:11:51 pid:616 Worker[616] process terminated
+2019-09-03 08:11:51 pid:615 worker[none:616] exit with status 64000
+2019-09-03 08:12:03 pid:665 Error: Call to a member function fetch_assoc() on null in /var/www/lazer/tcp.php:121
+Stack trace:
+#0 /var/www/lazer/tcp.php(30): check_imei('asd:asd\r\n')
+#1 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'asd:asd\r\n')
+#2 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'asd:asd\r\n')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #26)
+#4 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1623): Workerman\Worker::forkWorkers()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(1572): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/www/lazer/vendor/workerman/workerman/Worker.php(512): Workerman\Worker::monitorWorkers()
+#12 /var/www/lazer/tcp.php(137): Workerman\Worker::runAll()
+#13 {main}
+2019-09-03 08:12:03 pid:665 Worker[665] process terminated
+2019-09-03 08:12:03 pid:615 worker[none:665] exit with status 64000
+2019-09-03 08:12:25 pid:669 Error: Call to a member function fetch_assoc() on null in /var/www/lazer/tcp.php:121
+Stack trace:
+#0 /var/www/lazer/tcp.php(30): check_imei('dima: sdfcwse\r\n')
+#1 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'dima: sdfcwse\r\n')
+#2 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'dima: sdfcwse\r\n')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #27)
+#4 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1623): Workerman\Worker::forkWorkers()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(1572): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/www/lazer/vendor/workerman/workerman/Worker.php(512): Workerman\Worker::monitorWorkers()
+#12 /var/www/lazer/tcp.php(137): Workerman\Worker::runAll()
+#13 {main}
+2019-09-03 08:12:25 pid:669 Worker[669] process terminated
+2019-09-03 08:12:25 pid:615 worker[none:669] exit with status 64000
+2019-09-03 10:47:50 pid:621 Workerman[web.php] stopping ...
+2019-09-03 10:47:50 pid:621 Workerman[web.php] has been stopped
+2019-09-04 11:03:18 pid:7825 Workerman[web.php] start in DEBUG mode
+2019-09-04 11:53:28 pid:7825 Workerman[web.php] stopping ...
+2019-09-04 11:53:28 pid:7825 Workerman[web.php] has been stopped
+2019-09-04 12:23:56 pid:8173 Workerman[web.php] start in DEBUG mode
+2019-09-04 12:23:59 pid:670 Error: Call to a member function fetch_assoc() on null in /var/www/lazer/tcp.php:121
+Stack trace:
+#0 /var/www/lazer/tcp.php(30): check_imei('web')
+#1 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'web')
+#2 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'web')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #32)
+#4 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1623): Workerman\Worker::forkWorkers()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(1572): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/www/lazer/vendor/workerman/workerman/Worker.php(512): Workerman\Worker::monitorWorkers()
+#12 /var/www/lazer/tcp.php(137): Workerman\Worker::runAll()
+#13 {main}
+2019-09-04 12:23:59 pid:670 Worker[670] process terminated
+2019-09-04 12:23:59 pid:615 worker[none:670] exit with status 64000
+2019-09-04 12:25:25 pid:8176 Error: Call to a member function fetch_assoc() on null in /var/www/lazer/tcp.php:121
+Stack trace:
+#0 /var/www/lazer/tcp.php(30): check_imei('web')
+#1 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'web')
+#2 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'web')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#4 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1623): Workerman\Worker::forkWorkers()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(1572): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/www/lazer/vendor/workerman/workerman/Worker.php(512): Workerman\Worker::monitorWorkers()
+#12 /var/www/lazer/tcp.php(137): Workerman\Worker::runAll()
+#13 {main}
+2019-09-04 12:25:25 pid:8176 Worker[8176] process terminated
+2019-09-04 12:25:25 pid:615 worker[none:8176] exit with status 64000
+2019-09-04 12:25:46 pid:8183 Error: Call to a member function fetch_assoc() on null in /var/www/lazer/tcp.php:121
+Stack trace:
+#0 /var/www/lazer/tcp.php(30): check_imei('web')
+#1 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'web')
+#2 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'web')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #30)
+#4 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1623): Workerman\Worker::forkWorkers()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(1572): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/www/lazer/vendor/workerman/workerman/Worker.php(512): Workerman\Worker::monitorWorkers()
+#12 /var/www/lazer/tcp.php(137): Workerman\Worker::runAll()
+#13 {main}
+2019-09-04 12:25:46 pid:8183 Worker[8183] process terminated
+2019-09-04 12:25:46 pid:615 worker[none:8183] exit with status 64000
+2019-09-04 12:27:46 pid:8184 Error: Call to a member function fetch_assoc() on null in /var/www/lazer/tcp.php:121
+Stack trace:
+#0 /var/www/lazer/tcp.php(30): check_imei('web')
+#1 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'web')
+#2 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'web')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #31)
+#4 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1623): Workerman\Worker::forkWorkers()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(1572): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/www/lazer/vendor/workerman/workerman/Worker.php(512): Workerman\Worker::monitorWorkers()
+#12 /var/www/lazer/tcp.php(137): Workerman\Worker::runAll()
+#13 {main}
+2019-09-04 12:27:46 pid:8184 Worker[8184] process terminated
+2019-09-04 12:27:46 pid:615 worker[none:8184] exit with status 64000
+2019-09-04 12:36:04 pid:8191 Error: Call to a member function fetch_assoc() on null in /var/www/lazer/tcp.php:121
+Stack trace:
+#0 /var/www/lazer/tcp.php(30): check_imei('web')
+#1 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'web')
+#2 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'web')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #32)
+#4 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1623): Workerman\Worker::forkWorkers()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(1572): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/www/lazer/vendor/workerman/workerman/Worker.php(512): Workerman\Worker::monitorWorkers()
+#12 /var/www/lazer/tcp.php(137): Workerman\Worker::runAll()
+#13 {main}
+2019-09-04 12:36:04 pid:8191 Worker[8191] process terminated
+2019-09-04 12:36:04 pid:615 worker[none:8191] exit with status 64000
+2019-09-04 12:36:09 pid:8219 Error: Call to a member function fetch_assoc() on null in /var/www/lazer/tcp.php:121
+Stack trace:
+#0 /var/www/lazer/tcp.php(30): check_imei('web')
+#1 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'web')
+#2 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'web')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #33)
+#4 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1623): Workerman\Worker::forkWorkers()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(1572): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/www/lazer/vendor/workerman/workerman/Worker.php(512): Workerman\Worker::monitorWorkers()
+#12 /var/www/lazer/tcp.php(137): Workerman\Worker::runAll()
+#13 {main}
+2019-09-04 12:36:09 pid:8219 Worker[8219] process terminated
+2019-09-04 12:36:09 pid:615 worker[none:8219] exit with status 64000
+2019-09-04 12:36:12 pid:8220 Error: Call to a member function fetch_assoc() on null in /var/www/lazer/tcp.php:121
+Stack trace:
+#0 /var/www/lazer/tcp.php(30): check_imei('web')
+#1 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'web')
+#2 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'web')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #34)
+#4 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1623): Workerman\Worker::forkWorkers()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(1572): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/www/lazer/vendor/workerman/workerman/Worker.php(512): Workerman\Worker::monitorWorkers()
+#12 /var/www/lazer/tcp.php(137): Workerman\Worker::runAll()
+#13 {main}
+2019-09-04 12:36:12 pid:8220 Worker[8220] process terminated
+2019-09-04 12:36:12 pid:615 worker[none:8220] exit with status 64000
+2019-09-04 12:39:16 pid:8173 Workerman[web.php] stopping ...
+2019-09-04 12:39:16 pid:8173 Workerman[web.php] has been stopped
+2019-09-04 12:39:17 pid:8260 Workerman[web.php] start in DEBUG mode
+2019-09-04 12:39:19 pid:8221 Error: Call to a member function fetch_assoc() on null in /var/www/lazer/tcp.php:121
+Stack trace:
+#0 /var/www/lazer/tcp.php(30): check_imei('web')
+#1 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'web')
+#2 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'web')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #40)
+#4 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1623): Workerman\Worker::forkWorkers()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(1572): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/www/lazer/vendor/workerman/workerman/Worker.php(512): Workerman\Worker::monitorWorkers()
+#12 /var/www/lazer/tcp.php(137): Workerman\Worker::runAll()
+#13 {main}
+2019-09-04 12:39:19 pid:8221 Worker[8221] process terminated
+2019-09-04 12:39:19 pid:615 worker[none:8221] exit with status 64000
+2019-09-04 12:39:28 pid:8263 Error: Call to a member function fetch_assoc() on null in /var/www/lazer/tcp.php:121
+Stack trace:
+#0 /var/www/lazer/tcp.php(30): check_imei('web')
+#1 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'web')
+#2 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'web')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #36)
+#4 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1623): Workerman\Worker::forkWorkers()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(1572): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/www/lazer/vendor/workerman/workerman/Worker.php(512): Workerman\Worker::monitorWorkers()
+#12 /var/www/lazer/tcp.php(137): Workerman\Worker::runAll()
+#13 {main}
+2019-09-04 12:39:28 pid:8263 Worker[8263] process terminated
+2019-09-04 12:39:28 pid:615 worker[none:8263] exit with status 64000
+2019-09-04 12:40:31 pid:8260 Workerman[web.php] stopping ...
+2019-09-04 12:40:31 pid:8260 Workerman[web.php] has been stopped
+2019-09-04 12:40:32 pid:8268 Workerman[web.php] start in DEBUG mode
+2019-09-04 12:40:36 pid:8264 Error: Call to a member function fetch_assoc() on null in /var/www/lazer/tcp.php:121
+Stack trace:
+#0 /var/www/lazer/tcp.php(30): check_imei('web')
+#1 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'web')
+#2 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'web')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #37)
+#4 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1623): Workerman\Worker::forkWorkers()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(1572): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/www/lazer/vendor/workerman/workerman/Worker.php(512): Workerman\Worker::monitorWorkers()
+#12 /var/www/lazer/tcp.php(137): Workerman\Worker::runAll()
+#13 {main}
+2019-09-04 12:40:36 pid:8264 Worker[8264] process terminated
+2019-09-04 12:40:36 pid:615 worker[none:8264] exit with status 64000
+2019-09-04 12:42:32 pid:8575 Workerman[tcp.php] start in DEBUG mode
+2019-09-04 12:42:32 pid:8575 Workerman[tcp.php] already running
+2019-09-04 12:42:59 pid:8576 Workerman[tcp.php] status 
+2019-09-04 12:43:09 pid:8271 Error: Call to a member function fetch_assoc() on null in /var/www/lazer/tcp.php:121
+Stack trace:
+#0 /var/www/lazer/tcp.php(30): check_imei('as:xasxs\r\n')
+#1 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'as:xasxs\r\n')
+#2 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'as:xasxs\r\n')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #38)
+#4 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1623): Workerman\Worker::forkWorkers()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(1572): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/www/lazer/vendor/workerman/workerman/Worker.php(512): Workerman\Worker::monitorWorkers()
+#12 /var/www/lazer/tcp.php(137): Workerman\Worker::runAll()
+#13 {main}
+2019-09-04 12:43:09 pid:8271 Worker[8271] process terminated
+2019-09-04 12:43:09 pid:615 worker[none:8271] exit with status 64000
+2019-09-04 12:43:24 pid:8580 Error: Call to a member function fetch_assoc() on null in /var/www/lazer/tcp.php:121
+Stack trace:
+#0 /var/www/lazer/tcp.php(30): check_imei('web')
+#1 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'web')
+#2 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'web')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #52)
+#4 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1623): Workerman\Worker::forkWorkers()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(1572): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/www/lazer/vendor/workerman/workerman/Worker.php(512): Workerman\Worker::monitorWorkers()
+#12 /var/www/lazer/tcp.php(137): Workerman\Worker::runAll()
+#13 {main}
+2019-09-04 12:43:24 pid:8580 Worker[8580] process terminated
+2019-09-04 12:43:24 pid:615 worker[none:8580] exit with status 64000
+2019-09-04 12:43:41 pid:8268 Workerman[web.php] stopping ...
+2019-09-04 12:43:41 pid:8268 Workerman[web.php] has been stopped
+2019-09-04 12:43:49 pid:8582 Workerman[tcp.php] start in DEBUG mode
+2019-09-04 12:43:49 pid:8582 Workerman[tcp.php] already running
+2019-09-04 12:43:56 pid:8583 Workerman[tcp.php] stop 
+2019-09-04 12:43:56 pid:8583 Workerman[tcp.php] is stopping ...
+2019-09-04 12:43:56 pid:615 Workerman[tcp.php] stopping ...
+2019-09-04 12:43:56 pid:615 Workerman[tcp.php] has been stopped
+2019-09-04 12:43:56 pid:8583 Workerman[tcp.php] stop success
+2019-09-04 12:43:59 pid:8584 Workerman[tcp.php] start in DEBUG mode
+2019-09-04 12:44:02 pid:8589 Workerman[web.php] start in DEBUG mode
+2019-09-04 12:44:11 pid:8585 Error: Call to a member function fetch_assoc() on null in /var/www/lazer/tcp.php:121
+Stack trace:
+#0 /var/www/lazer/tcp.php(30): check_imei('asd:adcdas\r\n')
+#1 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'asd:adcdas\r\n')
+#2 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'asd:adcdas\r\n')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#4 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(510): Workerman\Worker::forkWorkers()
+#10 /var/www/lazer/tcp.php(137): Workerman\Worker::runAll()
+#11 {main}
+2019-09-04 12:44:11 pid:8585 Worker[8585] process terminated
+2019-09-04 12:44:11 pid:8584 worker[none:8585] exit with status 64000
+2019-09-04 12:45:02 pid:8592 Error: Call to a member function fetch_assoc() on null in /var/www/lazer/tcp.php:121
+Stack trace:
+#0 /var/www/lazer/tcp.php(30): check_imei('asdas\r\n')
+#1 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'asdas\r\n')
+#2 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'asdas\r\n')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#4 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1623): Workerman\Worker::forkWorkers()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(1572): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/www/lazer/vendor/workerman/workerman/Worker.php(512): Workerman\Worker::monitorWorkers()
+#12 /var/www/lazer/tcp.php(137): Workerman\Worker::runAll()
+#13 {main}
+2019-09-04 12:45:02 pid:8592 Worker[8592] process terminated
+2019-09-04 12:45:02 pid:8584 worker[none:8592] exit with status 64000
+2019-09-04 12:47:12 pid:8596 Error: Call to a member function fetch_assoc() on null in /var/www/lazer/tcp.php:121
+Stack trace:
+#0 /var/www/lazer/tcp.php(30): check_imei('web')
+#1 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'web')
+#2 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'web')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#4 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1623): Workerman\Worker::forkWorkers()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(1572): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/www/lazer/vendor/workerman/workerman/Worker.php(512): Workerman\Worker::monitorWorkers()
+#12 /var/www/lazer/tcp.php(137): Workerman\Worker::runAll()
+#13 {main}
+2019-09-04 12:47:12 pid:8596 Worker[8596] process terminated
+2019-09-04 12:47:12 pid:8584 worker[none:8596] exit with status 64000
+2019-09-04 12:47:22 pid:8603 Error: Call to a member function fetch_assoc() on null in /var/www/lazer/tcp.php:121
+Stack trace:
+#0 /var/www/lazer/tcp.php(30): check_imei('web')
+#1 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'web')
+#2 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'web')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #27)
+#4 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1623): Workerman\Worker::forkWorkers()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(1572): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/www/lazer/vendor/workerman/workerman/Worker.php(512): Workerman\Worker::monitorWorkers()
+#12 /var/www/lazer/tcp.php(137): Workerman\Worker::runAll()
+#13 {main}
+2019-09-04 12:47:22 pid:8603 Worker[8603] process terminated
+2019-09-04 12:47:22 pid:8584 worker[none:8603] exit with status 64000
+2019-09-04 12:47:28 pid:8604 Error: Call to a member function fetch_assoc() on null in /var/www/lazer/tcp.php:121
+Stack trace:
+#0 /var/www/lazer/tcp.php(30): check_imei('web')
+#1 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'web')
+#2 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'web')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #31)
+#4 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1623): Workerman\Worker::forkWorkers()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(1572): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/www/lazer/vendor/workerman/workerman/Worker.php(512): Workerman\Worker::monitorWorkers()
+#12 /var/www/lazer/tcp.php(137): Workerman\Worker::runAll()
+#13 {main}
+2019-09-04 12:47:28 pid:8604 Worker[8604] process terminated
+2019-09-04 12:47:28 pid:8584 worker[none:8604] exit with status 64000
+2019-09-04 14:14:56 pid:8584 Workerman[tcp.php] stopping ...
+2019-09-04 14:14:56 pid:8584 Workerman[tcp.php] has been stopped
+2019-09-04 14:14:58 pid:8957 Workerman[tcp.php] start in DEBUG mode
+2019-09-04 14:14:59 pid:8589 Workerman[web.php] stopping ...
+2019-09-04 14:14:59 pid:8589 Workerman[web.php] has been stopped
+2019-09-04 14:15:00 pid:8959 Workerman[web.php] start in DEBUG mode
+2019-09-04 14:22:12 pid:8957 Workerman[tcp.php] stopping ...
+2019-09-04 14:22:12 pid:8959 Workerman[web.php] stopping ...
+2019-09-04 14:22:12 pid:8957 Workerman[tcp.php] has been stopped
+2019-09-04 14:22:12 pid:8959 Workerman[web.php] has been stopped
+2019-09-04 14:31:43 pid:612 Workerman[tcp.php] start in DEBUG mode
+2019-09-04 14:31:53 pid:614 Workerman[web.php] start in DEBUG mode
+2019-09-05 10:54:07 pid:614 Workerman[web.php] stopping ...
+2019-09-05 10:54:07 pid:614 Workerman[web.php] has been stopped
+2019-09-05 10:54:08 pid:612 Workerman[tcp.php] stopping ...
+2019-09-05 10:54:08 pid:612 Workerman[tcp.php] has been stopped
+2019-09-05 10:54:14 pid:5632 Workerman[tcp.php] start in DEBUG mode
+2019-09-05 10:54:23 pid:5634 Workerman[web.php] start in DEBUG mode
+2019-09-05 11:19:12 pid:5634 Workerman[web.php] stopping ...
+2019-09-05 11:19:12 pid:5634 Workerman[web.php] has been stopped
+2019-09-05 11:19:14 pid:5632 Workerman[tcp.php] stopping ...
+2019-09-05 11:19:14 pid:5632 Workerman[tcp.php] has been stopped
+2019-09-05 11:19:15 pid:5744 Workerman[tcp.php] start in DEBUG mode
+2019-09-05 11:19:18 pid:5746 Workerman[web.php] start in DEBUG mode
+2019-09-05 11:20:44 pid:6047 Workerman[web.php] start in DEBUG mode
+2019-09-05 11:20:44 pid:6047 Workerman[web.php] already running
+2019-09-05 11:21:05 pid:6051 Workerman[web.php] status 
+2019-09-05 11:24:02 pid:5746 Workerman[web.php] stopping ...
+2019-09-05 11:24:02 pid:5746 Workerman[web.php] has been stopped
+2019-09-05 11:24:04 pid:6061 Workerman[web.php] start in DEBUG mode
+2019-09-05 11:24:11 pid:6063 Workerman[web.php] status 
+2019-09-05 11:43:04 pid:6150 Workerman[tcp.php] status 
+2019-09-05 12:48:37 pid:6409 Workerman[tcp.php] connections 
+2019-09-05 13:21:24 pid:5744 Workerman[tcp.php] stopping ...
+2019-09-05 13:21:24 pid:5744 Workerman[tcp.php] has been stopped
+2019-09-05 13:38:56 pid:6621 Workerman[tcp.php] start in DEBUG mode
+2019-09-05 13:53:11 pid:6697 Workerman[tcp.php] connections 
+2019-09-05 14:39:03 pid:6621 Workerman[tcp.php] stopping ...
+2019-09-05 14:39:03 pid:6621 Workerman[tcp.php] has been stopped
+2019-09-05 14:39:06 pid:6897 Workerman[tcp.php] start in DEBUG mode
+2019-09-05 14:39:17 pid:6899 Workerman[tcp.php] connections 
+2019-09-05 14:39:29 pid:6900 Workerman[tcp.php] status 
+2019-09-05 14:39:42 pid:6901 Workerman[tcp.php] status 
+2019-09-05 14:39:46 pid:6902 Workerman[tcp.php] connections 
+2019-09-05 14:39:56 pid:6061 Workerman[web.php] stopping ...
+2019-09-05 14:39:56 pid:6061 Workerman[web.php] has been stopped
+2019-09-05 14:39:58 pid:6903 Workerman[web.php] start in DEBUG mode
+2019-09-05 14:42:09 pid:6914 Workerman[tcp.php] connections 
+2019-09-05 14:56:40 pid:6897 Workerman[tcp.php] stopping ...
+2019-09-05 14:56:40 pid:6897 Workerman[tcp.php] has been stopped
+2019-09-05 14:56:41 pid:6957 Workerman[tcp.php] start in DEBUG mode
+2019-09-06 05:58:19 pid:10580 Workerman[tcp.php] status 
+2019-09-06 09:16:20 pid:6957 Workerman[tcp.php] stopping ...
+2019-09-06 09:16:20 pid:6957 Workerman[tcp.php] has been stopped
+2019-09-06 09:16:21 pid:11467 Workerman[tcp.php] start in DEBUG mode
+2019-09-06 09:29:00 pid:11468 TypeError: Return value of parseImei() must be of the type string, null returned in /var/www/lazer/tcp.php:101
+Stack trace:
+#0 /var/www/lazer/tcp.php(59): parseImei(NULL)
+#1 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'web')
+#2 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'web')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#4 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(510): Workerman\Worker::forkWorkers()
+#10 /var/www/lazer/tcp.php(166): Workerman\Worker::runAll()
+#11 {main}
+2019-09-06 09:29:00 pid:11468 Worker[11468] process terminated
+2019-09-06 09:29:00 pid:11467 worker[none:11468] exit with status 64000
+2019-09-06 12:00:08 pid:11508 TypeError: Return value of parseImei() must be of the type string, null returned in /var/www/lazer/tcp.php:101
+Stack trace:
+#0 /var/www/lazer/tcp.php(59): parseImei(NULL)
+#1 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'web')
+#2 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'web')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#4 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1623): Workerman\Worker::forkWorkers()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(1572): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/www/lazer/vendor/workerman/workerman/Worker.php(512): Workerman\Worker::monitorWorkers()
+#12 /var/www/lazer/tcp.php(166): Workerman\Worker::runAll()
+#13 {main}
+2019-09-06 12:00:08 pid:11508 Worker[11508] process terminated
+2019-09-06 12:00:08 pid:11467 worker[none:11508] exit with status 64000
+2019-09-06 12:00:25 pid:12117 Workerman[tcp.php] status 
+2019-09-06 12:00:35 pid:12118 Workerman[web.php] status 
+2019-09-06 12:00:42 pid:12116 TypeError: Return value of parseImei() must be of the type string, null returned in /var/www/lazer/tcp.php:101
+Stack trace:
+#0 /var/www/lazer/tcp.php(59): parseImei(NULL)
+#1 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'web')
+#2 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'web')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#4 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1623): Workerman\Worker::forkWorkers()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(1572): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/www/lazer/vendor/workerman/workerman/Worker.php(512): Workerman\Worker::monitorWorkers()
+#12 /var/www/lazer/tcp.php(166): Workerman\Worker::runAll()
+#13 {main}
+2019-09-06 12:00:42 pid:12116 Worker[12116] process terminated
+2019-09-06 12:00:42 pid:11467 worker[none:12116] exit with status 64000
+2019-09-06 12:01:42 pid:12119 TypeError: Return value of parseImei() must be of the type string, null returned in /var/www/lazer/tcp.php:101
+Stack trace:
+#0 /var/www/lazer/tcp.php(59): parseImei(NULL)
+#1 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'web')
+#2 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'web')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #37)
+#4 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1623): Workerman\Worker::forkWorkers()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(1572): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/www/lazer/vendor/workerman/workerman/Worker.php(512): Workerman\Worker::monitorWorkers()
+#12 /var/www/lazer/tcp.php(166): Workerman\Worker::runAll()
+#13 {main}
+2019-09-06 12:01:42 pid:12119 Worker[12119] process terminated
+2019-09-06 12:01:42 pid:11467 worker[none:12119] exit with status 64000
+2019-09-06 12:02:33 pid:11467 Workerman[tcp.php] stopping ...
+2019-09-06 12:02:33 pid:11467 Workerman[tcp.php] has been stopped
+2019-09-06 12:02:34 pid:12127 Workerman[tcp.php] start in DEBUG mode
+2019-09-06 12:05:13 pid:12128 TypeError: Return value of parseImei() must be of the type string, null returned in /var/www/lazer/tcp.php:100
+Stack trace:
+#0 /var/www/lazer/tcp.php(59): parseImei(NULL)
+#1 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'web')
+#2 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'web')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#4 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(510): Workerman\Worker::forkWorkers()
+#10 /var/www/lazer/tcp.php(165): Workerman\Worker::runAll()
+#11 {main}
+2019-09-06 12:05:13 pid:12128 Worker[12128] process terminated
+2019-09-06 12:05:13 pid:12127 worker[none:12128] exit with status 64000
+2019-09-06 12:05:24 pid:6903 Workerman[web.php] stopping ...
+2019-09-06 12:05:24 pid:6903 Workerman[web.php] has been stopped
+2019-09-06 12:05:25 pid:12139 Workerman[web.php] start in DEBUG mode
+2019-09-06 12:08:22 pid:12139 Workerman[web.php] stopping ...
+2019-09-06 12:08:22 pid:12139 Workerman[web.php] has been stopped
+2019-09-06 12:08:23 pid:12127 Workerman[tcp.php] stopping ...
+2019-09-06 12:08:23 pid:12127 Workerman[tcp.php] has been stopped
+2019-09-06 12:08:25 pid:12150 Workerman[tcp.php] start in DEBUG mode
+2019-09-06 12:08:27 pid:12152 Workerman[web.php] start in DEBUG mode
+2019-09-06 12:10:04 pid:12151 TypeError: Return value of parseImei() must be of the type string, null returned in /var/www/lazer/tcp.php:100
+Stack trace:
+#0 /var/www/lazer/tcp.php(75): parseImei(NULL)
+#1 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '[object Object]')
+#2 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '[object Object]')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #31)
+#4 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(510): Workerman\Worker::forkWorkers()
+#10 /var/www/lazer/tcp.php(165): Workerman\Worker::runAll()
+#11 {main}
+2019-09-06 12:10:04 pid:12151 Worker[12151] process terminated
+2019-09-06 12:10:04 pid:12150 worker[none:12151] exit with status 64000
+2019-09-06 12:21:37 pid:12152 Workerman[web.php] stopping ...
+2019-09-06 12:21:37 pid:12152 Workerman[web.php] has been stopped
+2019-09-06 12:21:39 pid:12150 Workerman[tcp.php] stopping ...
+2019-09-06 12:21:39 pid:12150 Workerman[tcp.php] has been stopped
+2019-09-06 12:21:40 pid:12226 Workerman[tcp.php] start in DEBUG mode
+2019-09-06 12:21:42 pid:12228 Workerman[web.php] start in DEBUG mode
+2019-09-06 12:45:14 pid:12331 Workerman[web.php] status 
+2019-09-06 12:45:21 pid:12332 Workerman[tcp.php] status 
+2019-09-06 12:45:27 pid:12333 Workerman[tcp.php] connections 
+2019-09-06 12:51:42 pid:12226 Workerman[tcp.php] stopping ...
+2019-09-06 12:51:42 pid:12226 Workerman[tcp.php] has been stopped
+2019-09-06 12:51:42 pid:12228 Workerman[web.php] stopping ...
+2019-09-06 12:51:42 pid:12228 Workerman[web.php] has been stopped
+2019-09-06 12:51:44 pid:12352 Workerman[tcp.php] start in DEBUG mode
+2019-09-06 12:51:47 pid:12354 Workerman[web.php] start in DEBUG mode
+2019-09-06 13:13:11 pid:12451 Workerman[tcp.php] connections 
+2019-09-06 13:13:19 pid:12452 Workerman[tcp.php] connections 
+2019-09-06 13:16:20 pid:12352 Workerman[tcp.php] stopping ...
+2019-09-06 13:16:20 pid:12352 Workerman[tcp.php] has been stopped
+2019-09-06 13:16:21 pid:12462 Workerman[tcp.php] start in DEBUG mode
+2019-09-06 13:16:22 pid:12354 Workerman[web.php] stopping ...
+2019-09-06 13:16:22 pid:12354 Workerman[web.php] has been stopped
+2019-09-06 13:16:23 pid:12464 Workerman[web.php] start in DEBUG mode
+2019-09-06 13:17:00 pid:12466 Workerman[tcp.php] connections 
+2019-09-06 13:17:03 pid:12473 Workerman[tcp.php] connections 
+2019-09-06 13:17:18 pid:12474 Workerman[tcp.php] status 
+2019-09-06 13:17:22 pid:12475 Workerman[tcp.php] connections 
+2019-09-06 13:17:49 pid:12476 Workerman[tcp.php] connections 
+2019-09-06 13:18:08 pid:12480 Workerman[tcp.php] status 
+2019-09-06 13:19:19 pid:12462 Workerman[tcp.php] stopping ...
+2019-09-06 13:19:19 pid:12462 Workerman[tcp.php] has been stopped
+2019-09-06 13:19:20 pid:12484 Workerman[tcp.php] start in DEBUG mode
+2019-09-06 13:19:21 pid:12464 Workerman[web.php] stopping ...
+2019-09-06 13:19:21 pid:12464 Workerman[web.php] has been stopped
+2019-09-06 13:19:23 pid:12486 Workerman[web.php] start in DEBUG mode
+2019-09-06 13:19:43 pid:12485 Worker[12485] process terminated with ERROR: E_RECOVERABLE_ERROR "Object of class stdClass could not be converted to string in /var/www/lazer/tcp.php on line 69"
+2019-09-06 13:19:43 pid:12484 worker[none:12485] exit with status 65280
+2019-09-06 13:20:03 pid:12484 Workerman[tcp.php] stopping ...
+2019-09-06 13:20:03 pid:12484 Workerman[tcp.php] has been stopped
+2019-09-06 13:20:04 pid:12492 Workerman[tcp.php] start in DEBUG mode
+2019-09-06 13:20:05 pid:12486 Workerman[web.php] stopping ...
+2019-09-06 13:20:05 pid:12486 Workerman[web.php] has been stopped
+2019-09-06 13:20:07 pid:12494 Workerman[web.php] start in DEBUG mode
+2019-09-06 13:20:19 pid:12493 Worker[12493] process terminated with ERROR: E_RECOVERABLE_ERROR "Object of class stdClass could not be converted to string in /var/www/lazer/tcp.php on line 69"
+2019-09-06 13:20:19 pid:12492 worker[none:12493] exit with status 65280
+2019-09-06 13:20:51 pid:12492 Workerman[tcp.php] stopping ...
+2019-09-06 13:20:51 pid:12492 Workerman[tcp.php] has been stopped
+2019-09-06 13:20:51 pid:12497 Workerman[tcp.php] start in DEBUG mode
+2019-09-06 13:20:53 pid:12494 Workerman[web.php] stopping ...
+2019-09-06 13:20:53 pid:12494 Workerman[web.php] has been stopped
+2019-09-06 13:20:54 pid:12499 Workerman[web.php] start in DEBUG mode
+2019-09-06 13:29:17 pid:12497 Workerman[tcp.php] stopping ...
+2019-09-06 13:29:17 pid:12497 Workerman[tcp.php] has been stopped
+2019-09-06 13:29:18 pid:12528 Workerman[tcp.php] start in DEBUG mode
+2019-09-06 13:30:37 pid:12528 Workerman[tcp.php] stopping ...
+2019-09-06 13:30:37 pid:12528 Workerman[tcp.php] has been stopped
+2019-09-06 13:30:39 pid:12533 Workerman[tcp.php] start in DEBUG mode
+2019-09-06 13:38:00 pid:12556 Workerman[tcp.php] status 
+2019-09-06 13:43:15 pid:12533 Workerman[tcp.php] stopping ...
+2019-09-06 13:43:15 pid:12533 Workerman[tcp.php] has been stopped
+2019-09-06 13:43:16 pid:12604 Workerman[tcp.php] start in DEBUG mode
+2019-09-06 13:43:17 pid:12499 Workerman[web.php] stopping ...
+2019-09-06 13:43:17 pid:12499 Workerman[web.php] has been stopped
+2019-09-06 13:43:18 pid:12606 Workerman[web.php] start in DEBUG mode
+2019-09-06 13:58:10 pid:12606 Workerman[web.php] stopping ...
+2019-09-06 13:58:10 pid:12606 Workerman[web.php] has been stopped
+2019-09-06 13:58:11 pid:12653 Workerman[web.php] start in DEBUG mode
+2019-09-06 14:04:32 pid:12605 TypeError: Return value of parseimei() must be of the type string, null returned in /var/www/lazer/tcp.php:98
+Stack trace:
+#0 /var/www/lazer/tcp.php(51): parseimei(NULL)
+#1 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'web: Lat27.5449...')
+#2 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'web: Lat27.5449...')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #51)
+#4 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(510): Workerman\Worker::forkWorkers()
+#10 /var/www/lazer/tcp.php(127): Workerman\Worker::runAll()
+#11 {main}
+2019-09-06 14:04:32 pid:12605 Worker[12605] process terminated
+2019-09-06 14:04:32 pid:12604 worker[none:12605] exit with status 64000
+2019-09-06 14:06:09 pid:12653 Workerman[web.php] stopping ...
+2019-09-06 14:06:09 pid:12653 Workerman[web.php] has been stopped
+2019-09-06 14:06:35 pid:12680 Workerman[web.php] start in DEBUG mode
+2019-09-06 14:06:42 pid:12673 TypeError: Return value of parseimei() must be of the type string, null returned in /var/www/lazer/tcp.php:98
+Stack trace:
+#0 /var/www/lazer/tcp.php(51): parseimei(NULL)
+#1 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'web: Lat27.5449...')
+#2 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'web: Lat27.5449...')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #30)
+#4 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1623): Workerman\Worker::forkWorkers()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(1572): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/www/lazer/vendor/workerman/workerman/Worker.php(512): Workerman\Worker::monitorWorkers()
+#12 /var/www/lazer/tcp.php(127): Workerman\Worker::runAll()
+#13 {main}
+2019-09-06 14:06:42 pid:12673 Worker[12673] process terminated
+2019-09-06 14:06:42 pid:12604 worker[none:12673] exit with status 64000
+2019-09-06 14:08:16 pid:12682 TypeError: Return value of parseimei() must be of the type string, null returned in /var/www/lazer/tcp.php:98
+Stack trace:
+#0 /var/www/lazer/tcp.php(51): parseimei(NULL)
+#1 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'web: Lat27.5449...')
+#2 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'web: Lat27.5449...')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #26)
+#4 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1623): Workerman\Worker::forkWorkers()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(1572): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/www/lazer/vendor/workerman/workerman/Worker.php(512): Workerman\Worker::monitorWorkers()
+#12 /var/www/lazer/tcp.php(127): Workerman\Worker::runAll()
+#13 {main}
+2019-09-06 14:08:16 pid:12682 Worker[12682] process terminated
+2019-09-06 14:08:16 pid:12604 worker[none:12682] exit with status 64000
+2019-09-06 14:09:09 pid:12689 TypeError: Return value of parseimei() must be of the type string, null returned in /var/www/lazer/tcp.php:98
+Stack trace:
+#0 /var/www/lazer/tcp.php(51): parseimei(NULL)
+#1 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'web: Lat27.5449...')
+#2 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'web: Lat27.5449...')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #36)
+#4 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1623): Workerman\Worker::forkWorkers()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(1572): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/www/lazer/vendor/workerman/workerman/Worker.php(512): Workerman\Worker::monitorWorkers()
+#12 /var/www/lazer/tcp.php(127): Workerman\Worker::runAll()
+#13 {main}
+2019-09-06 14:09:09 pid:12689 Worker[12689] process terminated
+2019-09-06 14:09:09 pid:12604 worker[none:12689] exit with status 64000
+2019-09-06 14:11:45 pid:12680 Workerman[web.php] stopping ...
+2019-09-06 14:11:45 pid:12680 Workerman[web.php] has been stopped
+2019-09-06 14:11:46 pid:12729 Workerman[web.php] start in DEBUG mode
+2019-09-06 14:11:56 pid:12722 TypeError: Return value of parseimei() must be of the type string, null returned in /var/www/lazer/tcp.php:98
+Stack trace:
+#0 /var/www/lazer/tcp.php(51): parseimei(NULL)
+#1 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'web: Lat27.5449...')
+#2 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'web: Lat27.5449...')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#4 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1623): Workerman\Worker::forkWorkers()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(1572): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/www/lazer/vendor/workerman/workerman/Worker.php(512): Workerman\Worker::monitorWorkers()
+#12 /var/www/lazer/tcp.php(127): Workerman\Worker::runAll()
+#13 {main}
+2019-09-06 14:11:56 pid:12722 Worker[12722] process terminated
+2019-09-06 14:11:56 pid:12604 worker[none:12722] exit with status 64000
+2019-09-06 14:12:17 pid:12731 TypeError: Return value of parseimei() must be of the type string, null returned in /var/www/lazer/tcp.php:98
+Stack trace:
+#0 /var/www/lazer/tcp.php(51): parseimei(NULL)
+#1 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'web: Lat27.5449...')
+#2 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'web: Lat27.5449...')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#4 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1623): Workerman\Worker::forkWorkers()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(1572): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/www/lazer/vendor/workerman/workerman/Worker.php(512): Workerman\Worker::monitorWorkers()
+#12 /var/www/lazer/tcp.php(127): Workerman\Worker::runAll()
+#13 {main}
+2019-09-06 14:12:17 pid:12731 Worker[12731] process terminated
+2019-09-06 14:12:17 pid:12604 worker[none:12731] exit with status 64000
+2019-09-06 14:13:57 pid:12729 Workerman[web.php] stopping ...
+2019-09-06 14:13:57 pid:12729 Workerman[web.php] has been stopped
+2019-09-06 14:13:58 pid:12739 Workerman[web.php] start in DEBUG mode
+2019-09-08 09:10:50 pid:23266 Workerman[tcp.php] status 
+2019-09-08 09:12:18 pid:12735 TypeError: Return value of parseimei() must be of the type string, null returned in /var/www/lazer/tcp.php:98
+Stack trace:
+#0 /var/www/lazer/tcp.php(51): parseimei(NULL)
+#1 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'dhbrfgthf\r\n')
+#2 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'dhbrfgthf\r\n')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #46)
+#4 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1623): Workerman\Worker::forkWorkers()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(1572): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/www/lazer/vendor/workerman/workerman/Worker.php(512): Workerman\Worker::monitorWorkers()
+#12 /var/www/lazer/tcp.php(127): Workerman\Worker::runAll()
+#13 {main}
+2019-09-08 09:12:18 pid:12735 Worker[12735] process terminated
+2019-09-08 09:12:18 pid:12604 worker[none:12735] exit with status 64000
+2019-09-08 09:12:37 pid:23273 TypeError: Return value of parseimei() must be of the type string, null returned in /var/www/lazer/tcp.php:98
+Stack trace:
+#0 /var/www/lazer/tcp.php(51): parseimei(Array)
+#1 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"sdefswdf":"sd...')
+#2 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"sdefswdf":"sd...')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #41)
+#4 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1623): Workerman\Worker::forkWorkers()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(1572): Workerman\Worker::monitorWorkersForLinux()
+#11 /var/www/lazer/vendor/workerman/workerman/Worker.php(512): Workerman\Worker::monitorWorkers()
+#12 /var/www/lazer/tcp.php(127): Workerman\Worker::runAll()
+#13 {main}
+2019-09-08 09:12:37 pid:23273 Worker[23273] process terminated
+2019-09-08 09:12:37 pid:12604 worker[none:23273] exit with status 64000
+2019-09-08 09:38:28 pid:12739 Workerman[web.php] stopping ...
+2019-09-08 09:38:28 pid:12739 Workerman[web.php] has been stopped
+2019-09-08 09:38:29 pid:12604 Workerman[tcp.php] stopping ...
+2019-09-08 09:38:29 pid:12604 Workerman[tcp.php] has been stopped
+2019-09-08 09:38:30 pid:23356 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 09:38:32 pid:23358 Workerman[web.php] start in DEBUG mode
+2019-09-08 09:49:48 pid:23358 Workerman[web.php] stopping ...
+2019-09-08 09:49:48 pid:23358 Workerman[web.php] has been stopped
+2019-09-08 09:49:48 pid:23422 Workerman[web.php] start in DEBUG mode
+2019-09-08 09:49:51 pid:23356 Workerman[tcp.php] stopping ...
+2019-09-08 09:49:51 pid:23356 Workerman[tcp.php] has been stopped
+2019-09-08 09:49:52 pid:23424 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 09:49:54 pid:23422 Workerman[web.php] stopping ...
+2019-09-08 09:49:54 pid:23422 Workerman[web.php] has been stopped
+2019-09-08 09:49:55 pid:23426 Workerman[web.php] start in DEBUG mode
+2019-09-08 09:53:53 pid:23424 Workerman[tcp.php] stopping ...
+2019-09-08 09:53:53 pid:23424 Workerman[tcp.php] has been stopped
+2019-09-08 09:54:52 pid:23444 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 09:57:26 pid:23444 Workerman[tcp.php] stopping ...
+2019-09-08 09:57:26 pid:23444 Workerman[tcp.php] has been stopped
+2019-09-08 09:57:27 pid:23455 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 09:57:29 pid:23426 Workerman[web.php] stopping ...
+2019-09-08 09:57:29 pid:23426 Workerman[web.php] has been stopped
+2019-09-08 09:57:30 pid:23457 Workerman[web.php] start in DEBUG mode
+2019-09-08 10:00:31 pid:23455 Workerman[tcp.php] stopping ...
+2019-09-08 10:00:31 pid:23455 Workerman[tcp.php] has been stopped
+2019-09-08 10:00:32 pid:23457 Workerman[web.php] stopping ...
+2019-09-08 10:00:32 pid:23457 Workerman[web.php] has been stopped
+2019-09-08 10:00:34 pid:23468 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 10:00:36 pid:23470 Workerman[web.php] start in DEBUG mode
+2019-09-08 10:03:45 pid:23468 Workerman[tcp.php] stopping ...
+2019-09-08 10:03:45 pid:23468 Workerman[tcp.php] has been stopped
+2019-09-08 10:03:47 pid:23470 Workerman[web.php] stopping ...
+2019-09-08 10:03:47 pid:23470 Workerman[web.php] has been stopped
+2019-09-08 10:03:48 pid:23481 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 10:03:51 pid:23483 Workerman[web.php] start in DEBUG mode
+2019-09-08 10:04:36 pid:23481 Workerman[tcp.php] stopping ...
+2019-09-08 10:04:36 pid:23481 Workerman[tcp.php] has been stopped
+2019-09-08 10:04:37 pid:23488 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 10:05:23 pid:23488 Workerman[tcp.php] stopping ...
+2019-09-08 10:05:23 pid:23488 Workerman[tcp.php] has been stopped
+2019-09-08 10:05:24 pid:23493 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 10:05:40 pid:23483 Workerman[web.php] stopping ...
+2019-09-08 10:05:40 pid:23483 Workerman[web.php] has been stopped
+2019-09-08 10:05:41 pid:23495 Workerman[web.php] start in DEBUG mode
+2019-09-08 10:06:47 pid:23494 TypeError: Return value of parseimei() must be of the type string, null returned in /var/www/lazer/tcp.php:98
+Stack trace:
+#0 /var/www/lazer/tcp.php(52): parseimei(NULL)
+#1 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'sdfs\r\n')
+#2 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'sdfs\r\n')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#4 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(510): Workerman\Worker::forkWorkers()
+#10 /var/www/lazer/tcp.php(127): Workerman\Worker::runAll()
+#11 {main}
+2019-09-08 10:06:47 pid:23494 Worker[23494] process terminated
+2019-09-08 10:06:47 pid:23493 worker[none:23494] exit with status 64000
+2019-09-08 10:52:59 pid:23493 Workerman[tcp.php] stopping ...
+2019-09-08 10:52:59 pid:23493 Workerman[tcp.php] has been stopped
+2019-09-08 10:53:00 pid:23700 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 10:53:02 pid:23495 Workerman[web.php] stopping ...
+2019-09-08 10:53:02 pid:23495 Workerman[web.php] has been stopped
+2019-09-08 10:53:02 pid:23705 Workerman[web.php] start in DEBUG mode
+2019-09-08 10:53:39 pid:23707 Workerman[tcp.php] status 
+2019-09-08 10:53:44 pid:23705 Workerman[web.php] stopping ...
+2019-09-08 10:53:44 pid:23705 Workerman[web.php] has been stopped
+2019-09-08 10:53:46 pid:23708 Workerman[tcp.php] status 
+2019-09-08 10:54:03 pid:23712 Workerman[tcp.php] connections 
+2019-09-08 10:55:38 pid:23716 Workerman[web.php] start in DEBUG mode
+2019-09-08 10:55:41 pid:23718 Workerman[tcp.php] connections 
+2019-09-08 10:55:48 pid:23719 Workerman[tcp.php] connections 
+2019-09-08 10:57:43 pid:23701 TypeError: Return value of checkdata() must be of the type bool, null returned in /var/www/lazer/tcp.php:104
+Stack trace:
+#0 /var/www/lazer/tcp.php(52): checkdata('efsfsdf\r\n')
+#1 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'efsfsdf\r\n')
+#2 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'efsfsdf\r\n')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#4 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(510): Workerman\Worker::forkWorkers()
+#10 /var/www/lazer/tcp.php(187): Workerman\Worker::runAll()
+#11 {main}
+2019-09-08 10:57:43 pid:23701 Worker[23701] process terminated
+2019-09-08 10:57:43 pid:23700 worker[none:23701] exit with status 64000
+2019-09-08 10:57:47 pid:23700 Workerman[tcp.php] stopping ...
+2019-09-08 10:57:47 pid:23700 Workerman[tcp.php] has been stopped
+2019-09-08 10:57:49 pid:23727 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 10:58:01 pid:23728 TypeError: Return value of checkdata() must be of the type bool, null returned in /var/www/lazer/tcp.php:105
+Stack trace:
+#0 /var/www/lazer/tcp.php(52): checkdata('fwsefwf\r\n')
+#1 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'fwsefwf\r\n')
+#2 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'fwsefwf\r\n')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#4 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(510): Workerman\Worker::forkWorkers()
+#10 /var/www/lazer/tcp.php(188): Workerman\Worker::runAll()
+#11 {main}
+2019-09-08 10:58:01 pid:23728 Worker[23728] process terminated
+2019-09-08 10:58:01 pid:23727 worker[none:23728] exit with status 64000
+2019-09-08 11:00:38 pid:23727 Workerman[tcp.php] stopping ...
+2019-09-08 11:00:39 pid:23727 Workerman[tcp.php] has been stopped
+2019-09-08 11:00:39 pid:23739 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 11:01:17 pid:23716 Workerman[web.php] stopping ...
+2019-09-08 11:01:17 pid:23716 Workerman[web.php] has been stopped
+2019-09-08 11:01:17 pid:23744 Workerman[web.php] start in DEBUG mode
+2019-09-08 11:09:37 pid:23739 Workerman[tcp.php] stopping ...
+2019-09-08 11:09:37 pid:23739 Workerman[tcp.php] has been stopped
+2019-09-08 11:09:37 pid:23799 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 11:09:39 pid:23744 Workerman[web.php] stopping ...
+2019-09-08 11:09:39 pid:23744 Workerman[web.php] has been stopped
+2019-09-08 11:09:40 pid:23801 Workerman[web.php] start in DEBUG mode
+2019-09-08 11:10:22 pid:23800 ArgumentCountError: Too few arguments to function write_log(), 0 passed in /var/www/lazer/tcp.php on line 73 and exactly 1 expected in /var/www/lazer/tcp.php:119
+Stack trace:
+#0 /var/www/lazer/tcp.php(73): write_log()
+#1 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"imei":"dimq"}...')
+#2 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"imei":"dimq"}...')
+#3 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#4 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(510): Workerman\Worker::forkWorkers()
+#10 /var/www/lazer/tcp.php(197): Workerman\Worker::runAll()
+#11 {main}
+2019-09-08 11:10:22 pid:23800 Worker[23800] process terminated
+2019-09-08 11:10:22 pid:23799 worker[none:23800] exit with status 64000
+2019-09-08 11:10:55 pid:23799 Workerman[tcp.php] stopping ...
+2019-09-08 11:10:55 pid:23799 Workerman[tcp.php] has been stopped
+2019-09-08 11:10:55 pid:23807 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 11:10:57 pid:23801 Workerman[web.php] stopping ...
+2019-09-08 11:10:57 pid:23801 Workerman[web.php] has been stopped
+2019-09-08 11:10:57 pid:23809 Workerman[web.php] start in DEBUG mode
+2019-09-08 11:15:52 pid:23807 Workerman[tcp.php] stopping ...
+2019-09-08 11:15:52 pid:23807 Workerman[tcp.php] has been stopped
+2019-09-08 11:15:52 pid:23826 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 11:34:43 pid:23888 Workerman[tcp.php] connections 
+2019-09-08 11:35:46 pid:23809 Workerman[web.php] stopping ...
+2019-09-08 11:35:46 pid:23809 Workerman[web.php] has been stopped
+2019-09-08 11:35:46 pid:23826 Workerman[tcp.php] stopping ...
+2019-09-08 11:35:46 pid:23826 Workerman[tcp.php] has been stopped
+2019-09-08 11:35:47 pid:23892 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 11:35:50 pid:23894 Workerman[web.php] start in DEBUG mode
+2019-09-08 11:36:17 pid:23899 Workerman[tcp.php] connections 
+2019-09-08 11:36:22 pid:23900 Workerman[tcp.php] status 
+2019-09-08 11:36:27 pid:23901 Workerman[web.php] status 
+2019-09-08 11:36:40 pid:23902 Workerman[web.php] status 
+2019-09-08 11:36:53 pid:23903 Workerman[tcp.php] status 
+2019-09-08 11:37:21 pid:23907 Workerman[web.php] connections 
+2019-09-08 11:37:57 pid:23908 Workerman[web.php] connections 
+2019-09-08 11:38:20 pid:23912 Workerman[web.php] connections 
+2019-09-08 11:38:51 pid:23892 Workerman[tcp.php] stopping ...
+2019-09-08 11:38:51 pid:23892 Workerman[tcp.php] has been stopped
+2019-09-08 11:38:52 pid:23913 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 11:48:29 pid:23913 Workerman[tcp.php] stopping ...
+2019-09-08 11:48:29 pid:23913 Workerman[tcp.php] has been stopped
+2019-09-08 11:48:29 pid:23894 Workerman[web.php] stopping ...
+2019-09-08 11:48:30 pid:23894 Workerman[web.php] has been stopped
+2019-09-08 11:48:32 pid:23974 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 11:48:44 pid:23975 Error: Call to a member function query() on null in /var/www/lazer/tcp.php:63
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"imei":"dima"}...')
+#1 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"imei":"dima"}...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#3 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(510): Workerman\Worker::forkWorkers()
+#9 /var/www/lazer/tcp.php(204): Workerman\Worker::runAll()
+#10 {main}
+2019-09-08 11:48:44 pid:23975 Worker[23975] process terminated
+2019-09-08 11:48:44 pid:23974 worker[none:23975] exit with status 64000
+2019-09-08 11:49:56 pid:23974 Workerman[tcp.php] stopping ...
+2019-09-08 11:49:56 pid:23974 Workerman[tcp.php] has been stopped
+2019-09-08 11:49:57 pid:23980 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 11:50:06 pid:23981 Error: Call to a member function query() on null in /var/www/lazer/tcp.php:63
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"imei":"dima"}...')
+#1 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"imei":"dima"}...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#3 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(510): Workerman\Worker::forkWorkers()
+#9 /var/www/lazer/tcp.php(204): Workerman\Worker::runAll()
+#10 {main}
+2019-09-08 11:50:06 pid:23981 Worker[23981] process terminated
+2019-09-08 11:50:06 pid:23980 worker[none:23981] exit with status 64000
+2019-09-08 11:50:30 pid:23980 Workerman[tcp.php] stopping ...
+2019-09-08 11:50:30 pid:23980 Workerman[tcp.php] has been stopped
+2019-09-08 11:50:30 pid:23986 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 11:50:34 pid:23987 Error: Call to a member function query() on null in /var/www/lazer/tcp.php:63
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"imei":"dima"}...')
+#1 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"imei":"dima"}...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#3 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(510): Workerman\Worker::forkWorkers()
+#9 /var/www/lazer/tcp.php(204): Workerman\Worker::runAll()
+#10 {main}
+2019-09-08 11:50:34 pid:23987 Worker[23987] process terminated
+2019-09-08 11:50:34 pid:23986 worker[none:23987] exit with status 64000
+2019-09-08 11:51:09 pid:23986 Workerman[tcp.php] stopping ...
+2019-09-08 11:51:09 pid:23986 Workerman[tcp.php] has been stopped
+2019-09-08 11:51:10 pid:23992 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 11:51:58 pid:23992 Workerman[tcp.php] stopping ...
+2019-09-08 11:51:58 pid:23992 Workerman[tcp.php] has been stopped
+2019-09-08 11:51:59 pid:23994 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 11:52:24 pid:23994 Workerman[tcp.php] stopping ...
+2019-09-08 11:52:24 pid:23994 Workerman[tcp.php] has been stopped
+2019-09-08 11:52:25 pid:23999 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 11:52:32 pid:24000 Error: Call to a member function query() on null in /var/www/lazer/tcp.php:65
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"imei":"dima"}...')
+#1 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"imei":"dima"}...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#3 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(510): Workerman\Worker::forkWorkers()
+#9 /var/www/lazer/tcp.php(206): Workerman\Worker::runAll()
+#10 {main}
+2019-09-08 11:52:32 pid:24000 Worker[24000] process terminated
+2019-09-08 11:52:32 pid:23999 worker[none:24000] exit with status 64000
+2019-09-08 11:54:01 pid:23999 Workerman[tcp.php] stopping ...
+2019-09-08 11:54:01 pid:23999 Workerman[tcp.php] has been stopped
+2019-09-08 11:54:02 pid:24008 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 11:54:08 pid:24009 Error: Call to a member function query() on null in /var/www/lazer/tcp.php:65
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"imei":"dima"}...')
+#1 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"imei":"dima"}...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#3 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(510): Workerman\Worker::forkWorkers()
+#9 /var/www/lazer/tcp.php(206): Workerman\Worker::runAll()
+#10 {main}
+2019-09-08 11:54:08 pid:24009 Worker[24009] process terminated
+2019-09-08 11:54:08 pid:24008 worker[none:24009] exit with status 64000
+2019-09-08 11:54:30 pid:24008 Workerman[tcp.php] stopping ...
+2019-09-08 11:54:30 pid:24008 Workerman[tcp.php] has been stopped
+2019-09-08 11:54:32 pid:24011 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 11:54:37 pid:24012 Error: Call to a member function query() on null in /var/www/lazer/tcp.php:65
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"imei":"dima"}...')
+#1 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"imei":"dima"}...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#3 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(510): Workerman\Worker::forkWorkers()
+#9 /var/www/lazer/tcp.php(206): Workerman\Worker::runAll()
+#10 {main}
+2019-09-08 11:54:37 pid:24012 Worker[24012] process terminated
+2019-09-08 11:54:37 pid:24011 worker[none:24012] exit with status 64000
+2019-09-08 11:54:54 pid:24011 Workerman[tcp.php] stopping ...
+2019-09-08 11:54:54 pid:24011 Workerman[tcp.php] has been stopped
+2019-09-08 11:54:55 pid:24014 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 11:55:01 pid:24015 Error: Call to a member function query() on null in /var/www/lazer/tcp.php:65
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"imei":"dima"}...')
+#1 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"imei":"dima"}...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#3 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(510): Workerman\Worker::forkWorkers()
+#9 /var/www/lazer/tcp.php(206): Workerman\Worker::runAll()
+#10 {main}
+2019-09-08 11:55:01 pid:24015 Worker[24015] process terminated
+2019-09-08 11:55:01 pid:24014 worker[none:24015] exit with status 64000
+2019-09-08 12:00:35 pid:24014 Workerman[tcp.php] stopping ...
+2019-09-08 12:00:35 pid:24014 Workerman[tcp.php] has been stopped
+2019-09-08 12:00:36 pid:24035 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 12:00:53 pid:24035 Workerman[tcp.php] stopping ...
+2019-09-08 12:00:53 pid:24035 Workerman[tcp.php] has been stopped
+2019-09-08 12:00:53 pid:24037 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 12:01:17 pid:24037 Workerman[tcp.php] stopping ...
+2019-09-08 12:01:17 pid:24037 Workerman[tcp.php] has been stopped
+2019-09-08 12:01:19 pid:24042 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 12:02:42 pid:24042 Workerman[tcp.php] stopping ...
+2019-09-08 12:02:42 pid:24042 Workerman[tcp.php] has been stopped
+2019-09-08 12:02:43 pid:24047 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 12:03:38 pid:24047 Workerman[tcp.php] stopping ...
+2019-09-08 12:03:38 pid:24047 Workerman[tcp.php] has been stopped
+2019-09-08 12:03:39 pid:24052 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 12:03:58 pid:24052 Workerman[tcp.php] stopping ...
+2019-09-08 12:03:58 pid:24052 Workerman[tcp.php] has been stopped
+2019-09-08 12:03:59 pid:24054 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 12:07:47 pid:24054 Workerman[tcp.php] stopping ...
+2019-09-08 12:07:47 pid:24054 Workerman[tcp.php] has been stopped
+2019-09-08 12:07:47 pid:24068 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 12:08:10 pid:24068 Workerman[tcp.php] stopping ...
+2019-09-08 12:08:10 pid:24068 Workerman[tcp.php] has been stopped
+2019-09-08 12:08:11 pid:24073 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 12:08:59 pid:24073 Workerman[tcp.php] stopping ...
+2019-09-08 12:08:59 pid:24073 Workerman[tcp.php] has been stopped
+2019-09-08 12:09:14 pid:24108 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 12:14:05 pid:24108 Workerman[tcp.php] stopping ...
+2019-09-08 12:14:05 pid:24108 Workerman[tcp.php] has been stopped
+2019-09-08 12:14:05 pid:24125 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 12:35:05 pid:24125 Workerman[tcp.php] stopping ...
+2019-09-08 12:35:05 pid:24125 Workerman[tcp.php] has been stopped
+2019-09-08 12:35:05 pid:24193 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 13:08:52 pid:24193 Workerman[tcp.php] stopping ...
+2019-09-08 13:08:52 pid:24193 Workerman[tcp.php] has been stopped
+2019-09-08 13:08:52 pid:24323 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 13:08:55 pid:24325 Workerman[web.php] start in DEBUG mode
+2019-09-08 13:12:05 pid:24325 Workerman[web.php] stopping ...
+2019-09-08 13:12:05 pid:24325 Workerman[web.php] has been stopped
+2019-09-08 13:12:06 pid:24323 Workerman[tcp.php] stopping ...
+2019-09-08 13:12:06 pid:24323 Workerman[tcp.php] has been stopped
+2019-09-08 13:12:07 pid:24368 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 13:12:09 pid:24370 Workerman[web.php] start in DEBUG mode
+2019-09-08 13:12:41 pid:24370 Workerman[web.php] stopping ...
+2019-09-08 13:12:41 pid:24370 Workerman[web.php] has been stopped
+2019-09-08 13:12:42 pid:24372 Workerman[web.php] start in DEBUG mode
+2019-09-08 13:12:44 pid:24368 Workerman[tcp.php] stopping ...
+2019-09-08 13:12:44 pid:24368 Workerman[tcp.php] has been stopped
+2019-09-08 13:12:45 pid:24374 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 13:16:10 pid:24374 Workerman[tcp.php] stopping ...
+2019-09-08 13:16:10 pid:24374 Workerman[tcp.php] has been stopped
+2019-09-08 13:16:10 pid:24388 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 13:45:14 pid:24388 Workerman[tcp.php] stopping ...
+2019-09-08 13:45:14 pid:24388 Workerman[tcp.php] has been stopped
+2019-09-08 13:45:15 pid:24372 Workerman[web.php] stopping ...
+2019-09-08 13:45:15 pid:24372 Workerman[web.php] has been stopped
+2019-09-08 13:45:17 pid:24509 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 13:45:19 pid:24511 Workerman[web.php] start in DEBUG mode
+2019-09-08 13:48:20 pid:24511 Workerman[web.php] stopping ...
+2019-09-08 13:48:20 pid:24511 Workerman[web.php] has been stopped
+2019-09-08 13:48:20 pid:24509 Workerman[tcp.php] stopping ...
+2019-09-08 13:48:21 pid:24509 Workerman[tcp.php] has been stopped
+2019-09-08 13:48:31 pid:24522 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 13:48:33 pid:24524 Workerman[web.php] start in DEBUG mode
+2019-09-08 13:48:59 pid:24526 Workerman[web.php] connections 
+2019-09-08 13:49:03 pid:24530 Workerman[tcp.php] status 
+2019-09-08 13:49:12 pid:24531 Workerman[tcp.php] connections 
+2019-09-08 13:50:40 pid:24522 Workerman[tcp.php] stopping ...
+2019-09-08 13:50:40 pid:24522 Workerman[tcp.php] has been stopped
+2019-09-08 13:50:41 pid:24535 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 13:52:23 pid:24524 Workerman[web.php] stopping ...
+2019-09-08 13:52:23 pid:24524 Workerman[web.php] has been stopped
+2019-09-08 13:52:24 pid:24535 Workerman[tcp.php] stopping ...
+2019-09-08 13:52:24 pid:24535 Workerman[tcp.php] has been stopped
+2019-09-08 13:52:25 pid:24543 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 13:52:27 pid:24545 Workerman[web.php] start in DEBUG mode
+2019-09-08 13:52:40 pid:24547 Workerman[tcp.php] connections 
+2019-09-08 14:01:23 pid:24545 Workerman[web.php] stopping ...
+2019-09-08 14:01:23 pid:24545 Workerman[web.php] has been stopped
+2019-09-08 14:01:24 pid:24543 Workerman[tcp.php] stopping ...
+2019-09-08 14:01:24 pid:24543 Workerman[tcp.php] has been stopped
+2019-09-08 14:01:26 pid:24575 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 14:01:28 pid:24577 Workerman[web.php] start in DEBUG mode
+2019-09-08 14:01:39 pid:24577 Workerman[web.php] stopping ...
+2019-09-08 14:01:39 pid:24577 Workerman[web.php] has been stopped
+2019-09-08 14:01:39 pid:24579 Workerman[web.php] start in DEBUG mode
+2019-09-08 14:02:17 pid:24584 Workerman[tcp.php] connections 
+2019-09-08 14:02:23 pid:24585 Workerman[web.php] connections 
+2019-09-08 14:02:31 pid:24586 Workerman[tcp.php] connections 
+2019-09-08 14:05:41 pid:24575 Workerman[tcp.php] stopping ...
+2019-09-08 14:05:41 pid:24575 Workerman[tcp.php] has been stopped
+2019-09-08 14:05:42 pid:24596 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 14:06:48 pid:24596 Workerman[tcp.php] stopping ...
+2019-09-08 14:06:48 pid:24596 Workerman[tcp.php] has been stopped
+2019-09-08 14:06:50 pid:24601 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 14:09:26 pid:24601 Workerman[tcp.php] stopping ...
+2019-09-08 14:09:26 pid:24601 Workerman[tcp.php] has been stopped
+2019-09-08 14:09:27 pid:24641 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 14:10:40 pid:24641 Workerman[tcp.php] stopping ...
+2019-09-08 14:10:40 pid:24641 Workerman[tcp.php] has been stopped
+2019-09-08 14:10:40 pid:24646 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 14:15:22 pid:24579 Workerman[web.php] stopping ...
+2019-09-08 14:15:22 pid:24579 Workerman[web.php] has been stopped
+2019-09-08 14:15:23 pid:24646 Workerman[tcp.php] stopping ...
+2019-09-08 14:15:23 pid:24646 Workerman[tcp.php] has been stopped
+2019-09-08 14:15:24 pid:24663 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 14:15:46 pid:24665 Workerman[web.php] start in DEBUG mode
+2019-09-08 14:16:33 pid:24663 Workerman[tcp.php] stopping ...
+2019-09-08 14:16:33 pid:24663 Workerman[tcp.php] has been stopped
+2019-09-08 14:16:34 pid:24670 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 14:17:30 pid:24670 Workerman[tcp.php] stopping ...
+2019-09-08 14:17:30 pid:24670 Workerman[tcp.php] has been stopped
+2019-09-08 14:17:30 pid:24678 Workerman[tcp.php] start in DEBUG mode
+2019-09-08 14:19:01 pid:24678 Workerman[tcp.php] stopping ...
+2019-09-08 14:19:01 pid:24678 Workerman[tcp.php] has been stopped
+2019-09-08 14:19:02 pid:24686 Workerman[tcp.php] start in DEBUG mode
+2019-09-09 06:10:43 pid:24686 Workerman[tcp.php] stopping ...
+2019-09-09 06:10:43 pid:24686 Workerman[tcp.php] has been stopped
+2019-09-09 06:10:44 pid:24665 Workerman[web.php] stopping ...
+2019-09-09 06:10:44 pid:24665 Workerman[web.php] has been stopped
+2019-09-09 06:10:46 pid:28514 Workerman[tcp.php] start in DEBUG mode
+2019-09-09 06:10:55 pid:28517 Workerman[web.php] start in DEBUG mode
+2019-09-10 07:06:20 pid:2198 Workerman[tcp.php] connections 
+2019-09-10 08:07:11 pid:28514 Workerman[tcp.php] stopping ...
+2019-09-10 08:07:11 pid:28514 Workerman[tcp.php] has been stopped
+2019-09-10 08:07:12 pid:2443 Workerman[tcp.php] start in DEBUG mode
+2019-09-10 08:07:59 pid:2443 Workerman[tcp.php] stopping ...
+2019-09-10 08:07:59 pid:2443 Workerman[tcp.php] has been stopped
+2019-09-10 08:08:00 pid:2445 Workerman[tcp.php] start in DEBUG mode
+2019-09-10 08:08:29 pid:2445 Workerman[tcp.php] stopping ...
+2019-09-10 08:08:29 pid:2445 Workerman[tcp.php] has been stopped
+2019-09-10 08:08:29 pid:2450 Workerman[tcp.php] start in DEBUG mode
+2019-09-10 08:09:11 pid:2450 Workerman[tcp.php] stopping ...
+2019-09-10 08:09:11 pid:2450 Workerman[tcp.php] has been stopped
+2019-09-10 08:09:12 pid:2484 Workerman[tcp.php] start in DEBUG mode
+2019-09-10 08:12:30 pid:2484 Workerman[tcp.php] stopping ...
+2019-09-10 08:12:30 pid:2484 Workerman[tcp.php] has been stopped
+2019-09-10 08:12:31 pid:2495 Workerman[tcp.php] start in DEBUG mode
+2019-09-10 08:33:00 pid:2495 Workerman[tcp.php] stopping ...
+2019-09-10 08:33:00 pid:2495 Workerman[tcp.php] has been stopped
+2019-09-10 08:33:01 pid:2563 Workerman[tcp.php] start in DEBUG mode
+2019-09-10 08:38:48 pid:2563 Workerman[tcp.php] stopping ...
+2019-09-10 08:38:48 pid:2563 Workerman[tcp.php] has been stopped
+2019-09-10 08:38:49 pid:2580 Workerman[tcp.php] start in DEBUG mode
+2019-09-10 08:42:07 pid:2580 Workerman[tcp.php] stopping ...
+2019-09-10 08:42:07 pid:2580 Workerman[tcp.php] has been stopped
+2019-09-10 08:42:14 pid:2623 Workerman[tcp.php] start in DEBUG mode
+2019-09-10 08:47:28 pid:2623 Workerman[tcp.php] stopping ...
+2019-09-10 08:47:28 pid:2623 Workerman[tcp.php] has been stopped
+2019-09-10 08:49:17 pid:2646 Workerman[tcp.php] start in DEBUG mode
+2019-09-10 09:08:19 pid:2646 Workerman[tcp.php] stopping ...
+2019-09-10 09:08:19 pid:2646 Workerman[tcp.php] has been stopped
+2019-09-10 09:08:20 pid:2705 Workerman[tcp.php] start in DEBUG mode
+2019-09-10 09:50:18 pid:2705 Workerman[tcp.php] stopping ...
+2019-09-10 09:50:18 pid:2705 Workerman[tcp.php] has been stopped
+2019-09-10 09:50:19 pid:2894 Workerman[tcp.php] start in DEBUG mode
+2019-09-10 09:50:44 pid:2894 Workerman[tcp.php] stopping ...
+2019-09-10 09:50:44 pid:2894 Workerman[tcp.php] has been stopped
+2019-09-10 09:50:45 pid:2896 Workerman[tcp.php] start in DEBUG mode
+2019-09-10 09:51:35 pid:2896 Workerman[tcp.php] stopping ...
+2019-09-10 09:51:35 pid:2896 Workerman[tcp.php] has been stopped
+2019-09-10 09:51:37 pid:2901 Workerman[tcp.php] start in DEBUG mode
+2019-09-10 09:52:59 pid:2901 Workerman[tcp.php] stopping ...
+2019-09-10 09:52:59 pid:2901 Workerman[tcp.php] has been stopped
+2019-09-10 09:52:59 pid:2906 Workerman[tcp.php] start in DEBUG mode
+2019-09-10 09:53:02 pid:2907 TypeError: Argument 2 passed to Data::search_key() must be of the type array, object given, called in /var/www/lazer/tcp.php on line 108 and defined in /var/www/lazer/tcp.php:84
+Stack trace:
+#0 /var/www/lazer/tcp.php(108): Data->search_key('imei', Object(stdClass))
+#1 /var/www/lazer/tcp.php(150): Data->__construct(Object(stdClass))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"imei":"dima"}...')
+#3 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"imei":"dima"}...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(510): Workerman\Worker::forkWorkers()
+#11 /var/www/lazer/tcp.php(290): Workerman\Worker::runAll()
+#12 {main}
+2019-09-10 09:53:02 pid:2907 Worker[2907] process terminated
+2019-09-10 09:53:02 pid:2906 worker[none:2907] exit with status 64000
+2019-09-10 09:53:32 pid:2906 Workerman[tcp.php] stopping ...
+2019-09-10 09:53:32 pid:2906 Workerman[tcp.php] has been stopped
+2019-09-10 09:53:33 pid:2912 Workerman[tcp.php] start in DEBUG mode
+2019-09-10 09:53:37 pid:2913 Error: Cannot use object of type stdClass as array in /var/www/lazer/tcp.php:87
+Stack trace:
+#0 /var/www/lazer/tcp.php(108): Data->search_key('imei', Object(stdClass))
+#1 /var/www/lazer/tcp.php(150): Data->__construct(Object(stdClass))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"imei":"dima"}...')
+#3 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"imei":"dima"}...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(510): Workerman\Worker::forkWorkers()
+#11 /var/www/lazer/tcp.php(290): Workerman\Worker::runAll()
+#12 {main}
+2019-09-10 09:53:37 pid:2913 Worker[2913] process terminated
+2019-09-10 09:53:37 pid:2912 worker[none:2913] exit with status 64000
+2019-09-10 09:54:43 pid:2912 Workerman[tcp.php] stopping ...
+2019-09-10 09:54:43 pid:2912 Workerman[tcp.php] has been stopped
+2019-09-10 09:54:45 pid:2918 Workerman[tcp.php] start in DEBUG mode
+2019-09-10 09:54:48 pid:2919 Error: Cannot use object of type stdClass as array in /var/www/lazer/tcp.php:87
+Stack trace:
+#0 /var/www/lazer/tcp.php(108): Data->search_key('imei', Object(stdClass))
+#1 /var/www/lazer/tcp.php(150): Data->__construct(Object(stdClass))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"imei":"dima"}...')
+#3 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"imei":"dima"}...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(510): Workerman\Worker::forkWorkers()
+#11 /var/www/lazer/tcp.php(290): Workerman\Worker::runAll()
+#12 {main}
+2019-09-10 09:54:48 pid:2919 Worker[2919] process terminated
+2019-09-10 09:54:48 pid:2918 worker[none:2919] exit with status 64000
+2019-09-10 09:56:06 pid:2920 Error: Cannot use object of type stdClass as array in /var/www/lazer/tcp.php:87
+Stack trace:
+#0 /var/www/lazer/tcp.php(108): Data->search_key('imei', Object(stdClass))
+#1 /var/www/lazer/tcp.php(150): Data->__construct(Object(stdClass))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"imei":"dima"}...')
+#3 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"imei":"dima"}...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#5 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(1623): Workerman\Worker::forkWorkers()
+#11 /var/www/lazer/vendor/workerman/workerman/Worker.php(1572): Workerman\Worker::monitorWorkersForLinux()
+#12 /var/www/lazer/vendor/workerman/workerman/Worker.php(512): Workerman\Worker::monitorWorkers()
+#13 /var/www/lazer/tcp.php(290): Workerman\Worker::runAll()
+#14 {main}
+2019-09-10 09:56:06 pid:2920 Worker[2920] process terminated
+2019-09-10 09:56:06 pid:2918 worker[none:2920] exit with status 64000
+2019-09-10 10:47:24 pid:2918 Workerman[tcp.php] stopping ...
+2019-09-10 10:47:24 pid:2918 Workerman[tcp.php] has been stopped
+2019-09-10 10:47:25 pid:3142 Workerman[tcp.php] start in DEBUG mode
+2019-09-10 10:47:30 pid:3143 Error: Call to undefined method Data::checkdata() in /var/www/lazer/tcp.php:150
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"imei":"dima"}...')
+#1 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"imei":"dima"}...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#3 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(510): Workerman\Worker::forkWorkers()
+#9 /var/www/lazer/tcp.php(293): Workerman\Worker::runAll()
+#10 {main}
+2019-09-10 10:47:30 pid:3143 Worker[3143] process terminated
+2019-09-10 10:47:30 pid:3142 worker[none:3143] exit with status 64000
+2019-09-10 11:35:41 pid:3142 Workerman[tcp.php] stopping ...
+2019-09-10 11:35:41 pid:3142 Workerman[tcp.php] has been stopped
+2019-09-10 11:35:42 pid:3321 Workerman[tcp.php] start in DEBUG mode
+2019-09-10 11:35:47 pid:3322 Error: Cannot use object of type stdClass as array in /var/www/lazer/tcp.php:87
+Stack trace:
+#0 /var/www/lazer/tcp.php(108): Data->search_key('imei', Object(stdClass))
+#1 /var/www/lazer/tcp.php(150): Data->__construct(Object(stdClass))
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"imei":"dima"}...')
+#3 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"imei":"dima"}...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(510): Workerman\Worker::forkWorkers()
+#11 /var/www/lazer/tcp.php(294): Workerman\Worker::runAll()
+#12 {main}
+2019-09-10 11:35:47 pid:3322 Worker[3322] process terminated
+2019-09-10 11:35:47 pid:3321 worker[none:3322] exit with status 64000
+2019-09-10 11:37:14 pid:3321 Workerman[tcp.php] stopping ...
+2019-09-10 11:37:14 pid:3321 Workerman[tcp.php] has been stopped
+2019-09-10 11:37:15 pid:3330 Workerman[tcp.php] start in DEBUG mode
+2019-09-10 11:37:20 pid:3331 Error: Call to undefined function Data() in /var/www/lazer/tcp.php:153
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Object(Data))
+#1 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"imei":"dima"}...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#3 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(510): Workerman\Worker::forkWorkers()
+#9 /var/www/lazer/tcp.php(296): Workerman\Worker::runAll()
+#10 {main}
+2019-09-10 11:37:20 pid:3331 Worker[3331] process terminated
+2019-09-10 11:37:20 pid:3330 worker[none:3331] exit with status 64000
+2019-09-10 11:37:47 pid:3330 Workerman[tcp.php] stopping ...
+2019-09-10 11:37:47 pid:3330 Workerman[tcp.php] has been stopped
+2019-09-10 11:37:48 pid:3333 Workerman[tcp.php] start in DEBUG mode
+2019-09-10 11:37:53 pid:3334 Error: Call to undefined function Data() in /var/www/lazer/tcp.php:154
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Object(Data))
+#1 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"imei":"dima"}...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#3 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(510): Workerman\Worker::forkWorkers()
+#9 /var/www/lazer/tcp.php(297): Workerman\Worker::runAll()
+#10 {main}
+2019-09-10 11:37:53 pid:3334 Worker[3334] process terminated
+2019-09-10 11:37:53 pid:3333 worker[none:3334] exit with status 64000
+2019-09-10 11:38:09 pid:3333 Workerman[tcp.php] stopping ...
+2019-09-10 11:38:09 pid:3333 Workerman[tcp.php] has been stopped
+2019-09-10 11:38:09 pid:3339 Workerman[tcp.php] start in DEBUG mode
+2019-09-10 11:38:13 pid:3340 Error: Call to undefined function Data() in /var/www/lazer/tcp.php:154
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Object(Data))
+#1 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"imei":"dima"}...')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#3 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(510): Workerman\Worker::forkWorkers()
+#9 /var/www/lazer/tcp.php(297): Workerman\Worker::runAll()
+#10 {main}
+2019-09-10 11:38:13 pid:3340 Worker[3340] process terminated
+2019-09-10 11:38:13 pid:3339 worker[none:3340] exit with status 64000
+2019-09-10 11:38:50 pid:3339 Workerman[tcp.php] stopping ...
+2019-09-10 11:38:50 pid:3339 Workerman[tcp.php] has been stopped
+2019-09-10 11:38:51 pid:3342 Workerman[tcp.php] start in DEBUG mode
+2019-09-10 11:39:42 pid:3342 Workerman[tcp.php] stopping ...
+2019-09-10 11:39:42 pid:3342 Workerman[tcp.php] has been stopped
+2019-09-10 11:39:43 pid:3376 Workerman[tcp.php] start in DEBUG mode
+2019-09-10 11:39:47 pid:3377 TypeError: Return value of Data::search_key() must be of the type string, none returned in /var/www/lazer/tcp.php:97
+Stack trace:
+#0 /var/www/lazer/tcp.php(111): Data->search_key('work_mode', Array)
+#1 /var/www/lazer/tcp.php(152): Data->__construct(Array)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '{"imei":"dima"}...')
+#3 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"imei":"dima"}...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(510): Workerman\Worker::forkWorkers()
+#11 /var/www/lazer/tcp.php(293): Workerman\Worker::runAll()
+#12 {main}
+2019-09-10 11:39:47 pid:3377 Worker[3377] process terminated
+2019-09-10 11:39:47 pid:3376 worker[none:3377] exit with status 64000
+2019-09-10 11:40:36 pid:3376 Workerman[tcp.php] stopping ...
+2019-09-10 11:40:36 pid:3376 Workerman[tcp.php] has been stopped
+2019-09-10 11:40:39 pid:3382 Workerman[tcp.php] start in DEBUG mode
+2019-09-10 11:42:18 pid:3382 Workerman[tcp.php] stopping ...
+2019-09-10 11:42:18 pid:3382 Workerman[tcp.php] has been stopped
+2019-09-10 11:42:18 pid:3390 Workerman[tcp.php] start in DEBUG mode
+2019-09-10 11:43:13 pid:3390 Workerman[tcp.php] stopping ...
+2019-09-10 11:43:13 pid:3390 Workerman[tcp.php] has been stopped
+2019-09-10 11:43:13 pid:3395 Workerman[tcp.php] start in DEBUG mode
+2019-09-10 11:59:21 pid:3395 Workerman[tcp.php] stopping ...
+2019-09-10 11:59:21 pid:3395 Workerman[tcp.php] has been stopped
+2019-09-10 11:59:22 pid:3445 Workerman[tcp.php] start in DEBUG mode
+2019-09-10 11:59:25 pid:3446 ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected in /var/www/lazer/tcp.php:161
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection))
+#1 /var/www/lazer/vendor/workerman/workerman/Worker.php(2425): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: Workerman\Worker->acceptConnection(Resource id #16)
+#3 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(510): Workerman\Worker::forkWorkers()
+#9 /var/www/lazer/tcp.php(266): Workerman\Worker::runAll()
+#10 {main}
+2019-09-10 11:59:25 pid:3446 Worker[3446] process terminated
+2019-09-10 11:59:25 pid:3445 worker[none:3446] exit with status 64000
+2019-09-11 06:13:26 pid:3445 Workerman[tcp.php] stopping ...
+2019-09-11 06:13:26 pid:3445 Workerman[tcp.php] has been stopped
+2019-09-11 06:13:27 pid:7858 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 06:16:43 pid:7858 Workerman[tcp.php] stopping ...
+2019-09-11 06:16:43 pid:7858 Workerman[tcp.php] has been stopped
+2019-09-11 06:16:44 pid:7870 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 06:17:59 pid:7870 Workerman[tcp.php] stopping ...
+2019-09-11 06:17:59 pid:7870 Workerman[tcp.php] has been stopped
+2019-09-11 06:17:59 pid:7879 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 06:28:53 pid:7879 Workerman[tcp.php] stopping ...
+2019-09-11 06:28:53 pid:7879 Workerman[tcp.php] has been stopped
+2019-09-11 06:28:54 pid:7926 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 06:41:30 pid:7926 Workerman[tcp.php] stopping ...
+2019-09-11 06:41:30 pid:7926 Workerman[tcp.php] has been stopped
+2019-09-11 06:41:30 pid:8067 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 06:42:20 pid:8067 Workerman[tcp.php] stopping ...
+2019-09-11 06:42:20 pid:8067 Workerman[tcp.php] has been stopped
+2019-09-11 06:42:21 pid:8073 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 06:43:29 pid:8073 Workerman[tcp.php] stopping ...
+2019-09-11 06:43:29 pid:8073 Workerman[tcp.php] has been stopped
+2019-09-11 06:43:29 pid:8079 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 06:43:33 pid:8080 Error: Call to undefined function search_key() in /var/www/lazer/tcp.php:96
+Stack trace:
+#0 /var/www/lazer/tcp.php(125): Data->search_key('imei', Array)
+#1 /var/www/lazer/tcp.php(211): Data->__construct(Array)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'dima\r\n')
+#3 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'dima\r\n')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(510): Workerman\Worker::forkWorkers()
+#11 /var/www/lazer/tcp.php(309): Workerman\Worker::runAll()
+#12 {main}
+2019-09-11 06:43:33 pid:8080 Worker[8080] process terminated
+2019-09-11 06:43:33 pid:8079 worker[none:8080] exit with status 64000
+2019-09-11 06:47:13 pid:8079 Workerman[tcp.php] stopping ...
+2019-09-11 06:47:13 pid:8079 Workerman[tcp.php] has been stopped
+2019-09-11 06:47:14 pid:8095 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 06:47:40 pid:8095 Workerman[tcp.php] stopping ...
+2019-09-11 06:47:40 pid:8095 Workerman[tcp.php] has been stopped
+2019-09-11 06:47:40 pid:8098 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 06:47:45 pid:8099 Error: Call to undefined function search_key() in /var/www/lazer/tcp.php:96
+Stack trace:
+#0 /var/www/lazer/tcp.php(125): Data->search_key('imei', Array)
+#1 /var/www/lazer/tcp.php(211): Data->__construct(Array)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'dima\r\n')
+#3 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'dima\r\n')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(510): Workerman\Worker::forkWorkers()
+#11 /var/www/lazer/tcp.php(309): Workerman\Worker::runAll()
+#12 {main}
+2019-09-11 06:47:45 pid:8099 Worker[8099] process terminated
+2019-09-11 06:47:45 pid:8098 worker[none:8099] exit with status 64000
+2019-09-11 06:50:36 pid:8098 Workerman[tcp.php] stopping ...
+2019-09-11 06:50:36 pid:8098 Workerman[tcp.php] has been stopped
+2019-09-11 06:50:37 pid:8111 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 06:50:51 pid:8113 Error: Call to undefined function search_key() in /var/www/lazer/tcp.php:96
+Stack trace:
+#0 /var/www/lazer/tcp.php(125): Data->search_key('imei', Array)
+#1 /var/www/lazer/tcp.php(211): Data->__construct(Array)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'dima\r\n')
+#3 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'dima\r\n')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(510): Workerman\Worker::forkWorkers()
+#11 /var/www/lazer/tcp.php(309): Workerman\Worker::runAll()
+#12 {main}
+2019-09-11 06:50:51 pid:8113 Worker[8113] process terminated
+2019-09-11 06:50:51 pid:8111 worker[none:8113] exit with status 64000
+2019-09-11 06:51:11 pid:8111 Workerman[tcp.php] stopping ...
+2019-09-11 06:51:11 pid:8111 Workerman[tcp.php] has been stopped
+2019-09-11 06:51:17 pid:8118 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 06:51:24 pid:8119 Error: Call to undefined function search_key() in /var/www/lazer/tcp.php:96
+Stack trace:
+#0 /var/www/lazer/tcp.php(125): Data->search_key('imei', Array)
+#1 /var/www/lazer/tcp.php(211): Data->__construct(Array)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'dima\r\n')
+#3 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'dima\r\n')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(510): Workerman\Worker::forkWorkers()
+#11 /var/www/lazer/tcp.php(309): Workerman\Worker::runAll()
+#12 {main}
+2019-09-11 06:51:24 pid:8119 Worker[8119] process terminated
+2019-09-11 06:51:24 pid:8118 worker[none:8119] exit with status 64000
+2019-09-11 06:54:45 pid:8118 Workerman[tcp.php] stopping ...
+2019-09-11 06:54:45 pid:8118 Workerman[tcp.php] has been stopped
+2019-09-11 06:54:45 pid:8131 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 06:58:00 pid:8131 Workerman[tcp.php] stopping ...
+2019-09-11 06:58:00 pid:8131 Workerman[tcp.php] has been stopped
+2019-09-11 06:58:01 pid:8143 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 06:58:27 pid:8143 Workerman[tcp.php] stopping ...
+2019-09-11 06:58:27 pid:8143 Workerman[tcp.php] has been stopped
+2019-09-11 06:58:28 pid:8149 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 06:58:31 pid:8150 TypeError: Return value of Data::search_key() must be of the type string, null returned in /var/www/lazer/tcp.php:98
+Stack trace:
+#0 /var/www/lazer/tcp.php(129): Data->search_key('latitude', Array)
+#1 /var/www/lazer/tcp.php(211): Data->__construct(Array)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'dima\r\n')
+#3 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'dima\r\n')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#5 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(510): Workerman\Worker::forkWorkers()
+#11 /var/www/lazer/tcp.php(309): Workerman\Worker::runAll()
+#12 {main}
+2019-09-11 06:58:31 pid:8150 Worker[8150] process terminated
+2019-09-11 06:58:31 pid:8149 worker[none:8150] exit with status 64000
+2019-09-11 07:02:51 pid:8149 Workerman[tcp.php] stopping ...
+2019-09-11 07:02:51 pid:8149 Workerman[tcp.php] has been stopped
+2019-09-11 07:03:16 pid:8169 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 07:03:16 pid:8169 Workerman[tcp.php] stopping ...
+2019-09-11 07:03:16 pid:8169 Workerman[tcp.php] has been stopped
+2019-09-11 07:03:17 pid:8172 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 07:04:39 pid:8172 Workerman[tcp.php] stopping ...
+2019-09-11 07:04:39 pid:8172 Workerman[tcp.php] has been stopped
+2019-09-11 07:04:40 pid:8178 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 07:05:31 pid:8178 Workerman[tcp.php] stopping ...
+2019-09-11 07:05:31 pid:8178 Workerman[tcp.php] has been stopped
+2019-09-11 07:05:32 pid:8184 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 07:28:42 pid:8184 Workerman[tcp.php] stopping ...
+2019-09-11 07:28:42 pid:8184 Workerman[tcp.php] has been stopped
+2019-09-11 07:28:43 pid:8288 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 07:30:10 pid:8288 Workerman[tcp.php] stopping ...
+2019-09-11 07:30:10 pid:8288 Workerman[tcp.php] has been stopped
+2019-09-11 07:30:10 pid:8297 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 07:30:26 pid:8297 Workerman[tcp.php] stopping ...
+2019-09-11 07:30:26 pid:8297 Workerman[tcp.php] has been stopped
+2019-09-11 07:30:26 pid:8300 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 07:32:11 pid:8300 Workerman[tcp.php] stopping ...
+2019-09-11 07:32:11 pid:8300 Workerman[tcp.php] has been stopped
+2019-09-11 07:32:12 pid:8309 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 07:33:31 pid:8309 Workerman[tcp.php] stopping ...
+2019-09-11 07:33:31 pid:8309 Workerman[tcp.php] has been stopped
+2019-09-11 07:33:32 pid:8315 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 07:36:30 pid:8315 Workerman[tcp.php] stopping ...
+2019-09-11 07:36:30 pid:8315 Workerman[tcp.php] has been stopped
+2019-09-11 07:36:31 pid:8327 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 07:36:35 pid:8328 Error: Call to a member function query() on null in /var/www/lazer/tcp.php:214
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), 'dima\r\n')
+#1 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), 'dima\r\n')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#3 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(510): Workerman\Worker::forkWorkers()
+#9 /var/www/lazer/tcp.php(314): Workerman\Worker::runAll()
+#10 {main}
+2019-09-11 07:36:35 pid:8328 Worker[8328] process terminated
+2019-09-11 07:36:35 pid:8327 worker[none:8328] exit with status 64000
+2019-09-11 07:36:45 pid:8329 Error: Call to a member function query() on null in /var/www/lazer/tcp.php:214
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '869323041094604')
+#1 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '869323041094604')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #24)
+#3 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(510): Workerman\Worker::forkWorkers()
+#9 /var/www/lazer/tcp.php(314): Workerman\Worker::runAll()
+#10 {main}
+2019-09-11 07:36:45 pid:8329 Worker[8329] process terminated
+2019-09-11 07:36:45 pid:8327 worker[none:8329] exit with status 64000
+2019-09-11 07:36:53 pid:8330 Error: Call to a member function query() on null in /var/www/lazer/tcp.php:214
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '869323041094604')
+#1 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '869323041094604')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#3 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1623): Workerman\Worker::forkWorkers()
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1572): Workerman\Worker::monitorWorkersForLinux()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(512): Workerman\Worker::monitorWorkers()
+#11 /var/www/lazer/tcp.php(314): Workerman\Worker::runAll()
+#12 {main}
+2019-09-11 07:36:53 pid:8330 Worker[8330] process terminated
+2019-09-11 07:36:53 pid:8327 worker[none:8330] exit with status 64000
+2019-09-11 07:37:01 pid:8331 Error: Call to a member function query() on null in /var/www/lazer/tcp.php:214
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '869323041094604')
+#1 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '869323041094604')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #26)
+#3 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1623): Workerman\Worker::forkWorkers()
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1572): Workerman\Worker::monitorWorkersForLinux()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(512): Workerman\Worker::monitorWorkers()
+#11 /var/www/lazer/tcp.php(314): Workerman\Worker::runAll()
+#12 {main}
+2019-09-11 07:37:01 pid:8331 Worker[8331] process terminated
+2019-09-11 07:37:01 pid:8327 worker[none:8331] exit with status 64000
+2019-09-11 07:37:09 pid:8333 Error: Call to a member function query() on null in /var/www/lazer/tcp.php:214
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '869323041094604')
+#1 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '869323041094604')
+#2 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #28)
+#3 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#4 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#5 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1623): Workerman\Worker::forkWorkers()
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1572): Workerman\Worker::monitorWorkersForLinux()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(512): Workerman\Worker::monitorWorkers()
+#11 /var/www/lazer/tcp.php(314): Workerman\Worker::runAll()
+#12 {main}
+2019-09-11 07:37:09 pid:8333 Worker[8333] process terminated
+2019-09-11 07:37:09 pid:8327 worker[none:8333] exit with status 64000
+2019-09-11 07:37:17 pid:8327 Workerman[tcp.php] stopping ...
+2019-09-11 07:37:17 pid:8327 Workerman[tcp.php] has been stopped
+2019-09-11 07:37:18 pid:8338 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 07:50:04 pid:8338 Workerman[tcp.php] stopping ...
+2019-09-11 07:50:04 pid:8338 Workerman[tcp.php] has been stopped
+2019-09-11 07:50:04 pid:8409 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 07:55:16 pid:8409 Workerman[tcp.php] stopping ...
+2019-09-11 07:55:17 pid:8409 Workerman[tcp.php] has been stopped
+2019-09-11 07:55:17 pid:8427 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 07:57:32 pid:28517 Workerman[web.php] stopping ...
+2019-09-11 07:57:32 pid:28517 Workerman[web.php] has been stopped
+2019-09-11 07:57:33 pid:8436 Workerman[web.php] start in DEBUG mode
+2019-09-11 08:01:20 pid:8427 Workerman[tcp.php] stopping ...
+2019-09-11 08:01:20 pid:8427 Workerman[tcp.php] has been stopped
+2019-09-11 08:01:21 pid:8450 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 08:02:41 pid:8450 Workerman[tcp.php] stopping ...
+2019-09-11 08:02:41 pid:8450 Workerman[tcp.php] has been stopped
+2019-09-11 08:02:42 pid:8456 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 08:04:56 pid:8456 Workerman[tcp.php] stopping ...
+2019-09-11 08:04:56 pid:8456 Workerman[tcp.php] has been stopped
+2019-09-11 08:04:56 pid:8465 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 08:08:15 pid:8465 Workerman[tcp.php] stopping ...
+2019-09-11 08:08:15 pid:8465 Workerman[tcp.php] has been stopped
+2019-09-11 08:08:17 pid:8480 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 08:11:12 pid:8480 Workerman[tcp.php] stopping ...
+2019-09-11 08:11:12 pid:8480 Workerman[tcp.php] has been stopped
+2019-09-11 08:11:13 pid:8521 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 08:11:44 pid:8521 Workerman[tcp.php] stopping ...
+2019-09-11 08:11:44 pid:8521 Workerman[tcp.php] has been stopped
+2019-09-11 08:11:44 pid:8524 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 08:12:15 pid:8524 Workerman[tcp.php] stopping ...
+2019-09-11 08:12:15 pid:8524 Workerman[tcp.php] has been stopped
+2019-09-11 08:12:16 pid:8530 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 08:12:20 pid:8531 Worker[8531] process terminated
+2019-09-11 08:12:37 pid:8532 Worker[8532] process terminated
+2019-09-11 08:14:48 pid:8530 Workerman[tcp.php] stopping ...
+2019-09-11 08:14:48 pid:8530 Workerman[tcp.php] has been stopped
+2019-09-11 08:14:48 pid:8541 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 08:14:51 pid:8542 Worker[8542] process terminated
+2019-09-11 08:15:14 pid:8541 Workerman[tcp.php] stopping ...
+2019-09-11 08:15:14 pid:8541 Workerman[tcp.php] has been stopped
+2019-09-11 08:15:14 pid:8548 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 08:15:17 pid:8549 Worker[8549] process terminated
+2019-09-11 08:15:29 pid:8548 Workerman[tcp.php] stopping ...
+2019-09-11 08:15:29 pid:8548 Workerman[tcp.php] has been stopped
+2019-09-11 08:15:30 pid:8552 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 08:15:33 pid:8553 Worker[8553] process terminated
+2019-09-11 08:15:42 pid:8552 Workerman[tcp.php] stopping ...
+2019-09-11 08:15:42 pid:8552 Workerman[tcp.php] has been stopped
+2019-09-11 08:15:43 pid:8556 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 08:15:46 pid:8557 Worker[8557] process terminated
+2019-09-11 08:15:58 pid:8556 Workerman[tcp.php] stopping ...
+2019-09-11 08:15:58 pid:8556 Workerman[tcp.php] has been stopped
+2019-09-11 08:15:58 pid:8560 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 08:16:01 pid:8561 Worker[8561] process terminated
+2019-09-11 08:16:19 pid:8567 Workerman[tcp.php] connections 
+2019-09-11 08:17:34 pid:8560 Workerman[tcp.php] stopping ...
+2019-09-11 08:17:35 pid:8560 Workerman[tcp.php] has been stopped
+2019-09-11 08:17:35 pid:8574 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 08:17:38 pid:8575 Worker[8575] process terminated
+2019-09-11 08:18:22 pid:8574 Workerman[tcp.php] stopping ...
+2019-09-11 08:18:22 pid:8574 Workerman[tcp.php] has been stopped
+2019-09-11 08:18:22 pid:8581 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 08:18:25 pid:8582 Worker[8582] process terminated
+2019-09-11 08:18:34 pid:8581 Workerman[tcp.php] stopping ...
+2019-09-11 08:18:34 pid:8581 Workerman[tcp.php] has been stopped
+2019-09-11 08:18:35 pid:8585 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 08:18:40 pid:8586 Worker[8586] process terminated
+2019-09-11 08:19:19 pid:8585 Workerman[tcp.php] stopping ...
+2019-09-11 08:19:19 pid:8585 Workerman[tcp.php] has been stopped
+2019-09-11 08:19:19 pid:8592 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 08:19:22 pid:8593 Worker[8593] process terminated
+2019-09-11 08:22:55 pid:8592 Workerman[tcp.php] stopping ...
+2019-09-11 08:22:55 pid:8592 Workerman[tcp.php] has been stopped
+2019-09-11 08:22:57 pid:8605 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 08:24:48 pid:8605 Workerman[tcp.php] stopping ...
+2019-09-11 08:24:49 pid:8605 Workerman[tcp.php] has been stopped
+2019-09-11 08:24:49 pid:8614 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 08:25:25 pid:8614 Workerman[tcp.php] stopping ...
+2019-09-11 08:25:25 pid:8614 Workerman[tcp.php] has been stopped
+2019-09-11 08:25:25 pid:8620 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 08:26:21 pid:8620 Workerman[tcp.php] stopping ...
+2019-09-11 08:26:21 pid:8620 Workerman[tcp.php] has been stopped
+2019-09-11 08:26:22 pid:8626 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 08:27:39 pid:8626 Workerman[tcp.php] stopping ...
+2019-09-11 08:27:39 pid:8626 Workerman[tcp.php] has been stopped
+2019-09-11 08:27:40 pid:8632 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 08:28:39 pid:8632 Workerman[tcp.php] stopping ...
+2019-09-11 08:28:39 pid:8632 Workerman[tcp.php] has been stopped
+2019-09-11 08:28:39 pid:8638 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 08:29:00 pid:8641 Workerman[tcp.php] connections 
+2019-09-11 08:29:09 pid:8645 Workerman[tcp.php] status 
+2019-09-11 08:29:22 pid:8646 Workerman[tcp.php] status 
+2019-09-11 08:29:31 pid:8647 Workerman[tcp.php] status 
+2019-09-11 08:30:04 pid:8638 Workerman[tcp.php] stopping ...
+2019-09-11 08:30:04 pid:8638 Workerman[tcp.php] has been stopped
+2019-09-11 08:30:05 pid:8651 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 08:30:08 pid:8653 Workerman[tcp.php] status 
+2019-09-11 08:30:20 pid:8654 Workerman[tcp.php] status 
+2019-09-11 08:31:43 pid:8658 Workerman[tcp.php] connections 
+2019-09-11 08:31:52 pid:8652 Worker[8652] process terminated
+2019-09-11 08:32:24 pid:8651 Workerman[tcp.php] stopping ...
+2019-09-11 08:32:24 pid:8651 Workerman[tcp.php] has been stopped
+2019-09-11 08:32:24 pid:8663 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 08:33:17 pid:8663 Workerman[tcp.php] stopping ...
+2019-09-11 08:33:17 pid:8663 Workerman[tcp.php] has been stopped
+2019-09-11 08:33:18 pid:8668 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 08:34:00 pid:8668 Workerman[tcp.php] stopping ...
+2019-09-11 08:34:00 pid:8668 Workerman[tcp.php] has been stopped
+2019-09-11 08:34:00 pid:8670 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 08:35:21 pid:8670 Workerman[tcp.php] stopping ...
+2019-09-11 08:35:21 pid:8670 Workerman[tcp.php] has been stopped
+2019-09-11 08:35:21 pid:8678 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 08:35:24 pid:8679 Worker[8679] process terminated
+2019-09-11 08:35:26 pid:8678 Workerman[tcp.php] stopping ...
+2019-09-11 08:35:26 pid:8678 Workerman[tcp.php] has been stopped
+2019-09-11 08:36:53 pid:8684 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 08:39:40 pid:8684 Workerman[tcp.php] stopping ...
+2019-09-11 08:39:40 pid:8684 Workerman[tcp.php] has been stopped
+2019-09-11 08:39:40 pid:8724 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 08:41:19 pid:8724 Workerman[tcp.php] stopping ...
+2019-09-11 08:41:19 pid:8724 Workerman[tcp.php] has been stopped
+2019-09-11 08:41:20 pid:8732 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 08:47:21 pid:8732 Workerman[tcp.php] stopping ...
+2019-09-11 08:47:21 pid:8732 Workerman[tcp.php] has been stopped
+2019-09-11 08:47:22 pid:8752 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 08:47:29 pid:8436 Workerman[web.php] stopping ...
+2019-09-11 08:47:29 pid:8436 Workerman[web.php] has been stopped
+2019-09-11 08:47:30 pid:8754 Workerman[web.php] start in DEBUG mode
+2019-09-11 08:49:31 pid:8752 Workerman[tcp.php] stopping ...
+2019-09-11 08:49:31 pid:8752 Workerman[tcp.php] has been stopped
+2019-09-11 08:49:32 pid:8762 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 08:58:40 pid:8763 Worker[8763] process terminated
+2019-09-11 09:14:46 pid:8762 Workerman[tcp.php] stopping ...
+2019-09-11 09:14:46 pid:8762 Workerman[tcp.php] has been stopped
+2019-09-11 09:14:47 pid:8869 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 09:14:55 pid:8870 PDOException: SQL:INSERT into `lazer`.location 
+                            (`location`.`id_otm`, `location`.`latitude`, `location`.`longitude`) 
+                            VALUES ('(SELECT otm_view.id FROM otm_view WHERE otm_view.imei = '869323041094604')', '27.5449564', '53.898099') SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '869323041094604')', '27.5449564', '53.898099')' at line 3 in /var/www/lazer/vendor/workerman/mysql/src/Connection.php:1770
+Stack trace:
+#0 /var/www/lazer/vendor/workerman/mysql/src/Connection.php(1828): Workerman\MySQL\Connection->execute('INSERT into `la...', NULL)
+#1 /var/www/lazer/tcp.php(261): Workerman\MySQL\Connection->query('INSERT into `la...', NULL, 2)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Object(Data))
+#3 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"imei":"869323...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#5 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(510): Workerman\Worker::forkWorkers()
+#11 /var/www/lazer/tcp.php(315): Workerman\Worker::runAll()
+#12 {main}
+2019-09-11 09:14:55 pid:8870 Worker[8870] process terminated
+2019-09-11 09:14:55 pid:8869 worker[none:8870] exit with status 64000
+2019-09-11 09:16:00 pid:8871 PDOException: SQL:INSERT into `lazer`.location 
+                            (`location`.`id_otm`, `location`.`latitude`, `location`.`longitude`) 
+                            VALUES ('(SELECT otm_view.id FROM otm_view WHERE otm_view.imei = '869323041094604')', '27.5449565', '53.8980989') SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '869323041094604')', '27.5449565', '53.8980989')' at line 3 in /var/www/lazer/vendor/workerman/mysql/src/Connection.php:1770
+Stack trace:
+#0 /var/www/lazer/vendor/workerman/mysql/src/Connection.php(1828): Workerman\MySQL\Connection->execute('INSERT into `la...', NULL)
+#1 /var/www/lazer/tcp.php(261): Workerman\MySQL\Connection->query('INSERT into `la...', NULL, 2)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Object(Data))
+#3 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"imei":"869323...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#5 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(1623): Workerman\Worker::forkWorkers()
+#11 /var/www/lazer/vendor/workerman/workerman/Worker.php(1572): Workerman\Worker::monitorWorkersForLinux()
+#12 /var/www/lazer/vendor/workerman/workerman/Worker.php(512): Workerman\Worker::monitorWorkers()
+#13 /var/www/lazer/tcp.php(315): Workerman\Worker::runAll()
+#14 {main}
+2019-09-11 09:16:00 pid:8871 Worker[8871] process terminated
+2019-09-11 09:16:00 pid:8869 worker[none:8871] exit with status 64000
+2019-09-11 09:17:01 pid:8875 PDOException: SQL:INSERT into `lazer`.location 
+                            (`location`.`id_otm`, `location`.`latitude`, `location`.`longitude`) 
+                            VALUES ('(SELECT otm_view.id FROM otm_view WHERE otm_view.imei = '869323041094604')', '27.5449564', '53.898099') SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '869323041094604')', '27.5449564', '53.898099')' at line 3 in /var/www/lazer/vendor/workerman/mysql/src/Connection.php:1770
+Stack trace:
+#0 /var/www/lazer/vendor/workerman/mysql/src/Connection.php(1828): Workerman\MySQL\Connection->execute('INSERT into `la...', NULL)
+#1 /var/www/lazer/tcp.php(261): Workerman\MySQL\Connection->query('INSERT into `la...', NULL, 2)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Object(Data))
+#3 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"imei":"869323...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #26)
+#5 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(1623): Workerman\Worker::forkWorkers()
+#11 /var/www/lazer/vendor/workerman/workerman/Worker.php(1572): Workerman\Worker::monitorWorkersForLinux()
+#12 /var/www/lazer/vendor/workerman/workerman/Worker.php(512): Workerman\Worker::monitorWorkers()
+#13 /var/www/lazer/tcp.php(315): Workerman\Worker::runAll()
+#14 {main}
+2019-09-11 09:17:01 pid:8875 Worker[8875] process terminated
+2019-09-11 09:17:01 pid:8869 worker[none:8875] exit with status 64000
+2019-09-11 09:18:24 pid:8869 Workerman[tcp.php] stopping ...
+2019-09-11 09:18:24 pid:8869 Workerman[tcp.php] has been stopped
+2019-09-11 09:18:25 pid:8889 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 09:19:46 pid:8889 Workerman[tcp.php] stopping ...
+2019-09-11 09:19:46 pid:8889 Workerman[tcp.php] has been stopped
+2019-09-11 09:19:46 pid:8894 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 09:22:17 pid:8894 Workerman[tcp.php] stopping ...
+2019-09-11 09:22:17 pid:8894 Workerman[tcp.php] has been stopped
+2019-09-11 09:22:18 pid:8905 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 09:22:49 pid:8905 Workerman[tcp.php] stopping ...
+2019-09-11 09:22:49 pid:8905 Workerman[tcp.php] has been stopped
+2019-09-11 09:22:49 pid:8907 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 09:26:51 pid:8908 PDOException: SQL:INSERT into `lazer`.location 
+                            (`location`.`id_otm`, `location`.`latitude`, `location`.`longitude`) 
+                            VALUES ((SELECT otm_view.id FROM otm_view WHERE otm_view.imei = '869323041094604'), '27.5449365', '53.8981015') SQLSTATE[HY000]: General error: 1356 View 'lazer.otm_view' references invalid table(s) or column(s) or function(s) or definer/invoker of view lack rights to use them in /var/www/lazer/vendor/workerman/mysql/src/Connection.php:1770
+Stack trace:
+#0 /var/www/lazer/vendor/workerman/mysql/src/Connection.php(1828): Workerman\MySQL\Connection->execute('INSERT into `la...', NULL)
+#1 /var/www/lazer/tcp.php(260): Workerman\MySQL\Connection->query('INSERT into `la...', NULL, 2)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), Object(Data))
+#3 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '{"imei":"869323...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #30)
+#5 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(510): Workerman\Worker::forkWorkers()
+#11 /var/www/lazer/tcp.php(311): Workerman\Worker::runAll()
+#12 {main}
+2019-09-11 09:26:51 pid:8908 Worker[8908] process terminated
+2019-09-11 09:26:51 pid:8907 worker[none:8908] exit with status 64000
+2019-09-11 09:29:10 pid:8907 Workerman[tcp.php] stopping ...
+2019-09-11 09:29:10 pid:8907 Workerman[tcp.php] has been stopped
+2019-09-11 09:32:58 pid:8940 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 09:35:53 pid:8951 Workerman[tcp.php] connections 
+2019-09-11 09:41:54 pid:8940 Workerman[tcp.php] stopping ...
+2019-09-11 09:41:54 pid:8940 Workerman[tcp.php] has been stopped
+2019-09-11 09:41:55 pid:8999 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 09:42:19 pid:9000 Worker[9000] process terminated
+2019-09-11 09:42:22 pid:9004 Worker[9004] process terminated
+2019-09-11 09:43:10 pid:8999 Workerman[tcp.php] stopping ...
+2019-09-11 09:43:10 pid:8999 Workerman[tcp.php] has been stopped
+2019-09-11 09:43:11 pid:9009 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 09:43:20 pid:9010 Worker[9010] process terminated
+2019-09-11 13:57:28 pid:10622 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 13:57:28 pid:10622 Workerman[tcp.php] already running
+2019-09-11 13:57:39 pid:10623 Workerman[tcp.php] status 
+2019-09-11 13:58:01 pid:10627 Workerman[tcp.php] status 
+2019-09-11 13:59:50 pid:10631 Workerman[tcp.php] stop 
+2019-09-11 13:59:50 pid:10631 Workerman[tcp.php] is stopping ...
+2019-09-11 13:59:50 pid:9009 Workerman[tcp.php] stopping ...
+2019-09-11 13:59:50 pid:9009 Workerman[tcp.php] has been stopped
+2019-09-11 13:59:50 pid:10631 Workerman[tcp.php] stop success
+2019-09-11 13:59:56 pid:10632 Workerman[tcp.php] start in DEBUG mode
+2019-09-11 14:00:24 pid:10633 Worker[10633] process terminated
+2019-09-12 07:21:25 pid:14912 Workerman[tcp.php] status 
+2019-09-12 07:22:21 pid:10637 Worker[10637] process terminated
+2019-09-12 07:22:30 pid:14916 Worker[14916] process terminated
+2019-09-12 07:36:56 pid:10632 Workerman[tcp.php] stopping ...
+2019-09-12 07:36:56 pid:10632 Workerman[tcp.php] has been stopped
+2019-09-12 07:36:58 pid:14960 Workerman[tcp.php] start in DEBUG mode
+2019-09-12 07:38:03 pid:14960 Workerman[tcp.php] stopping ...
+2019-09-12 07:38:03 pid:14960 Workerman[tcp.php] has been stopped
+2019-09-12 07:38:05 pid:14968 Workerman[tcp.php] start in DEBUG mode
+2019-09-12 07:38:12 pid:14969 Worker[14969] process terminated
+2019-09-12 07:39:10 pid:14968 Workerman[tcp.php] stopping ...
+2019-09-12 07:39:10 pid:14968 Workerman[tcp.php] has been stopped
+2019-09-12 07:39:11 pid:15003 Workerman[tcp.php] start in DEBUG mode
+2019-09-12 07:41:01 pid:15003 Workerman[tcp.php] stopping ...
+2019-09-12 07:41:01 pid:15003 Workerman[tcp.php] has been stopped
+2019-09-12 07:41:04 pid:15011 Workerman[tcp.php] start in DEBUG mode
+2019-09-12 07:42:05 pid:15011 Workerman[tcp.php] stopping ...
+2019-09-12 07:42:05 pid:15011 Workerman[tcp.php] has been stopped
+2019-09-12 07:42:06 pid:15016 Workerman[tcp.php] start in DEBUG mode
+2019-09-12 07:54:34 pid:15016 Workerman[tcp.php] stopping ...
+2019-09-12 07:54:34 pid:15016 Workerman[tcp.php] has been stopped
+2019-09-12 07:54:37 pid:15054 Workerman[tcp.php] start in DEBUG mode
+2019-09-12 07:58:41 pid:15054 Workerman[tcp.php] stopping ...
+2019-09-12 07:58:41 pid:15054 Workerman[tcp.php] has been stopped
+2019-09-12 07:58:45 pid:15068 Workerman[tcp.php] start in DEBUG mode
+2019-09-12 08:00:25 pid:15068 Workerman[tcp.php] stopping ...
+2019-09-12 08:00:25 pid:15068 Workerman[tcp.php] has been stopped
+2019-09-12 08:00:27 pid:15076 Workerman[tcp.php] start in DEBUG mode
+2019-09-12 08:01:13 pid:15076 Workerman[tcp.php] stopping ...
+2019-09-12 08:01:13 pid:15076 Workerman[tcp.php] has been stopped
+2019-09-12 08:01:15 pid:15081 Workerman[tcp.php] start in DEBUG mode
+2019-09-12 08:02:04 pid:15081 Workerman[tcp.php] stopping ...
+2019-09-12 08:02:04 pid:15081 Workerman[tcp.php] has been stopped
+2019-09-12 08:02:05 pid:15086 Workerman[tcp.php] start in DEBUG mode
+2019-09-12 08:06:32 pid:15086 Workerman[tcp.php] stopping ...
+2019-09-12 08:06:32 pid:15086 Workerman[tcp.php] has been stopped
+2019-09-12 08:06:33 pid:15100 Workerman[tcp.php] start in DEBUG mode
+2019-09-12 08:06:50 pid:15101 Worker[15101] process terminated with ERROR: E_RECOVERABLE_ERROR "Object of class Data could not be converted to string in /var/www/lazer/tcp.php on line 164"
+2019-09-12 08:06:50 pid:15100 worker[none:15101] exit with status 65280
+2019-09-12 08:07:47 pid:15100 Workerman[tcp.php] stopping ...
+2019-09-12 08:07:47 pid:15100 Workerman[tcp.php] has been stopped
+2019-09-12 08:07:49 pid:15106 Workerman[tcp.php] start in DEBUG mode
+2019-09-12 08:08:54 pid:15106 Workerman[tcp.php] stopping ...
+2019-09-12 08:08:54 pid:15106 Workerman[tcp.php] has been stopped
+2019-09-12 08:08:55 pid:15111 Workerman[tcp.php] start in DEBUG mode
+2019-09-12 08:09:53 pid:15111 Workerman[tcp.php] stopping ...
+2019-09-12 08:09:53 pid:15111 Workerman[tcp.php] has been stopped
+2019-09-12 08:09:53 pid:15145 Workerman[tcp.php] start in DEBUG mode
+2019-09-12 08:10:57 pid:15145 Workerman[tcp.php] stopping ...
+2019-09-12 08:10:57 pid:15145 Workerman[tcp.php] has been stopped
+2019-09-12 08:11:00 pid:15150 Workerman[tcp.php] start in DEBUG mode
+2019-09-12 08:11:06 pid:15151 Worker[15151] process terminated with ERROR: E_RECOVERABLE_ERROR "Object of class Data could not be converted to string in /var/www/lazer/tcp.php on line 217"
+2019-09-12 08:11:06 pid:15150 worker[none:15151] exit with status 65280
+2019-09-12 08:13:18 pid:15150 Workerman[tcp.php] stopping ...
+2019-09-12 08:13:18 pid:15150 Workerman[tcp.php] has been stopped
+2019-09-12 08:13:19 pid:15162 Workerman[tcp.php] start in DEBUG mode
+2019-09-13 06:54:36 pid:21009 Workerman[tcp.php] start in DEBUG mode
+2019-09-13 06:54:36 pid:21009 Workerman[tcp.php] already running
+2019-09-13 06:54:40 pid:21010 Workerman[tcp.php] stop 
+2019-09-13 06:54:40 pid:21010 Workerman[tcp.php] is stopping ...
+2019-09-13 06:54:40 pid:15162 Workerman[tcp.php] stopping ...
+2019-09-13 06:54:40 pid:15162 Workerman[tcp.php] has been stopped
+2019-09-13 06:54:40 pid:21010 Workerman[tcp.php] stop success
+2019-09-13 06:54:42 pid:21011 Workerman[tcp.php] start in DEBUG mode
+2019-09-13 06:55:16 pid:21312 Workerman[tcp.php] status 
+2019-09-13 06:56:02 pid:21316 Workerman[tcp.php] status 
+2019-09-13 07:11:07 pid:21391 Workerman[tcp.php] status 
+2019-09-13 07:13:00 pid:21395 Workerman[tcp.php] status 
+2019-09-16 06:14:12 pid:8754 Workerman[web.php] stopping ...
+2019-09-16 06:14:12 pid:21011 Workerman[tcp.php] stopping ...
+2019-09-16 09:45:34 pid:628 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 09:46:48 pid:929 Workerman[web.php] start in DEBUG mode
+2019-09-16 10:05:42 pid:628 Workerman[tcp.php] stopping ...
+2019-09-16 10:05:42 pid:628 Workerman[tcp.php] has been stopped
+2019-09-16 10:05:43 pid:988 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 10:21:10 pid:988 Workerman[tcp.php] stopping ...
+2019-09-16 10:21:10 pid:988 Workerman[tcp.php] has been stopped
+2019-09-16 10:21:30 pid:1070 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 10:23:30 pid:1070 Workerman[tcp.php] stopping ...
+2019-09-16 10:23:30 pid:1070 Workerman[tcp.php] has been stopped
+2019-09-16 10:23:31 pid:1078 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 10:26:22 pid:1078 Workerman[tcp.php] stopping ...
+2019-09-16 10:26:22 pid:1078 Workerman[tcp.php] has been stopped
+2019-09-16 10:26:22 pid:1089 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 12:09:32 pid:1089 Workerman[tcp.php] stopping ...
+2019-09-16 12:09:32 pid:1089 Workerman[tcp.php] has been stopped
+2019-09-16 12:09:32 pid:1519 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 12:15:37 pid:1519 Workerman[tcp.php] stopping ...
+2019-09-16 12:15:37 pid:1519 Workerman[tcp.php] has been stopped
+2019-09-16 12:15:38 pid:1539 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 12:16:23 pid:1539 Workerman[tcp.php] stopping ...
+2019-09-16 12:16:23 pid:1539 Workerman[tcp.php] has been stopped
+2019-09-16 12:16:24 pid:1544 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 12:17:22 pid:1545 PDOException: SQL:SELECT `otm_view`.`imei`, `otm_view`.`work_mode`, `otm_view`.`location_interval`, `otm_view`.`duration`
+                            FROM `lazer`.`otm_view` 
+                            WHERE `otm_view`.`imei` 
+                            LIKE 'ÿûÿû ÿûÿû'ÿýÿûÿý' SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '??????'' at line 4 in /var/www/lazer/vendor/workerman/mysql/src/Connection.php:1770
+Stack trace:
+#0 /var/www/lazer/vendor/workerman/mysql/src/Connection.php(1828): Workerman\MySQL\Connection->execute('SELECT `otm_vie...', NULL)
+#1 /var/www/lazer/tcp.php(117): Workerman\MySQL\Connection->query('SELECT `otm_vie...', NULL, 2)
+#2 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection), '\xFF\xFB\x1F\xFF\xFB \xFF\xFB\x18\xFF\xFB'\xFF\xFD\x01...')
+#3 /var/www/lazer/vendor/workerman/workerman/Connection/TcpConnection.php(681): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection), '\xFF\xFB\x1F\xFF\xFB \xFF\xFB\x18\xFF\xFB'\xFF\xFD\x01...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #29)
+#5 /var/www/lazer/vendor/workerman/workerman/Events/Select.php(294): call_user_func_array(Array, Array)
+#6 /var/www/lazer/vendor/workerman/workerman/Worker.php(2358): Workerman\Events\Select->loop()
+#7 /var/www/lazer/vendor/workerman/workerman/Worker.php(1489): Workerman\Worker->run()
+#8 /var/www/lazer/vendor/workerman/workerman/Worker.php(1319): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#9 /var/www/lazer/vendor/workerman/workerman/Worker.php(1293): Workerman\Worker::forkWorkersForLinux()
+#10 /var/www/lazer/vendor/workerman/workerman/Worker.php(510): Workerman\Worker::forkWorkers()
+#11 /var/www/lazer/tcp.php(287): Workerman\Worker::runAll()
+#12 {main}
+2019-09-16 12:17:22 pid:1545 Worker[1545] process terminated
+2019-09-16 12:17:22 pid:1544 worker[none:1545] exit with status 64000
+2019-09-16 12:26:01 pid:1544 Workerman[tcp.php] stopping ...
+2019-09-16 12:26:01 pid:1544 Workerman[tcp.php] has been stopped
+2019-09-16 12:26:08 pid:1580 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 12:26:42 pid:1580 Workerman[tcp.php] stopping ...
+2019-09-16 12:26:42 pid:1580 Workerman[tcp.php] has been stopped
+2019-09-16 12:30:53 pid:1594 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 13:08:46 pid:1594 Workerman[tcp.php] stopping ...
+2019-09-16 13:08:46 pid:1594 Workerman[tcp.php] has been stopped
+2019-09-16 13:08:47 pid:1739 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 14:32:40 pid:1739 Workerman[tcp.php] stopping ...
+2019-09-16 14:32:40 pid:1739 Workerman[tcp.php] has been stopped
+2019-09-16 14:32:41 pid:2086 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 14:40:05 pid:2086 Workerman[tcp.php] stopping ...
+2019-09-16 14:40:05 pid:2086 Workerman[tcp.php] has been stopped
+2019-09-16 14:40:06 pid:2141 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 14:57:55 pid:2141 Workerman[tcp.php] stopping ...
+2019-09-16 14:57:55 pid:2141 Workerman[tcp.php] has been stopped
+2019-09-16 14:57:55 pid:2194 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 15:31:49 pid:2194 Workerman[tcp.php] stopping ...
+2019-09-16 15:31:49 pid:2194 Workerman[tcp.php] has been stopped
+2019-09-16 15:33:52 pid:2336 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 15:35:32 pid:2336 Workerman[tcp.php] stopping ...
+2019-09-16 15:35:32 pid:2336 Workerman[tcp.php] has been stopped
+2019-09-16 15:35:44 pid:2344 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 15:39:25 pid:929 Workerman[web.php] stopping ...
+2019-09-16 15:39:25 pid:929 Workerman[web.php] has been stopped
+2019-09-16 15:39:46 pid:2387 Workerman[web.php] start in DEBUG mode
+2019-09-16 15:53:48 pid:2344 Workerman[tcp.php] stopping ...
+2019-09-16 15:53:48 pid:2344 Workerman[tcp.php] has been stopped
+2019-09-16 15:53:49 pid:2431 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 15:54:52 pid:2431 Workerman[tcp.php] stopping ...
+2019-09-16 15:54:52 pid:2431 Workerman[tcp.php] has been stopped
+2019-09-16 15:54:54 pid:2436 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 15:56:17 pid:2436 Workerman[tcp.php] stopping ...
+2019-09-16 15:56:17 pid:2436 Workerman[tcp.php] has been stopped
+2019-09-16 15:56:18 pid:2444 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 15:56:29 pid:2444 Workerman[tcp.php] stopping ...
+2019-09-16 15:56:29 pid:2444 Workerman[tcp.php] has been stopped
+2019-09-16 15:56:31 pid:2446 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 16:00:14 pid:2387 Workerman[web.php] stopping ...
+2019-09-16 16:00:14 pid:2387 Workerman[web.php] has been stopped
+2019-09-16 16:00:57 pid:2460 Workerman[web.php] start in DEBUG mode
+2019-09-16 16:01:01 pid:2460 Workerman[web.php] stopping ...
+2019-09-16 16:01:01 pid:2460 Workerman[web.php] has been stopped
+2019-09-16 16:01:04 pid:2465 Workerman[web.php] start in DEBUG mode
+2019-09-16 16:01:40 pid:2465 Workerman[web.php] stopping ...
+2019-09-16 16:01:40 pid:2465 Workerman[web.php] has been stopped
+2019-09-16 16:01:41 pid:2446 Workerman[tcp.php] stopping ...
+2019-09-16 16:01:41 pid:2446 Workerman[tcp.php] has been stopped
+2019-09-16 16:01:46 pid:2467 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 16:01:49 pid:2469 Workerman[web.php] start in DEBUG mode
+2019-09-16 16:02:14 pid:2469 Workerman[web.php] stopping ...
+2019-09-16 16:02:14 pid:2469 Workerman[web.php] has been stopped
+2019-09-16 16:02:16 pid:2467 Workerman[tcp.php] stopping ...
+2019-09-16 16:02:16 pid:2467 Workerman[tcp.php] has been stopped
+2019-09-16 16:02:17 pid:2474 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 16:02:19 pid:2476 Workerman[web.php] start in DEBUG mode
+2019-09-16 16:06:13 pid:2476 Workerman[web.php] stopping ...
+2019-09-16 16:06:13 pid:2476 Workerman[web.php] has been stopped
+2019-09-16 16:06:26 pid:2490 Workerman[web.php] start in DEBUG mode
+2019-09-16 16:06:44 pid:2490 Workerman[web.php] stopping ...
+2019-09-16 16:06:44 pid:2490 Workerman[web.php] has been stopped
+2019-09-16 16:06:53 pid:2492 Workerman[web.php] start in DEBUG mode
+2019-09-16 16:07:27 pid:2474 Workerman[tcp.php] stopping ...
+2019-09-16 16:07:27 pid:2474 Workerman[tcp.php] has been stopped
+2019-09-16 16:10:05 pid:2535 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 16:25:38 pid:2535 Workerman[tcp.php] stopping ...
+2019-09-16 16:25:38 pid:2535 Workerman[tcp.php] has been stopped
+2019-09-16 16:25:39 pid:2585 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 16:26:56 pid:2585 Workerman[tcp.php] stopping ...
+2019-09-16 16:26:56 pid:2585 Workerman[tcp.php] has been stopped
+2019-09-16 16:26:57 pid:2590 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 16:27:08 pid:2590 Workerman[tcp.php] stopping ...
+2019-09-16 16:27:08 pid:2590 Workerman[tcp.php] has been stopped
+2019-09-16 16:30:00 pid:2601 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 16:30:44 pid:2601 Workerman[tcp.php] stopping ...
+2019-09-16 16:30:45 pid:2601 Workerman[tcp.php] stopping ...
+2019-09-16 16:30:46 pid:2601 worker[none:2602] exit with status 9
+2019-09-16 16:30:46 pid:2601 Workerman[tcp.php] has been stopped
+2019-09-16 16:30:49 pid:2606 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 16:31:29 pid:2606 Workerman[tcp.php] stopping ...
+2019-09-16 16:31:31 pid:2606 worker[none:2607] exit with status 9
+2019-09-16 16:31:31 pid:2606 Workerman[tcp.php] has been stopped
+2019-09-16 16:31:31 pid:2611 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 16:35:31 pid:2611 Workerman[tcp.php] stopping ...
+2019-09-16 16:35:33 pid:2611 worker[none:2612] exit with status 9
+2019-09-16 16:35:33 pid:2611 Workerman[tcp.php] has been stopped
+2019-09-16 16:35:34 pid:2625 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 16:44:30 pid:2979 Workerman[tcp.php] status 
+2019-09-16 16:44:45 pid:2980 Workerman[tcp.php] connections 
+2019-09-16 16:44:54 pid:2492 Workerman[web.php] stopping ...
+2019-09-16 16:44:54 pid:2492 Workerman[web.php] has been stopped
+2019-09-16 16:44:55 pid:2981 Workerman[web.php] start in DEBUG mode
+2019-09-16 16:44:56 pid:2625 Workerman[tcp.php] stopping ...
+2019-09-16 16:44:58 pid:2625 worker[none:2626] exit with status 9
+2019-09-16 16:44:58 pid:2625 Workerman[tcp.php] has been stopped
+2019-09-16 16:45:00 pid:2983 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 16:45:07 pid:2988 Workerman[tcp.php] status 
+2019-09-16 16:45:09 pid:2989 Workerman[tcp.php] connections 
+2019-09-16 16:50:00 pid:2983 Workerman[tcp.php] stopping ...
+2019-09-16 16:50:02 pid:2983 worker[none:2984] exit with status 9
+2019-09-16 16:50:02 pid:2983 Workerman[tcp.php] has been stopped
+2019-09-16 16:50:02 pid:3005 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 16:51:43 pid:3010 Workerman[tcp.php] connections 
+2019-09-16 16:52:00 pid:3005 Workerman[tcp.php] stopping ...
+2019-09-16 16:52:02 pid:3005 worker[none:3006] exit with status 9
+2019-09-16 16:52:02 pid:3005 Workerman[tcp.php] has been stopped
+2019-09-16 16:52:03 pid:3014 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 16:53:01 pid:3016 Workerman[tcp.php] connections 
+2019-09-16 16:54:26 pid:3014 Workerman[tcp.php] stopping ...
+2019-09-16 16:54:28 pid:3014 worker[none:3015] exit with status 9
+2019-09-16 16:54:28 pid:3014 Workerman[tcp.php] has been stopped
+2019-09-16 16:54:28 pid:3023 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 16:54:41 pid:3025 Workerman[tcp.php] connections 
+2019-09-16 17:16:45 pid:3023 Workerman[tcp.php] stopping ...
+2019-09-16 17:16:45 pid:3023 Workerman[tcp.php] has been stopped
+2019-09-16 17:16:46 pid:3121 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 17:19:21 pid:3121 Workerman[tcp.php] stopping ...
+2019-09-16 17:19:21 pid:3121 Workerman[tcp.php] has been stopped
+2019-09-16 17:19:22 pid:3135 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 17:19:57 pid:3135 Workerman[tcp.php] stopping ...
+2019-09-16 17:19:57 pid:3135 Workerman[tcp.php] has been stopped
+2019-09-16 17:19:57 pid:3137 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 17:31:19 pid:3137 Workerman[tcp.php] stopping ...
+2019-09-16 17:31:19 pid:3137 Workerman[tcp.php] has been stopped
+2019-09-16 17:31:20 pid:3175 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 17:32:04 pid:3175 Workerman[tcp.php] stopping ...
+2019-09-16 17:32:04 pid:3175 Workerman[tcp.php] has been stopped
+2019-09-16 17:32:05 pid:3180 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 17:36:33 pid:3180 Workerman[tcp.php] stopping ...
+2019-09-16 17:36:33 pid:3180 Workerman[tcp.php] has been stopped
+2019-09-16 17:36:34 pid:3194 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 17:47:07 pid:3194 Workerman[tcp.php] stopping ...
+2019-09-16 17:47:07 pid:3194 Workerman[tcp.php] has been stopped
+2019-09-16 17:47:08 pid:3258 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 17:48:45 pid:3258 Workerman[tcp.php] stopping ...
+2019-09-16 17:48:45 pid:3258 Workerman[tcp.php] has been stopped
+2019-09-16 17:48:45 pid:3263 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 17:50:02 pid:3263 Workerman[tcp.php] stopping ...
+2019-09-16 17:50:02 pid:3263 Workerman[tcp.php] has been stopped
+2019-09-16 17:50:03 pid:3271 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 17:50:37 pid:3271 Workerman[tcp.php] stopping ...
+2019-09-16 17:50:37 pid:3271 Workerman[tcp.php] has been stopped
+2019-09-16 17:50:37 pid:3273 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 17:51:05 pid:3273 Workerman[tcp.php] stopping ...
+2019-09-16 17:51:05 pid:3273 Workerman[tcp.php] has been stopped
+2019-09-16 17:51:06 pid:3278 Workerman[tcp.php] start in DEBUG mode
+2019-09-16 17:52:05 pid:3278 Workerman[tcp.php] stopping ...
+2019-09-16 17:52:05 pid:3278 Workerman[tcp.php] has been stopped
+2019-09-16 17:52:05 pid:3283 Workerman[tcp.php] start in DEBUG mode
+2019-09-17 11:34:54 pid:7945 Workerman[tcp.php] status 
+2019-09-17 11:43:11 pid:8002 Workerman[tcp.php] status 
+2019-09-17 11:43:24 pid:8003 Workerman[tcp.php] connections 
+2019-09-17 15:53:05 pid:9294 Workerman[tcp.php] stop 
+2019-09-17 15:53:05 pid:9294 Workerman[tcp.php] is stopping ...
+2019-09-17 15:53:05 pid:3283 Workerman[tcp.php] stopping ...
+2019-09-17 15:53:05 pid:3283 Workerman[tcp.php] has been stopped
+2019-09-17 15:53:06 pid:9294 Workerman[tcp.php] stop success
+2019-09-17 15:53:08 pid:9295 Workerman[tcp.php] stop 
+2019-09-17 15:53:08 pid:9295 Workerman[tcp.php] not run
+2019-09-17 15:53:10 pid:9296 Workerman[tcp.php] start in DEBUG mode
+2019-09-17 16:25:05 pid:9296 Workerman[tcp.php] stopping ...
+2019-09-17 16:25:05 pid:9296 Workerman[tcp.php] has been stopped
+2019-09-17 16:25:07 pid:9426 Workerman[tcp.php] start in DEBUG mode
+2019-09-17 16:41:29 pid:9505 Workerman[tcp.php] connections 
+2019-09-17 16:52:14 pid:9539 Workerman[web.php] stop 
+2019-09-17 16:52:14 pid:9539 Workerman[web.php] is stopping ...
+2019-09-17 16:52:14 pid:2981 Workerman[web.php] stopping ...
+2019-09-17 16:52:14 pid:2981 Workerman[web.php] has been stopped
+2019-09-17 16:52:14 pid:9539 Workerman[web.php] stop success
+2019-09-17 16:52:17 pid:9540 Workerman[web.php] start in DEBUG mode
+2019-09-17 16:57:49 pid:9426 Workerman[tcp.php] stopping ...
+2019-09-17 16:57:49 pid:9426 Workerman[tcp.php] has been stopped
+2019-09-17 16:57:50 pid:9557 Workerman[tcp.php] start in DEBUG mode
+2019-09-17 23:11:39 pid:11958 Workerman[tcp.php] stop 
+2019-09-17 23:11:39 pid:11958 Workerman[tcp.php] is stopping ...
+2019-09-17 23:11:39 pid:9557 Workerman[tcp.php] stopping ...
+2019-09-17 23:11:39 pid:9557 Workerman[tcp.php] has been stopped
+2019-09-17 23:11:39 pid:11958 Workerman[tcp.php] stop success
+2019-09-17 23:11:43 pid:11959 Workerman[tcp.php] start in DEBUG mode
+2019-09-17 23:14:00 pid:11959 Workerman[tcp.php] stopping ...
+2019-09-17 23:14:01 pid:11959 Workerman[tcp.php] has been stopped
+2019-09-17 23:14:02 pid:11970 Workerman[tcp.php] start in DEBUG mode
+2019-09-17 23:16:40 pid:11970 Workerman[tcp.php] stopping ...
+2019-09-17 23:16:40 pid:11970 Workerman[tcp.php] has been stopped
+2019-09-17 23:16:41 pid:11978 Workerman[tcp.php] start in DEBUG mode
+2019-09-17 23:20:18 pid:11978 Workerman[tcp.php] stopping ...
+2019-09-17 23:20:18 pid:11978 Workerman[tcp.php] has been stopped
+2019-09-17 23:20:20 pid:11995 Workerman[tcp.php] start in DEBUG mode
+2019-09-17 23:24:02 pid:11995 Workerman[tcp.php] stopping ...
+2019-09-17 23:24:02 pid:11995 Workerman[tcp.php] has been stopped
+2019-09-17 23:24:03 pid:12009 Workerman[tcp.php] start in DEBUG mode
+2019-09-17 23:24:37 pid:12009 Workerman[tcp.php] stopping ...
+2019-09-17 23:24:37 pid:12009 Workerman[tcp.php] has been stopped
+2019-09-17 23:24:38 pid:12011 Workerman[tcp.php] start in DEBUG mode
+2019-09-17 23:27:02 pid:12011 Workerman[tcp.php] stopping ...
+2019-09-17 23:27:02 pid:12011 Workerman[tcp.php] has been stopped
+2019-09-17 23:27:03 pid:12022 Workerman[tcp.php] start in DEBUG mode
+2019-09-17 23:27:45 pid:12022 Workerman[tcp.php] stopping ...
+2019-09-17 23:27:45 pid:12022 Workerman[tcp.php] has been stopped
+2019-09-17 23:27:47 pid:12024 Workerman[tcp.php] start in DEBUG mode
+2019-09-17 23:35:11 pid:12024 Workerman[tcp.php] stopping ...
+2019-09-17 23:35:11 pid:12024 Workerman[tcp.php] has been stopped
+2019-09-17 23:35:14 pid:12050 Workerman[tcp.php] start in DEBUG mode
+2019-09-17 23:36:11 pid:12050 Workerman[tcp.php] stopping ...
+2019-09-17 23:36:11 pid:12050 Workerman[tcp.php] has been stopped
+2019-09-17 23:36:12 pid:12055 Workerman[tcp.php] start in DEBUG mode
+2019-09-17 23:36:54 pid:12055 Workerman[tcp.php] stopping ...
+2019-09-17 23:36:54 pid:12055 Workerman[tcp.php] has been stopped
+2019-09-17 23:36:56 pid:12057 Workerman[tcp.php] start in DEBUG mode
+2019-09-17 23:38:10 pid:12057 Workerman[tcp.php] stopping ...
+2019-09-17 23:38:10 pid:12057 Workerman[tcp.php] has been stopped
+2019-09-17 23:38:12 pid:12065 Workerman[tcp.php] start in DEBUG mode
+2019-09-17 23:39:18 pid:12065 Workerman[tcp.php] stopping ...
+2019-09-17 23:39:18 pid:12065 Workerman[tcp.php] has been stopped
+2019-09-17 23:39:19 pid:12099 Workerman[tcp.php] start in DEBUG mode
+2019-09-18 00:02:39 pid:12099 Workerman[tcp.php] stopping ...
+2019-09-18 00:02:39 pid:12099 Workerman[tcp.php] has been stopped
+2019-09-18 00:02:41 pid:12170 Workerman[tcp.php] start in DEBUG mode
+2019-09-18 00:03:20 pid:12170 Workerman[tcp.php] stopping ...
+2019-09-18 00:03:20 pid:12170 Workerman[tcp.php] has been stopped
+2019-09-18 00:03:21 pid:12175 Workerman[tcp.php] start in DEBUG mode
+2019-09-18 00:05:34 pid:12175 Workerman[tcp.php] stopping ...
+2019-09-18 00:05:34 pid:12175 Workerman[tcp.php] has been stopped
+2019-09-18 00:05:35 pid:12183 Workerman[tcp.php] start in DEBUG mode
+2019-09-19 09:07:33 pid:20602 Workerman[tcp.php] start in DEBUG mode
+2019-09-19 09:07:33 pid:20602 Workerman[tcp.php] already running
+2019-09-19 09:07:38 pid:20603 Workerman[tcp.php] stop 
+2019-09-19 09:07:38 pid:20603 Workerman[tcp.php] is stopping ...
+2019-09-19 09:07:38 pid:12183 Workerman[tcp.php] stopping ...
+2019-09-19 09:07:38 pid:12183 Workerman[tcp.php] has been stopped
+2019-09-19 09:07:38 pid:20603 Workerman[tcp.php] stop success
+2019-09-19 09:07:40 pid:20604 Workerman[tcp.php] start in DEBUG mode
+2019-09-19 09:12:09 pid:20604 Workerman[tcp.php] stopping ...
+2019-09-19 09:12:09 pid:20604 Workerman[tcp.php] has been stopped
+2019-09-19 09:12:21 pid:20651 Workerman[tcp.php] start in DEBUG mode
+2019-09-19 09:26:49 pid:20651 Workerman[tcp.php] stopping ...
+2019-09-19 09:26:49 pid:20651 Workerman[tcp.php] has been stopped
+2019-09-19 09:26:50 pid:20698 Workerman[tcp.php] start in DEBUG mode
+2019-09-19 17:07:27 pid:20698 Workerman[tcp.php] stopping ...
+2019-09-19 17:07:27 pid:20698 Workerman[tcp.php] has been stopped
+2019-09-19 17:07:28 pid:22539 Workerman[tcp.php] start in DEBUG mode
+2019-09-19 17:09:14 pid:22576 Workerman[web.php] stop 
+2019-09-19 17:09:14 pid:22576 Workerman[web.php] is stopping ...
+2019-09-19 17:09:14 pid:9540 Workerman[web.php] stopping ...
+2019-09-19 17:09:14 pid:9540 Workerman[web.php] has been stopped
+2019-09-19 17:09:14 pid:22576 Workerman[web.php] stop success
+2019-09-19 17:09:18 pid:22577 Workerman[web.php] start in DEBUG mode
+2019-09-19 17:13:24 pid:22539 Workerman[tcp.php] stopping ...
+2019-09-19 17:13:24 pid:22539 Workerman[tcp.php] has been stopped
+2019-09-19 17:13:25 pid:22591 Workerman[tcp.php] start in DEBUG mode
+2019-09-19 17:15:40 pid:22591 Workerman[tcp.php] stopping ...
+2019-09-19 17:15:40 pid:22591 Workerman[tcp.php] has been stopped
+2019-09-19 17:15:41 pid:22599 Workerman[tcp.php] start in DEBUG mode
+2019-09-19 17:17:29 pid:22599 Workerman[tcp.php] stopping ...
+2019-09-19 17:17:29 pid:22599 Workerman[tcp.php] has been stopped
+2019-09-19 17:17:30 pid:22610 Workerman[tcp.php] start in DEBUG mode
+2019-09-19 17:54:32 pid:22610 Workerman[tcp.php] stopping ...
+2019-09-19 17:54:32 pid:22610 Workerman[tcp.php] has been stopped
+2019-09-19 17:54:32 pid:22752 Workerman[tcp.php] start in DEBUG mode
+2019-09-20 15:30:07 pid:22752 Workerman[tcp.php] stopping ...
+2019-09-20 15:30:07 pid:22752 Workerman[tcp.php] has been stopped
+2019-09-20 15:30:09 pid:28037 Workerman[tcp.php] start in DEBUG mode
+2019-09-20 16:32:26 pid:28037 Workerman[tcp.php] stopping ...
+2019-09-20 16:32:26 pid:28037 Workerman[tcp.php] has been stopped
+2019-09-20 16:32:28 pid:28286 Workerman[tcp.php] start in DEBUG mode
+2019-09-20 16:38:26 pid:28286 Workerman[tcp.php] stopping ...
+2019-09-20 16:38:26 pid:28286 Workerman[tcp.php] has been stopped
+2019-09-20 16:38:27 pid:28306 Workerman[tcp.php] start in DEBUG mode
+2019-09-20 16:39:42 pid:28306 Workerman[tcp.php] stopping ...
+2019-09-20 16:39:42 pid:28306 Workerman[tcp.php] has been stopped
+2019-09-20 16:39:43 pid:28340 Workerman[tcp.php] start in DEBUG mode
+2019-09-23 15:51:22 pid:28340 Workerman[tcp.php] stopping ...
+2019-09-23 15:51:22 pid:28340 Workerman[tcp.php] has been stopped
+2019-09-23 15:51:23 pid:13278 Workerman[tcp.php] start in DEBUG mode
+2019-09-23 15:51:58 pid:13278 Workerman[tcp.php] stopping ...
+2019-09-23 15:51:58 pid:13278 Workerman[tcp.php] has been stopped
+2019-09-23 15:51:59 pid:13280 Workerman[tcp.php] start in DEBUG mode
+2019-09-23 15:56:03 pid:13280 Workerman[tcp.php] stopping ...
+2019-09-23 15:56:03 pid:13280 Workerman[tcp.php] has been stopped
+2019-09-23 15:56:04 pid:13297 Workerman[tcp.php] start in DEBUG mode
+2019-09-23 16:03:51 pid:13297 Workerman[tcp.php] stopping ...
+2019-09-23 16:03:51 pid:13297 Workerman[tcp.php] has been stopped
+2019-09-23 16:03:52 pid:13320 Workerman[tcp.php] start in DEBUG mode
+2019-09-23 16:14:01 pid:13320 Workerman[tcp.php] stopping ...
+2019-09-23 16:14:01 pid:13320 Workerman[tcp.php] has been stopped
+2019-09-23 16:14:02 pid:13384 Workerman[tcp.php] start in DEBUG mode
+2019-09-23 16:54:29 pid:13384 Workerman[tcp.php] stopping ...
+2019-09-23 16:54:29 pid:13384 Workerman[tcp.php] has been stopped
+2019-09-23 16:54:30 pid:13538 Workerman[tcp.php] start in DEBUG mode
+2019-09-24 23:29:14 pid:13538 Workerman[tcp.php] stopping ...
+2019-09-24 23:29:14 pid:13538 Workerman[tcp.php] has been stopped
+2019-09-24 23:29:15 pid:20989 Workerman[tcp.php] start in DEBUG mode
+2019-09-25 20:22:51 pid:26421 Workerman[tcp.php] status 
+2019-09-25 20:23:10 pid:26425 Workerman[tcp.php] connections 
+2019-09-25 20:23:53 pid:26427 Workerman[tcp.php] stop 
+2019-09-25 20:23:53 pid:26427 Workerman[tcp.php] is stopping ...
+2019-09-25 20:23:53 pid:20989 Workerman[tcp.php] stopping ...
+2019-09-25 20:23:53 pid:20989 Workerman[tcp.php] has been stopped
+2019-09-25 20:23:53 pid:26427 Workerman[tcp.php] stop success
+2019-09-25 20:23:56 pid:26428 Workerman[tcp.php] start in DEBUG mode
+2019-09-25 20:25:55 pid:26428 Workerman[tcp.php] stopping ...
+2019-09-25 20:25:55 pid:26428 Workerman[tcp.php] has been stopped
+2019-09-25 20:25:56 pid:26436 Workerman[tcp.php] start in DEBUG mode
+2019-09-25 20:27:37 pid:26436 Workerman[tcp.php] stopping ...
+2019-09-25 20:27:37 pid:26436 Workerman[tcp.php] has been stopped
+2019-09-25 20:27:38 pid:26444 Workerman[tcp.php] start in DEBUG mode
+2019-09-25 20:28:38 pid:26444 Workerman[tcp.php] stopping ...
+2019-09-25 20:28:39 pid:26444 Workerman[tcp.php] has been stopped
+2019-09-25 20:28:39 pid:26449 Workerman[tcp.php] start in DEBUG mode
+2019-09-25 22:54:37 pid:26449 Workerman[tcp.php] stopping ...
+2019-09-25 22:54:37 pid:26449 Workerman[tcp.php] has been stopped
+2019-09-25 22:54:38 pid:27040 Workerman[tcp.php] start in DEBUG mode

@@ -1,0 +1,9 @@
+laradock
+.idea
+.DS_Store
+.Trash-1000
+lazer/.htaccess
+lazer/uploads
+lazer/vendor/workerman/_var_www_lazer_tcp.php.pid
+lazer/vendor/workerman/_var_www_lazer_web.php.pid
+lazer/xxx
