@@ -1,6 +1,11 @@
 <?php
-    include_once 'connect.php';
+    use Classes\Data;
+    require __DIR__ . '/vendor/autoload.php';
+    include_once "connect.php";
+
    //print_r($_POST);
+
+
     if (!empty($_POST)) {
         $imei = $_POST['imei'] ?? '';
         $user = $_POST['sender'] ?? '';
@@ -29,13 +34,29 @@
                           BETWEEN '$date_start 00:00:00' 
                           AND '$date_end 23:59:59'";
                 $query = mysqli_query($conn, $sql);
-                //echo $sql;
-                while ($row = mysqli_fetch_assoc($query)){
-                    $arr[] = $row;
+//                echo $sql;
+                try {
+                    $data = new Data();
+                    $data->$imei = $imei;
+                    while ($row = mysqli_fetch_assoc($query))
+                    {
+                        $data->setLatlon(
+                            [
+                                (double)$row['latitude'], (double)$row['longitude']
+                            ]
+                        );
+                    }
+                    print_r($data->send_GeoJSON_line());
+                } catch (\Throwable $e) {
+                    echo $e->getMessage();
                 }
-                print_r(json_encode($arr));
+
+
+
         }
     } else {
         echo "Dont recive POST";
     }
+
+
 

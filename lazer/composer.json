@@ -1,9 +1,18 @@
 {
+    "authors": [
+        {
+            "name": "Dmitry Osipenko",
+            "email": "eympel@gmail.com"
+        }
+    ],
     "require": {
         "workerman/workerman": "^3.5",
         "workerman/mysql": "^1.0",
         "ext-json": "*",
         "ext-pdo": "*",
         "ext-mysqli": "*"
+    },
+    "autoload": {
+        "files": ["classes/data.php"]
     }
 }
