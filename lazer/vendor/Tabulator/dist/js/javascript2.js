@@ -1,41 +1,66 @@
-let printIcon = function(cell, formatterParams, onRendered) { //plain text value
-    return "<i class='fa fa-print'></i>";
+function button_send (){ //plain text value
+    return '<input type="button" value="send">';
+};
+function button_clear (){ //plain text value
+    return '<input type="button" value="clear">';
 };
 
-//wrfrwfgwerf
-let dateEditor = function(cell, onRendered, success, cancel, editorParams){
-    //cell - the cell component for the editable cell
-    //onRendered - function to call when the editor has been rendered
-    //success - function to call to pass the successfuly updated value to Tabulator
-    //cancel - function to call to abort the edit and return to a normal cell
-    //editorParams - params object passed into the editorParams column definition property
 
-    //create and style editor
-    var editor = document.createElement("input");
+function dateedit (cell, formatterParams, onRendered) {
 
-    editor.setAttribute("type", "date");
+    let row = cell.getRow();
+    let selector = 'datetimepicker_' + row.getIndex() + '_' + formatterParams;
+    let div = document.createElement("div");
+    div.classList.add(selector);
+    let innerHTML = '<input>';
+    div.insertAdjacentHTML('afterbegin', innerHTML);
+    let div_class = '.'+selector;
+    let $d7input;
+    let cell_value = '';
 
-    //create and style input
-    editor.style.padding = "3px";
-    editor.style.width = "100%";
-    editor.style.boxSizing = "border-box";
-
-    //Set value of editor to the current value of the cell
-    editor.value = cell.getValue();
-    //set focus on the select box when the editor is selected (timeout allows for editor to be added to DOM)
     onRendered(function(){
-        editor.focus();
-        editor.style.css = "100%";
+        let $dropdown;
+        let datatime;
+
+
+        $d7input = $('input', div_class);
+        $d7input.focus(function() {
+                $('.dropdown', div_class).remove();
+                $dropdown = $('<div class="dropdown"/>').appendTo(div_class);
+                
+                        $dropdown.datetimepicker({
+                            date: $d7input.data('value') || new Date(),
+                            firstDayOfWeek: 1,
+                            viewMode: 'YMDHMS',
+                            onDateChange: function(){
+                                // debugger;
+                                $d7input.val(this.getText('YYYY-MM-DD HH:mm'));
+                                // datatime = this.getValue();
+                                $d7input.data('value', this.getValue());
+
+                                // $dropdown.remove();
+                            },
+                            onOk: function () {
+                                // $d7input.val(this.getText('YYYY-MM-DD HH:mm'));
+                                // $d7input.data('value', this.getValue());
+                                // $dropdown.remove();
+                                cell_value = this.getText('YYYY-MM-DD HH:mm');
+                                // cell.setValue(cell_value);
+                                // console.log(cell);
+                                this.destroy();
+                            },
+                            onClose: function () {
+                                console.log(this);
+                            }
+                        })
+
+            });
+
+        // $d7input.focusout(function () {
+        //     $('.dropdown', div_class).remove();
+        // })
     });
+    // div.insertAdjacentText('afterbegin', cell_value);
 
-    //when the value has been set, trigger the cell to update
-    function successFunc(){
-        success(editor.value);
-    }
-
-    editor.addEventListener("change", successFunc);
-    editor.addEventListener("blur", successFunc);
-
-    //return the editor element
-    return editor;
+    return div;
 };

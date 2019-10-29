@@ -1,0 +1,1108 @@
+worker->id=0
+New connection tcp 
+1 - connection id 
+web - connection uid (login) 
+New connection tcp 
+2 - connection id 
+869323041094604 - connection uid (login) 
+imei: 869323041094604. Данные об устройсве записаны в БД 
+imei: 869323041094604. Координаты записаны в БД 
+New connection tcp 
+3 - connection id 
+dima - connection uid (login) 
+Неправильный формат данных или данные не пришли. Data: fdegdetg
+
+imei: 869323041094604. Координаты записаны в БД 
+imei: 869323041094604. Координаты записаны в БД 
+Неправильный формат данных или данные не пришли. Data: sdefgdsgf
+
+Неправильный формат данных или данные не пришли. Data: rfrfrfr
+
+Неправильный формат данных или данные не пришли. Data: rfwrfgawerrf
+
+New connection tcp 
+4 - connection id 
+vano - connection uid (login) 
+imei: 869323041094604. Координаты записаны в БД 
+Неправильный формат данных или данные не пришли. Data: wrgtetgertg
+
+Неправильный формат данных или данные не пришли. Data: ergergse
+
+imei: 869323041094604. Координаты записаны в БД 
+connections web closed
+
+connections 869323041094604 closed
+
+connections dima closed
+
+connections vano closed
+
+2019-10-23 12:51:47 - Receive IMEI: 356191100888467. 192.168.100.203
+2019-10-23 12:51:47 - ok. 192.168.100.203
+2019-10-23 13:00:29 - Receive IMEI: 356191100888467. 192.168.100.203
+2019-10-23 13:00:29 - ok. 192.168.100.203
+2019-10-23 13:05:29 - Receive IMEI: 355731094301364. 192.168.100.203
+2019-10-23 13:05:29 - not wr. 192.168.100.203
+2019-10-23 13:09:35 - Receive IMEI: 355731094301364. 192.168.100.203
+2019-10-23 13:09:35 - ok. 192.168.100.203
+2019-10-23 13:17:13 - Receive IMEI: 355731094301364. 192.168.100.203
+2019-10-23 13:17:13 - not wr. 192.168.100.203
+2019-10-23 13:39:41 - Receive IMEI: 355731094301364. 192.168.100.203
+2019-10-23 13:39:41 - not wr. 192.168.100.203
+2019-10-23 13:40:42 - Receive IMEI: 356191100888467. 192.168.100.203
+2019-10-23 13:40:42 - ok. 192.168.100.203
+2019-10-23 13:43:16 - Receive IMEI: 355731094301364. 192.168.100.203
+2019-10-23 13:43:16 - not wr. 192.168.100.203
+2019-10-23 13:58:24 - Receive IMEI: 355731094301364. 192.168.100.203
+2019-10-23 13:58:24 - not wr. 192.168.100.203
+2019-10-23 14:11:29 - Receive IMEI: 355731094301364. 192.168.100.203
+2019-10-23 14:11:29 - not wr. 192.168.100.203
+2019-10-23 14:14:42 - Receive IMEI: 355731094301364. 192.168.100.203
+2019-10-23 14:14:42 - not wr. 192.168.100.203
+2019-10-23 14:45:09 - Receive IMEI: 869323041094604. 192.168.100.203
+2019-10-23 14:45:09 - data is write in DB. 192.168.100.203
+2019-10-23 14:45:09 - file saved. 192.168.100.203
+2019-10-23 15:14:03 - Receive IMEI: 869323041094604. 192.168.100.203
+2019-10-23 15:14:03 - data is write in DB. 192.168.100.203
+2019-10-23 15:14:03 - file saved. 192.168.100.203
+2019-10-23 15:15:31 - Receive IMEI: 869323041094604. 192.168.100.203
+2019-10-23 15:15:31 - data is write in DB. 192.168.100.203
+2019-10-23 15:15:31 - file saved. 192.168.100.203
+2019-10-23 15:19:21 - Receive IMEI: 869323041094604. 192.168.100.203
+2019-10-23 15:19:21 - data is write in DB. 192.168.100.203
+2019-10-23 15:19:21 - file saved. 192.168.100.203
+2019-10-23 15:25:26 - Receive IMEI: 869323041094604. 192.168.100.203
+2019-10-23 15:25:26 - data is write in DB. 192.168.100.203
+2019-10-23 15:25:26 - file saved. 192.168.100.203
+2019-10-23 15:28:51 - Receive IMEI: 869323041094604. 192.168.100.203
+2019-10-23 15:28:51 - data is write in DB. 192.168.100.203
+2019-10-23 15:28:51 - file saved. 192.168.100.203
+2019-10-23 15:32:09 - Receive IMEI: 869323041094604. 192.168.100.203
+2019-10-23 15:32:09 - data is write in DB. 192.168.100.203
+2019-10-23 15:32:09 - file saved. 192.168.100.203
+2019-10-23 15:33:57 - Receive IMEI: 869323041094604. 192.168.100.203
+2019-10-23 15:33:57 - data is write in DB. 192.168.100.203
+2019-10-23 15:33:57 - file saved. 192.168.100.203
+2019-10-23 15:42:14 - Receive IMEI: 869323041094604. 192.168.100.203
+2019-10-23 15:42:14 - data is write in DB. 192.168.100.203
+2019-10-23 15:42:14 - file saved. 192.168.100.203
+2019-10-23 15:46:20 - Receive IMEI: 355731094301364. 192.168.100.203
+2019-10-23 15:46:20 - NOT write in DB. 192.168.100.203
+2019-10-23 15:47:12 - Receive IMEI: 869323041094604. 192.168.100.203
+2019-10-23 15:47:12 - data is write in DB. 192.168.100.203
+2019-10-23 15:47:12 - file saved. 192.168.100.203
+2019-10-23 15:47:14 - Receive IMEI: 869323041094604. 192.168.100.203
+2019-10-23 15:47:14 - data is write in DB. 192.168.100.203
+2019-10-23 15:47:14 - file saved. 192.168.100.203
+2019-10-23 15:52:08 - Receive IMEI: 355731094301364. 192.168.100.203
+2019-10-23 15:52:08 - NOT write in DB. 192.168.100.203
+2019-10-23 15:57:49 - Receive IMEI: 869323041094604. 192.168.100.203
+2019-10-23 15:57:49 - data is write in DB. 192.168.100.203
+2019-10-23 15:57:49 - file saved. 192.168.100.203
+2019-10-23 16:09:49 - Receive IMEI: 869323041094604. Data is write in DB
+2019-10-23 16:09:49 - file saved
+2019-10-23 16:09:49 - {"imei":"869323041094604"}
+2019-10-23 16:26:00 - Receive IMEI: 869323041094604. Data is write in DB
+2019-10-23 16:26:00 - file saved
+2019-10-23 16:26:00 - {"imei":"869323041094604"}
+2019-10-23 16:26:01 - Receive IMEI: 869323041094604. Data is write in DB
+2019-10-23 16:26:01 - file saved
+2019-10-23 16:26:01 - {"imei":"869323041094604"}
+2019-10-23 16:30:15 - Receive IMEI: 869323041094604. Data is write in DB
+2019-10-23 16:30:15 - file saved
+2019-10-23 16:30:15 - {"imei":"869323041094604"} - {"uploadedfile":{"name":"2019-10-23_19:28:30.wav","type":"audio","tmp_name":"\/tmp\/phpEthd8B","error":0,"size":111769}}
+2019-10-23 16:43:13 - Receive IMEI: 869323041094604. Data is write in DB
+2019-10-23 16:43:13 - file saved
+2019-10-23 16:43:13 - {"imei":"869323041094604"} - {"uploadedfile":{"name":"2019-10-23_19:42:02.wav","type":"audio","tmp_name":"\/tmp\/phpcSvsa6","error":0,"size":111769}}
+2019-10-23 16:52:43 - Receive IMEI: 869323041094604. Data is write in DB
+2019-10-23 16:52:43 - file saved
+2019-10-23 16:52:43 - {"imei":"869323041094604"} - {"uploadedfile":{"name":"2019-10-23_19:51:27.wav","type":"audio","tmp_name":"\/tmp\/php9SCtac","error":0,"size":111805}}
+2019-10-23 16:54:29 - Receive IMEI: 869323041094604. Data is write in DB
+2019-10-23 16:54:29 - file saved
+2019-10-23 16:54:29 - {"imei":"869323041094604"} - {"uploadedfile":{"name":"2019-10-23_19:53:18.wav","type":"audio","tmp_name":"\/tmp\/phpSrHsWm","error":0,"size":111805}}
+2019-10-23 17:24:14 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-23 17:24:14 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-23 17:54:42 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-23 17:54:42 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-23 19:09:48 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-23 19:09:48 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_2019-10-23_22:05:39.wav', '')
+2019-10-23 19:09:48 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-23 19:09:48 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"2019-10-23_22:05:39.wav","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-23 19:09:49 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-23 19:09:49 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_2019-10-23_22:07:13.wav', '')
+2019-10-23 19:09:49 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-23 19:09:49 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"2019-10-23_22:07:13.wav","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-23 19:14:44 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-23 19:14:44 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_2019-10-23_22:11:43.wav', '')
+2019-10-23 19:14:44 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-23 19:14:44 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"2019-10-23_22:11:43.wav","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-23 20:00:45 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-23 20:00:45 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_2019-10-23_22:58:49.wav', '')
+2019-10-23 20:00:45 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-23 20:00:45 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"2019-10-23_22:58:49.wav","type":"","tmp_name":"","error":3,"size":0}}
+
+2019-10-23 20:13:37 - SELECT id FROM otm WHERE imei = '869323041094604'
+2019-10-23 20:13:37 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('8', 'y2pckL_2019-10-23_23:10:12.wav', 'audio')
+2019-10-23 20:13:37 - Receive IMEI: 869323041094604. Data is write in DB
+2019-10-23 20:13:37 - file saved
+2019-10-23 20:13:37 - {"imei":"869323041094604"} - {"uploadedfile":{"name":"2019-10-23_23:10:12.wav","type":"audio","tmp_name":"\/tmp\/phpy2pckL","error":0,"size":111769}}
+
+2019-10-23 20:18:03 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-23 20:18:03 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_2019-10-23_23:14:43.wav', '')
+2019-10-23 20:18:03 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-23 20:18:03 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"2019-10-23_23:14:43.wav","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-23 21:18:43 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-23 21:18:43 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-23 21:18:43 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-23 21:18:43 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-23 21:47:14 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-23 21:47:14 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-23 21:47:14 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-23 21:47:14 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-24 00:49:54 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-24 00:49:54 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-24 00:49:54 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-24 00:49:54 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-24 02:16:12 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-24 02:16:12 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-24 02:16:12 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-24 02:16:12 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-24 02:53:48 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-24 02:53:48 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', 'iyD9Os_1.txt', 'text')
+2019-10-24 02:53:48 - Receive IMEI: 355731094301364. Data is write in DB
+2019-10-24 02:53:48 - file saved
+2019-10-24 02:53:48 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"text","tmp_name":"\/tmp\/phpiyD9Os","error":0,"size":90}}
+2019-10-24 06:13:49 - SELECT id FROM otm WHERE imei = '356191100888467'
+2019-10-24 06:13:49 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('10', 'PISS40_1.txt', 'text')
+2019-10-24 06:13:49 - Receive IMEI: 356191100888467. Data is write in DB
+2019-10-24 06:13:49 - file saved
+2019-10-24 06:13:49 - {"imei":"356191100888467"} - {"uploadedfile":{"name":"1.txt","type":"text","tmp_name":"\/tmp\/phpPISS40","error":0,"size":45}}
+2019-10-24 06:17:47 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-24 06:17:47 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-24 06:17:47 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-24 06:17:47 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-24 06:18:55 - SELECT id FROM otm WHERE imei = '356191100888467'
+2019-10-24 06:18:55 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('10', '6fvK4p_1.txt', 'text')
+2019-10-24 06:18:55 - Receive IMEI: 356191100888467. Data is write in DB
+2019-10-24 06:18:55 - file saved
+2019-10-24 06:18:55 - {"imei":"356191100888467"} - {"uploadedfile":{"name":"1.txt","type":"text","tmp_name":"\/tmp\/php6fvK4p","error":0,"size":45}}
+2019-10-24 06:26:53 - SELECT id FROM otm WHERE imei = '356191100888467'
+2019-10-24 06:26:53 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('10', 'kPyhDs_2019-10-24_09:25:41.wav', 'audio')
+2019-10-24 06:26:53 - Receive IMEI: 356191100888467. Data is write in DB
+2019-10-24 06:26:53 - file saved
+2019-10-24 06:26:53 - {"imei":"356191100888467"} - {"uploadedfile":{"name":"2019-10-24_09:25:41.wav","type":"audio","tmp_name":"\/tmp\/phpkPyhDs","error":0,"size":96546}}
+2019-10-24 06:26:55 - SELECT id FROM otm WHERE imei = '356191100888467'
+2019-10-24 06:26:55 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('10', 'G073QU_2019-10-24_09:23:41.wav', 'audio')
+2019-10-24 06:26:55 - Receive IMEI: 356191100888467. Data is write in DB
+2019-10-24 06:26:55 - file saved
+2019-10-24 06:26:55 - {"imei":"356191100888467"} - {"uploadedfile":{"name":"2019-10-24_09:23:41.wav","type":"audio","tmp_name":"\/tmp\/phpG073QU","error":0,"size":96546}}
+2019-10-24 06:49:26 - SELECT id FROM otm WHERE imei = '356191100888467'
+2019-10-24 06:49:26 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('10', 'C1G1AS_1.txt', 'text')
+2019-10-24 06:49:26 - Receive IMEI: 356191100888467. Data is write in DB
+2019-10-24 06:49:26 - file saved
+2019-10-24 06:49:26 - {"imei":"356191100888467"} - {"uploadedfile":{"name":"1.txt","type":"text","tmp_name":"\/tmp\/phpC1G1AS","error":0,"size":45}}
+2019-10-24 07:07:59 - SELECT id FROM otm WHERE imei = '356191100888467'
+2019-10-24 07:07:59 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('10', '5FJ09v_2019-10-24_10:06:25.wav', 'audio')
+2019-10-24 07:07:59 - Receive IMEI: 356191100888467. Data is write in DB
+2019-10-24 07:07:59 - file saved
+2019-10-24 07:07:59 - {"imei":"356191100888467"} - {"uploadedfile":{"name":"2019-10-24_10:06:25.wav","type":"audio","tmp_name":"\/tmp\/php5FJ09v","error":0,"size":96546}}
+2019-10-24 07:18:08 - SELECT id FROM otm WHERE imei = '356191100888467'
+2019-10-24 07:18:08 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('10', 'aywSrl_2019-10-24_10:16:01.wav', 'audio')
+2019-10-24 07:18:08 - Receive IMEI: 356191100888467. Data is write in DB
+2019-10-24 07:18:08 - file saved
+2019-10-24 07:18:08 - {"imei":"356191100888467"} - {"uploadedfile":{"name":"2019-10-24_10:16:01.wav","type":"audio","tmp_name":"\/tmp\/phpaywSrl","error":0,"size":96546}}
+2019-10-24 08:29:40 - SELECT id FROM otm WHERE imei = '356191100888467'
+2019-10-24 08:29:40 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('10', '_1.txt', '')
+2019-10-24 08:29:40 - Receive IMEI: 356191100888467. NOT write in DB
+2019-10-24 08:29:40 - {"imei":"356191100888467"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-24 08:32:00 - SELECT id FROM otm WHERE imei = '356191100888467'
+2019-10-24 08:32:00 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('10', 'aXIiED_2019-10-24_11:30:26.wav', 'audio')
+2019-10-24 08:32:00 - Receive IMEI: 356191100888467. Data is write in DB
+2019-10-24 08:32:00 - file saved
+2019-10-24 08:32:00 - {"imei":"356191100888467"} - {"uploadedfile":{"name":"2019-10-24_11:30:26.wav","type":"audio","tmp_name":"\/tmp\/phpaXIiED","error":0,"size":96546}}
+2019-10-24 08:40:34 - SELECT id FROM otm WHERE imei = '356191100888467'
+2019-10-24 08:40:34 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('10', 'mICFBK_2019-10-24_11:37:01.wav', 'audio')
+2019-10-24 08:40:34 - Receive IMEI: 356191100888467. Data is write in DB
+2019-10-24 08:40:34 - file saved
+2019-10-24 08:40:34 - {"imei":"356191100888467"} - {"uploadedfile":{"name":"2019-10-24_11:37:01.wav","type":"audio","tmp_name":"\/tmp\/phpmICFBK","error":0,"size":96546}}
+2019-10-24 08:44:09 - SELECT id FROM otm WHERE imei = '356191100888467'
+2019-10-24 08:44:09 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('10', 'lNh0Mm_2019-10-24_11:43:34.wav', 'audio')
+2019-10-24 08:44:09 - Receive IMEI: 356191100888467. Data is write in DB
+2019-10-24 08:44:09 - file saved
+2019-10-24 08:44:09 - {"imei":"356191100888467"} - {"uploadedfile":{"name":"2019-10-24_11:43:34.wav","type":"audio","tmp_name":"\/tmp\/phplNh0Mm","error":0,"size":69728}}
+2019-10-24 08:55:29 - SELECT id FROM otm WHERE imei = '356191100888467'
+2019-10-24 08:55:29 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('10', 'kGOkum_2019-10-24_11:54:18.wav', 'audio')
+2019-10-24 08:55:29 - Receive IMEI: 356191100888467. Data is write in DB
+2019-10-24 08:55:29 - file saved
+2019-10-24 08:55:29 - {"imei":"356191100888467"} - {"uploadedfile":{"name":"2019-10-24_11:54:18.wav","type":"audio","tmp_name":"\/tmp\/phpkGOkum","error":0,"size":96546}}
+2019-10-24 09:01:33 - SELECT id FROM otm WHERE imei = '356191100888467'
+2019-10-24 09:01:33 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('10', 'Y2UuGM_2019-10-24_12:00:34.wav', 'audio')
+2019-10-24 09:01:33 - Receive IMEI: 356191100888467. Data is write in DB
+2019-10-24 09:01:33 - file saved
+2019-10-24 09:01:33 - {"imei":"356191100888467"} - {"uploadedfile":{"name":"2019-10-24_12:00:34.wav","type":"audio","tmp_name":"\/tmp\/phpY2UuGM","error":0,"size":96546}}
+2019-10-24 09:06:25 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-24 09:06:25 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-24 09:06:25 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-24 09:06:25 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-24 09:09:13 - SELECT id FROM otm WHERE imei = '356191100888467'
+2019-10-24 09:09:13 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('10', '1mubsm_2019-10-24_12:05:26.wav', 'audio')
+2019-10-24 09:09:13 - Receive IMEI: 356191100888467. Data is write in DB
+2019-10-24 09:09:13 - file saved
+2019-10-24 09:09:13 - {"imei":"356191100888467"} - {"uploadedfile":{"name":"2019-10-24_12:05:26.wav","type":"audio","tmp_name":"\/tmp\/php1mubsm","error":0,"size":96546}}
+2019-10-24 09:09:15 - SELECT id FROM otm WHERE imei = '356191100888467'
+2019-10-24 09:09:15 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('10', 'cVKuNF_2019-10-24_12:07:22.wav', 'audio')
+2019-10-24 09:09:15 - Receive IMEI: 356191100888467. Data is write in DB
+2019-10-24 09:09:15 - file saved
+2019-10-24 09:09:15 - {"imei":"356191100888467"} - {"uploadedfile":{"name":"2019-10-24_12:07:22.wav","type":"audio","tmp_name":"\/tmp\/phpcVKuNF","error":0,"size":96546}}
+2019-10-24 09:10:15 - SELECT id FROM otm WHERE imei = '356191100888467'
+2019-10-24 09:10:15 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('10', 'CYCvi6_20191024_121011.jpg', 'image')
+2019-10-24 09:10:15 - Receive IMEI: 356191100888467. Data is write in DB
+2019-10-24 09:10:15 - file saved
+2019-10-24 09:10:15 - {"imei":"356191100888467"} - {"uploadedfile":{"name":"20191024_121011.jpg","type":"image","tmp_name":"\/tmp\/phpCYCvi6","error":0,"size":3649673}}
+2019-10-24 09:22:34 - SELECT id FROM otm WHERE imei = '356191100888467'
+2019-10-24 09:22:34 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('10', 'gAHIpo_2019-10-24_12:21:40.wav', 'audio')
+2019-10-24 09:22:34 - Receive IMEI: 356191100888467. Data is write in DB
+2019-10-24 09:22:34 - file saved
+2019-10-24 09:22:34 - {"imei":"356191100888467"} - {"uploadedfile":{"name":"2019-10-24_12:21:40.wav","type":"audio","tmp_name":"\/tmp\/phpgAHIpo","error":0,"size":96546}}
+2019-10-24 09:54:19 - SELECT id FROM otm WHERE imei = '356191100888467'
+2019-10-24 09:54:19 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('10', 'ox7vb1_1.txt', 'text')
+2019-10-24 09:54:19 - Receive IMEI: 356191100888467. Data is write in DB
+2019-10-24 09:54:19 - file saved
+2019-10-24 09:54:19 - {"imei":"356191100888467"} - {"uploadedfile":{"name":"1.txt","type":"text","tmp_name":"\/tmp\/phpox7vb1","error":0,"size":1032}}
+2019-10-24 10:06:43 - SELECT id FROM otm WHERE imei = '356191100888467'
+2019-10-24 10:06:43 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('10', '5iTxVR_1.txt', 'text')
+2019-10-24 10:06:43 - Receive IMEI: 356191100888467. Data is write in DB
+2019-10-24 10:06:43 - file saved
+2019-10-24 10:06:43 - {"imei":"356191100888467"} - {"uploadedfile":{"name":"1.txt","type":"text","tmp_name":"\/tmp\/php5iTxVR","error":0,"size":81}}
+2019-10-24 10:09:47 - SELECT id FROM otm WHERE imei = '356191100888467'
+2019-10-24 10:09:47 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('10', 'GCQl1e_1.txt', 'text')
+2019-10-24 10:09:47 - Receive IMEI: 356191100888467. Data is write in DB
+2019-10-24 10:09:47 - file saved
+2019-10-24 10:09:47 - {"imei":"356191100888467"} - {"uploadedfile":{"name":"1.txt","type":"text","tmp_name":"\/tmp\/phpGCQl1e","error":0,"size":45}}
+2019-10-24 10:11:44 - SELECT id FROM otm WHERE imei = '356191100888467'
+2019-10-24 10:11:44 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('10', '6TGKsc_1.txt', 'text')
+2019-10-24 10:11:44 - Receive IMEI: 356191100888467. Data is write in DB
+2019-10-24 10:11:44 - file saved
+2019-10-24 10:11:44 - {"imei":"356191100888467"} - {"uploadedfile":{"name":"1.txt","type":"text","tmp_name":"\/tmp\/php6TGKsc","error":0,"size":45}}
+2019-10-24 10:49:28 - SELECT id FROM otm WHERE imei = '869323041094604'
+2019-10-24 10:49:28 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('8', 'ppVJO3_2019-10-24_13:49:10.wav', 'audio')
+2019-10-24 10:49:28 - Receive IMEI: 869323041094604. Data is write in DB
+2019-10-24 10:49:28 - file saved
+2019-10-24 10:49:28 - {"imei":"869323041094604"} - {"uploadedfile":{"name":"2019-10-24_13:49:10.wav","type":"audio","tmp_name":"\/tmp\/phpppVJO3","error":0,"size":46775}}
+2019-10-24 10:50:39 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-24 10:50:39 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-24 10:50:39 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-24 10:50:39 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-24 10:51:18 - SELECT id FROM otm WHERE imei = '869323041094604'
+2019-10-24 10:51:18 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('8', 'wowNBN_2019-10-24_13:50:25.wav', 'audio')
+2019-10-24 10:51:18 - Receive IMEI: 869323041094604. Data is write in DB
+2019-10-24 10:51:18 - file saved
+2019-10-24 10:51:18 - {"imei":"869323041094604"} - {"uploadedfile":{"name":"2019-10-24_13:50:25.wav","type":"audio","tmp_name":"\/tmp\/phpwowNBN","error":0,"size":111769}}
+2019-10-24 10:54:19 - SELECT id FROM otm WHERE imei = '869323041094604'
+2019-10-24 10:54:19 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('8', 'o5MYME_1.txt', 'text')
+2019-10-24 10:54:19 - Receive IMEI: 869323041094604. Data is write in DB
+2019-10-24 10:54:19 - file saved
+2019-10-24 10:54:19 - {"imei":"869323041094604"} - {"uploadedfile":{"name":"1.txt","type":"text","tmp_name":"\/tmp\/phpo5MYME","error":0,"size":45}}
+2019-10-24 11:33:30 - SELECT id FROM otm WHERE imei = '869323041094604'
+2019-10-24 11:33:30 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('8', '_2019-10-24_13:55:43.wav', '')
+2019-10-24 11:33:30 - Receive IMEI: 869323041094604. NOT write in DB
+2019-10-24 11:33:30 - {"imei":"869323041094604"} - {"uploadedfile":{"name":"2019-10-24_13:55:43.wav","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-24 11:44:40 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-24 11:44:40 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_2019-10-24_14:03:39.wav', '')
+2019-10-24 11:44:40 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-24 11:44:40 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"2019-10-24_14:03:39.wav","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-24 11:57:33 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-24 11:57:33 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_2019-10-24_14:53:42.wav', '')
+2019-10-24 11:57:33 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-24 11:57:33 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"2019-10-24_14:53:42.wav","type":"","tmp_name":"","error":3,"size":0}} - 3
+2019-10-24 12:04:50 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-24 12:04:50 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_2019-10-24_15:02:37.wav', '')
+2019-10-24 12:04:50 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-24 12:04:50 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"2019-10-24_15:02:37.wav","type":"","tmp_name":"","error":3,"size":0}} - 3
+2019-10-24 12:21:37 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-24 12:21:37 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-24 12:21:37 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-24 12:21:37 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}} - 3
+2019-10-24 12:40:59 - SELECT id FROM otm WHERE imei = '869323041094604'
+2019-10-24 12:40:59 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('8', 'SMgLLK_1.txt', 'text')
+2019-10-24 12:40:59 - Receive IMEI: 869323041094604. Data is write in DB
+2019-10-24 12:40:59 - file saved
+2019-10-24 12:40:59 - {"imei":"869323041094604"} - {"uploadedfile":{"name":"1.txt","type":"text","tmp_name":"\/tmp\/phpSMgLLK","error":0,"size":45}} - 0
+2019-10-24 12:42:43 - SELECT id FROM otm WHERE imei = '869323041094604'
+2019-10-24 12:42:43 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('8', 'BeuNc8_2019-10-24_15:41:49.wav', 'audio')
+2019-10-24 12:42:43 - Receive IMEI: 869323041094604. Data is write in DB
+2019-10-24 12:42:43 - file saved
+2019-10-24 12:42:43 - {"imei":"869323041094604"} - {"uploadedfile":{"name":"2019-10-24_15:41:49.wav","type":"audio","tmp_name":"\/tmp\/phpBeuNc8","error":0,"size":111769}} - 0
+2019-10-24 12:43:16 - SELECT id FROM otm WHERE imei = '869323041094604'
+2019-10-24 12:43:16 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('8', 'UOfgWs_2019-10-24_14:34:26.wav', 'audio')
+2019-10-24 12:43:16 - Receive IMEI: 869323041094604. Data is write in DB
+2019-10-24 12:43:16 - file saved
+2019-10-24 12:43:16 - {"imei":"869323041094604"} - {"uploadedfile":{"name":"2019-10-24_14:34:26.wav","type":"audio","tmp_name":"\/tmp\/phpUOfgWs","error":0,"size":111769}} - 0
+2019-10-24 12:54:22 - SELECT id FROM otm WHERE imei = '869323041094604'
+2019-10-24 12:54:22 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('8', 'oez88y_2019-10-24_15:53:30.wav', 'audio')
+2019-10-24 12:54:22 - Receive IMEI: 869323041094604. Data is write in DB
+2019-10-24 12:54:22 - file saved
+2019-10-24 12:54:22 - {"imei":"869323041094604"} - {"uploadedfile":{"name":"2019-10-24_15:53:30.wav","type":"audio","tmp_name":"\/tmp\/phpoez88y","error":0,"size":111769}}
+2019-10-24 13:04:51 - SELECT id FROM otm WHERE imei = '869323041094604'
+2019-10-24 13:04:51 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('8', 'i6Q4rj_2019-10-24_16:03:56.wav', 'audio')
+2019-10-24 13:04:51 - Receive IMEI: 869323041094604. Data is write in DB
+2019-10-24 13:04:51 - file saved
+2019-10-24 13:04:51 - {"imei":"869323041094604"} - {"uploadedfile":{"name":"2019-10-24_16:03:56.wav","type":"audio","tmp_name":"\/tmp\/phpi6Q4rj","error":0,"size":111769}}
+2019-10-24 14:12:21 - SELECT id FROM otm WHERE imei = '869323041094604'
+2019-10-24 14:12:21 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('8', '4Gzyn1_1.txt', 'text')
+2019-10-24 14:12:21 - Receive IMEI: 869323041094604. Data is write in DB
+2019-10-24 14:12:21 - file saved
+2019-10-24 14:12:21 - {"imei":"869323041094604"} - {"uploadedfile":{"name":"1.txt","type":"text","tmp_name":"\/tmp\/php4Gzyn1","error":0,"size":45}}
+2019-10-24 14:49:01 - SELECT id FROM otm WHERE imei = '869323041094604'
+2019-10-24 14:49:01 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('8', 'fbScH2_2019-10-24_17:45:38.wav', 'audio')
+2019-10-24 14:49:01 - Receive IMEI: 869323041094604. Data is write in DB
+2019-10-24 14:49:01 - file saved
+2019-10-24 14:49:01 - {"imei":"869323041094604"} - {"uploadedfile":{"name":"2019-10-24_17:45:38.wav","type":"audio","tmp_name":"\/tmp\/phpfbScH2","error":0,"size":111769}}
+2019-10-24 14:49:39 - POST does not received
+2019-10-24 14:51:30 - POST does not received
+2019-10-24 14:51:55 - POST does not received
+2019-10-24 14:55:57 - POST does not received
+2019-10-24 14:57:27 - Error: Undefined index: imei. Line: 36
+2019-10-24 15:01:26 - Error: Undefined index: uploadedfile. Line: 38
+2019-10-24 15:03:47 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-24 15:03:47 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', 'MRClaB_t_5206243014137087241.ogg', 'audio/ogg')
+2019-10-24 15:03:47 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-24 15:03:47 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"t_5206243014137087241.ogg","type":"audio\/ogg","tmp_name":"\/tmp\/phpMRClaB","error":0,"size":2431}}
+2019-10-24 15:45:51 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-24 15:45:51 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_2019-10-24_18:39:56.wav', '')
+2019-10-24 15:45:51 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-24 15:45:51 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"2019-10-24_18:39:56.wav","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-24 15:45:52 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-24 15:45:52 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', 'G7Nrh8_2019-10-24_18:43:22.wav', 'audio')
+2019-10-24 15:45:52 - Receive IMEI: 355731094301364. Data is write in DB
+2019-10-24 15:45:52 - file saved
+2019-10-24 15:45:52 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"2019-10-24_18:43:22.wav","type":"audio","tmp_name":"\/tmp\/phpG7Nrh8","error":0,"size":96162}}
+2019-10-24 15:50:15 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-24 15:50:15 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_2019-10-24_18:48:03.wav', '')
+2019-10-24 15:50:15 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-24 15:50:15 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"2019-10-24_18:48:03.wav","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-24 15:54:20 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-24 15:54:20 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_2019-10-24_18:52:04.wav', '')
+2019-10-24 15:54:20 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-24 15:54:20 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"2019-10-24_18:52:04.wav","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-24 15:58:06 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-24 15:58:06 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '1mqvLp_1.txt', 'text')
+2019-10-24 15:58:06 - Receive IMEI: 355731094301364. Data is write in DB
+2019-10-24 15:58:06 - file saved
+2019-10-24 15:58:06 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"text","tmp_name":"\/tmp\/php1mqvLp","error":0,"size":45}}
+2019-10-24 16:00:02 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-24 16:00:02 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '6FOA7M_2019-10-24_18:59:11.wav', 'audio')
+2019-10-24 16:00:02 - Receive IMEI: 355731094301364. Data is write in DB
+2019-10-24 16:00:02 - file saved
+2019-10-24 16:00:02 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"2019-10-24_18:59:11.wav","type":"audio","tmp_name":"\/tmp\/php6FOA7M","error":0,"size":96098}}
+2019-10-24 17:49:03 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-24 17:49:03 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-24 17:49:03 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-24 17:49:03 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-24 17:52:54 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-24 17:52:54 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '2bjyHN_2019-10-24_20:50:55.wav', 'audio')
+2019-10-24 17:52:54 - Receive IMEI: 355731094301364. Data is write in DB
+2019-10-24 17:52:54 - file saved
+2019-10-24 17:52:54 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"2019-10-24_20:50:55.wav","type":"audio","tmp_name":"\/tmp\/php2bjyHN","error":0,"size":96130}}
+2019-10-24 17:54:54 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-24 17:54:54 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', 'G5GT7s_2019-10-24_20:53:49.wav', 'audio')
+2019-10-24 17:54:54 - Receive IMEI: 355731094301364. Data is write in DB
+2019-10-24 17:54:54 - file saved
+2019-10-24 17:54:54 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"2019-10-24_20:53:49.wav","type":"audio","tmp_name":"\/tmp\/phpG5GT7s","error":0,"size":96034}}
+2019-10-24 17:58:00 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-24 17:58:00 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '2mzpCN_2019-10-24_20:55:51.wav', 'audio')
+2019-10-24 17:58:00 - Receive IMEI: 355731094301364. Data is write in DB
+2019-10-24 17:58:00 - file saved
+2019-10-24 17:58:00 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"2019-10-24_20:55:51.wav","type":"audio","tmp_name":"\/tmp\/php2mzpCN","error":0,"size":96130}}
+2019-10-24 17:59:38 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-24 17:59:38 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_2019-10-24_20:58:45.wav', '')
+2019-10-24 17:59:38 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-24 17:59:38 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"2019-10-24_20:58:45.wav","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-24 18:03:43 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-24 18:03:43 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_2019-10-24_21:02:33.wav', '')
+2019-10-24 18:03:43 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-24 18:03:43 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"2019-10-24_21:02:33.wav","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-24 18:07:25 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-24 18:07:25 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '9DRQnU_1.txt', 'text')
+2019-10-24 18:07:25 - Receive IMEI: 355731094301364. Data is write in DB
+2019-10-24 18:07:25 - file saved
+2019-10-24 18:07:25 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"text","tmp_name":"\/tmp\/php9DRQnU","error":0,"size":45}}
+2019-10-24 18:21:43 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-24 18:21:43 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_2019-10-24_21:18:36.wav', '')
+2019-10-24 18:21:43 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-24 18:21:43 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"2019-10-24_21:18:36.wav","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-24 19:12:20 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-24 19:12:20 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-24 19:12:20 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-24 19:12:20 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-24 20:07:46 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-24 20:07:46 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', 'AgXawl_1.txt', 'text')
+2019-10-24 20:07:46 - Receive IMEI: 355731094301364. Data is write in DB
+2019-10-24 20:07:46 - file saved
+2019-10-24 20:07:46 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"text","tmp_name":"\/tmp\/phpAgXawl","error":0,"size":45}}
+2019-10-24 20:44:25 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-24 20:44:25 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-24 20:44:25 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-24 20:44:25 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-24 21:49:59 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-24 21:49:59 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-24 21:49:59 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-24 21:49:59 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-24 22:31:59 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-24 22:31:59 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-24 22:31:59 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-24 22:31:59 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-25 02:15:20 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-25 02:15:20 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', 'tdeS4v_1.txt', 'text')
+2019-10-25 02:15:20 - Receive IMEI: 355731094301364. Data is write in DB
+2019-10-25 02:15:20 - file saved
+2019-10-25 02:15:20 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"text","tmp_name":"\/tmp\/phptdeS4v","error":0,"size":270}}
+2019-10-25 03:56:05 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-25 03:56:05 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-25 03:56:05 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-25 03:56:05 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-25 04:25:11 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-25 04:25:11 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '9p9jbn_2019-10-25_07:20:53.wav', 'audio')
+2019-10-25 04:25:11 - Receive IMEI: 355731094301364. Data is write in DB
+2019-10-25 04:25:11 - file saved
+2019-10-25 04:25:11 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"2019-10-25_07:20:53.wav","type":"audio","tmp_name":"\/tmp\/php9p9jbn","error":0,"size":96130}}
+2019-10-25 04:28:19 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-25 04:28:19 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', 'qkVbnS_2019-10-25_07:25:46.wav', 'audio')
+2019-10-25 04:28:19 - Receive IMEI: 355731094301364. Data is write in DB
+2019-10-25 04:28:19 - file saved
+2019-10-25 04:28:19 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"2019-10-25_07:25:46.wav","type":"audio","tmp_name":"\/tmp\/phpqkVbnS","error":0,"size":96098}}
+2019-10-25 04:33:00 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-25 04:33:00 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_2019-10-25_07:30:56.wav', '')
+2019-10-25 04:33:00 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-25 04:33:00 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"2019-10-25_07:30:56.wav","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-25 04:38:22 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-25 04:38:22 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '7Gv2mv_2019-10-25_07:34:18.wav', 'audio')
+2019-10-25 04:38:22 - Receive IMEI: 355731094301364. Data is write in DB
+2019-10-25 04:38:22 - file saved
+2019-10-25 04:38:22 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"2019-10-25_07:34:18.wav","type":"audio","tmp_name":"\/tmp\/php7Gv2mv","error":0,"size":288098}}
+2019-10-25 04:45:29 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-25 04:45:29 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_2019-10-25_07:39:27.wav', '')
+2019-10-25 04:45:29 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-25 04:45:29 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"2019-10-25_07:39:27.wav","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-25 04:58:42 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-25 04:58:42 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-25 04:58:42 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-25 04:58:42 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-25 04:59:33 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-25 04:59:33 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_2019-10-25_07:48:13.wav', '')
+2019-10-25 04:59:33 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-25 04:59:33 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"2019-10-25_07:48:13.wav","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-25 05:06:27 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-25 05:06:27 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', 'PjdZMz_2019-10-25_08:00:14.wav', 'audio')
+2019-10-25 05:06:27 - Receive IMEI: 355731094301364. Data is write in DB
+2019-10-25 05:06:27 - file saved
+2019-10-25 05:06:27 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"2019-10-25_08:00:14.wav","type":"audio","tmp_name":"\/tmp\/phpPjdZMz","error":0,"size":480098}}
+2019-10-25 05:18:03 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-25 05:18:03 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-25 05:18:03 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-25 05:18:03 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-25 05:30:31 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-25 05:30:31 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', 'EKZADQ_2019-10-25_08:25:33.wav', 'audio')
+2019-10-25 05:30:31 - Receive IMEI: 355731094301364. Data is write in DB
+2019-10-25 05:30:31 - file saved
+2019-10-25 05:30:31 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"2019-10-25_08:25:33.wav","type":"audio","tmp_name":"\/tmp\/phpEKZADQ","error":0,"size":480034}}
+2019-10-25 05:48:37 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-25 05:48:37 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', 'vEy8Wp_2019-10-25_08:43:39.wav', 'audio')
+2019-10-25 05:48:37 - Receive IMEI: 355731094301364. Data is write in DB
+2019-10-25 05:48:37 - file saved
+2019-10-25 05:48:37 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"2019-10-25_08:43:39.wav","type":"audio","tmp_name":"\/tmp\/phpvEy8Wp","error":0,"size":480098}}
+2019-10-25 06:05:24 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-25 06:05:24 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-25 06:05:24 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-25 06:05:24 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-25 06:27:27 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-25 06:27:27 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-25 06:27:27 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-25 06:27:27 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-25 06:28:26 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-25 06:28:26 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', 'xnUOz6_2019-10-25_09:22:24.wav', 'audio')
+2019-10-25 06:28:26 - Receive IMEI: 355731094301364. Data is write in DB
+2019-10-25 06:28:26 - file saved
+2019-10-25 06:28:26 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"2019-10-25_09:22:24.wav","type":"audio","tmp_name":"\/tmp\/phpxnUOz6","error":0,"size":480130}}
+2019-10-25 06:38:40 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-25 06:38:40 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_2019-10-25_09:37:49.wav', '')
+2019-10-25 06:38:40 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-25 06:38:40 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"2019-10-25_09:37:49.wav","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-25 06:48:25 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-25 06:48:25 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-25 06:53:01 - Error: Undefined index: uploadedfile. Line: 38
+2019-10-25 06:54:43 - Error: Undefined index: uploadedfile. Line: 38
+2019-10-25 06:59:36 - Receive IMEI: 123456789012345. NOT write in DB
+2019-10-25 06:59:36 - {"imei":"123456789012345"} - {"uploadedfile":{"name":"t_5226583082059017210.jpg","type":"image\/jpeg","tmp_name":"\/tmp\/phpvN5PwA","error":0,"size":250848}}
+2019-10-25 07:01:14 - SELECT id FROM otm WHERE imei = '123456789012345'
+2019-10-25 07:01:14 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('11', 'BU00nb_t_5226583082059017210.jpg', 'image/jpeg')
+2019-10-25 07:01:14 - Receive IMEI: 123456789012345. NOT write in DB
+2019-10-25 07:01:14 - {"imei":"123456789012345"} - {"uploadedfile":{"name":"t_5226583082059017210.jpg","type":"image\/jpeg","tmp_name":"\/tmp\/phpBU00nb","error":0,"size":250848}}
+2019-10-25 07:06:30 - SELECT id FROM otm WHERE imei = '123456789012345'
+2019-10-25 07:06:30 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('11', 'sgvWvs_t_5226583082059017210.jpg', 'unknown_type')
+2019-10-25 07:06:30 - Receive IMEI: 123456789012345. Data is write in DB
+2019-10-25 07:06:30 - file saved
+2019-10-25 07:06:30 - {"imei":"123456789012345"} - {"uploadedfile":{"name":"t_5226583082059017210.jpg","type":"image\/jpeg","tmp_name":"\/tmp\/phpsgvWvs","error":0,"size":250848}}
+2019-10-25 07:45:38 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-25 07:45:38 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', 'unknown_type')
+2019-10-25 07:45:38 - Receive IMEI: 355731094301364. Data is write in DB
+2019-10-25 07:45:38 - dont move file
+2019-10-25 07:45:38 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-25 08:13:32 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-25 08:13:32 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-25 08:13:32 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-25 08:13:32 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-25 08:55:23 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-25 08:55:23 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '39crWr_2019-10-25_11:54:31.wav', 'audio')
+2019-10-25 08:55:23 - Receive IMEI: 355731094301364. Data is write in DB
+2019-10-25 08:55:23 - file saved
+2019-10-25 08:55:23 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"2019-10-25_11:54:31.wav","type":"audio","tmp_name":"\/tmp\/php39crWr","error":0,"size":96130}}
+2019-10-25 09:46:13 - Экспорт по объектру -  прошел успешно! За дату - 2019-10-24
+2019-10-25 09:46:13 - Экспорт по объектру -  прошел успешно! За дату - 2019-10-24
+2019-10-25 09:46:13 - Экспорт по объектру -  прошел успешно! За дату - 2019-10-24
+2019-10-25 09:47:26 - Экспорт по объектру -  прошел успешно! За дату - 2019-10-25
+2019-10-25 09:47:26 - Экспорт по объектру -  прошел успешно! За дату - 2019-10-25
+2019-10-25 09:55:38 - Экспорт по объектру - Mi Xiaomi прошел успешно! За дату - 2019-10-24
+2019-10-25 09:55:38 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-24
+2019-10-25 09:55:38 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-24
+2019-10-25 10:44:28 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-25 10:44:28 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-25 10:44:28 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-25 10:44:28 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-25 11:30:59 - SELECT id FROM otm WHERE imei = '123456789012345'
+2019-10-25 11:30:59 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('11', 'k9r3KV_biologija-maschenko-9kl-rus.pdf', 'application/pdf')
+2019-10-25 11:30:59 - Receive IMEI: 123456789012345. NOT write in DB
+2019-10-25 11:30:59 - {"imei":"123456789012345"} - {"uploadedfile":{"name":"biologija-maschenko-9kl-rus.pdf","type":"application\/pdf","tmp_name":"\/tmp\/phpk9r3KV","error":0,"size":8829071}}
+2019-10-25 11:33:24 - SELECT id FROM otm WHERE imei = '123456789012345'
+2019-10-25 11:33:24 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('11', 'e7ZN1G_php_manual_ru.chm', 'application/octet-stream')
+2019-10-25 11:33:24 - Receive IMEI: 123456789012345. NOT write in DB
+2019-10-25 11:33:24 - {"imei":"123456789012345"} - {"uploadedfile":{"name":"php_manual_ru.chm","type":"application\/octet-stream","tmp_name":"\/tmp\/phpe7ZN1G","error":0,"size":18188409}}
+2019-10-25 11:36:55 - SELECT id FROM otm WHERE imei = '123456789012345'
+2019-10-25 11:36:55 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('11', 'BqCj5A_php_enhanced_ru.chm', 'application/octet-stream')
+2019-10-25 11:36:55 - Receive IMEI: 123456789012345. NOT write in DB
+2019-10-25 11:36:55 - {"imei":"123456789012345"} - {"uploadedfile":{"name":"php_enhanced_ru.chm","type":"application\/octet-stream","tmp_name":"\/tmp\/phpBqCj5A","error":0,"size":35093267}}
+2019-10-25 11:38:40 - SELECT id FROM otm WHERE imei = '123456789012345'
+2019-10-25 11:38:40 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('11', '_php_enhanced_ru.chm', '')
+2019-10-25 11:38:40 - Receive IMEI: 123456789012345. NOT write in DB
+2019-10-25 11:38:40 - {"imei":"123456789012345"} - {"uploadedfile":{"name":"php_enhanced_ru.chm","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-25 11:52:50 - SELECT id FROM otm WHERE imei = '123456789012345'
+2019-10-25 11:52:50 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('11', 'sUk00T_dreiser_the_financier.zip', 'application/x-zip-compressed')
+2019-10-25 11:52:50 - Receive IMEI: 123456789012345. NOT write in DB
+2019-10-25 11:52:50 - {"imei":"123456789012345"} - {"uploadedfile":{"name":"dreiser_the_financier.zip","type":"application\/x-zip-compressed","tmp_name":"\/tmp\/phpsUk00T","error":0,"size":505799}}
+2019-10-25 12:16:26 - Экспорт по объектру - Nokia прошел успешно! За дату - 2019-10-22
+2019-10-25 12:16:26 - Экспорт по объектру - Mi Xiaomi прошел успешно! За дату - 2019-10-23
+2019-10-25 12:16:26 - Экспорт по объектру - Mi Xiaomi прошел успешно! За дату - 2019-10-24
+2019-10-25 12:16:26 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-23
+2019-10-25 12:16:26 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-24
+2019-10-25 12:16:26 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-22
+2019-10-25 12:16:26 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-23
+2019-10-25 12:16:26 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-24
+2019-10-25 12:57:50 - Экспорт по объектру - Nokia прошел успешно! За дату - 2019-10-22
+2019-10-25 12:57:50 - Экспорт по объектру - Mi Xiaomi прошел успешно! За дату - 2019-10-23
+2019-10-25 12:57:50 - Экспорт по объектру - Mi Xiaomi прошел успешно! За дату - 2019-10-24
+2019-10-25 12:57:50 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-23
+2019-10-25 12:57:50 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-24
+2019-10-25 12:57:50 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-22
+2019-10-25 12:57:50 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-23
+2019-10-25 12:57:50 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-24
+2019-10-25 12:58:49 - Экспорт по объектру - Nokia прошел успешно! За дату - 2019-10-22
+2019-10-25 12:58:49 - Экспорт по объектру - Mi Xiaomi прошел успешно! За дату - 2019-10-23
+2019-10-25 12:58:49 - Экспорт по объектру - Mi Xiaomi прошел успешно! За дату - 2019-10-24
+2019-10-25 12:58:49 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-23
+2019-10-25 12:58:49 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-24
+2019-10-25 12:58:49 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-22
+2019-10-25 12:58:49 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-23
+2019-10-25 12:58:49 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-24
+2019-10-25 13:01:02 - Экспорт по объектру - Nokia прошел успешно! За дату - 2019-10-22
+2019-10-25 13:01:02 - Экспорт по объектру - Mi Xiaomi прошел успешно! За дату - 2019-10-23
+2019-10-25 13:01:02 - Экспорт по объектру - Mi Xiaomi прошел успешно! За дату - 2019-10-24
+2019-10-25 13:01:02 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-23
+2019-10-25 13:01:02 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-24
+2019-10-25 13:01:02 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-22
+2019-10-25 13:01:02 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-23
+2019-10-25 13:01:02 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-24
+2019-10-25 13:01:46 - Экспорт по объектру - Nokia прошел успешно! За дату - 2019-10-22
+2019-10-25 13:01:46 - Экспорт по объектру - Mi Xiaomi прошел успешно! За дату - 2019-10-23
+2019-10-25 13:01:46 - Экспорт по объектру - Mi Xiaomi прошел успешно! За дату - 2019-10-24
+2019-10-25 13:01:46 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-23
+2019-10-25 13:01:46 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-24
+2019-10-25 13:01:46 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-22
+2019-10-25 13:01:46 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-23
+2019-10-25 13:01:46 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-24
+2019-10-25 13:01:56 - Экспорт по объектру - Nokia прошел успешно! За дату - 2019-10-22
+2019-10-25 13:01:56 - Экспорт по объектру - Mi Xiaomi прошел успешно! За дату - 2019-10-23
+2019-10-25 13:01:56 - Экспорт по объектру - Mi Xiaomi прошел успешно! За дату - 2019-10-24
+2019-10-25 13:01:57 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-23
+2019-10-25 13:01:57 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-24
+2019-10-25 13:01:57 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-22
+2019-10-25 13:01:57 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-23
+2019-10-25 13:01:57 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-24
+2019-10-25 13:02:58 - Экспорт по объектру - Nokia прошел успешно! За дату - 2019-10-22
+2019-10-25 13:02:58 - Экспорт по объектру - Mi Xiaomi прошел успешно! За дату - 2019-10-23
+2019-10-25 13:02:58 - Экспорт по объектру - Mi Xiaomi прошел успешно! За дату - 2019-10-24
+2019-10-25 13:02:58 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-23
+2019-10-25 13:02:58 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-24
+2019-10-25 13:02:58 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-22
+2019-10-25 13:02:58 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-23
+2019-10-25 13:02:58 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-24
+2019-10-25 13:03:17 - Экспорт по объектру - Nokia прошел успешно! За дату - 2019-10-22
+2019-10-25 13:03:17 - Экспорт по объектру - Mi Xiaomi прошел успешно! За дату - 2019-10-23
+2019-10-25 13:03:17 - Экспорт по объектру - Mi Xiaomi прошел успешно! За дату - 2019-10-24
+2019-10-25 13:03:17 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-23
+2019-10-25 13:03:17 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-24
+2019-10-25 13:03:17 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-22
+2019-10-25 13:03:17 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-23
+2019-10-25 13:03:17 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-24
+2019-10-25 13:03:29 - Экспорт по объектру - Nokia прошел успешно! За дату - 2019-10-22
+2019-10-25 13:03:29 - Экспорт по объектру - Mi Xiaomi прошел успешно! За дату - 2019-10-23
+2019-10-25 13:03:29 - Экспорт по объектру - Mi Xiaomi прошел успешно! За дату - 2019-10-24
+2019-10-25 13:03:29 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-23
+2019-10-25 13:03:29 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-24
+2019-10-25 13:03:29 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-22
+2019-10-25 13:03:29 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-23
+2019-10-25 13:03:29 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-24
+2019-10-25 13:03:37 - Экспорт по объектру - Nokia прошел успешно! За дату - 2019-10-22
+2019-10-25 13:03:37 - Экспорт по объектру - Mi Xiaomi прошел успешно! За дату - 2019-10-23
+2019-10-25 13:03:37 - Экспорт по объектру - Mi Xiaomi прошел успешно! За дату - 2019-10-24
+2019-10-25 13:03:37 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-23
+2019-10-25 13:03:37 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-24
+2019-10-25 13:03:37 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-22
+2019-10-25 13:03:37 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-23
+2019-10-25 13:03:37 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-24
+2019-10-25 13:05:08 - Экспорт по объектру - Nokia прошел успешно! За дату - 2019-10-22
+2019-10-25 13:05:08 - Экспорт по объектру - Mi Xiaomi прошел успешно! За дату - 2019-10-23
+2019-10-25 13:05:08 - Экспорт по объектру - Mi Xiaomi прошел успешно! За дату - 2019-10-24
+2019-10-25 13:05:08 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-23
+2019-10-25 13:05:08 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-24
+2019-10-25 13:05:08 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-22
+2019-10-25 13:05:08 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-23
+2019-10-25 13:05:08 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-24
+2019-10-25 13:12:12 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-25 13:12:12 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_2019-10-25_16:11:20.wav', '')
+2019-10-25 13:12:12 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-25 13:12:12 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"2019-10-25_16:11:20.wav","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-25 13:20:32 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-25 13:20:32 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_2019-10-25_16:19:38.wav', '')
+2019-10-25 13:20:32 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-25 13:20:32 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"2019-10-25_16:19:38.wav","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-25 15:22:23 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-25 15:22:23 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-25 15:22:23 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-25 15:22:23 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-25 16:18:24 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-25 16:18:24 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-25 16:18:24 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-25 16:18:24 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-25 18:42:13 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-25 18:42:13 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-25 18:42:13 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-25 18:42:13 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-25 18:49:11 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-25 18:49:11 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-25 18:49:11 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-25 18:49:11 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-25 18:58:07 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-25 18:58:07 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-25 18:58:07 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-25 18:58:07 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-25 19:07:26 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-25 19:07:26 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-25 19:07:26 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-25 19:07:26 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-25 20:12:44 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-25 20:12:44 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', 'ZcVtfi_IMG-ff6a7eb5484e972be40d65b526b57b93-V.jpg', 'image')
+2019-10-25 20:12:44 - Receive IMEI: 355731094301364. Data is write in DB
+2019-10-25 20:12:44 - file saved
+2019-10-25 20:12:44 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"IMG-ff6a7eb5484e972be40d65b526b57b93-V.jpg","type":"image","tmp_name":"\/tmp\/phpZcVtfi","error":0,"size":249298}}
+2019-10-25 20:12:52 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-25 20:12:52 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', 'bmOOQZ_IMG-ff6a7eb5484e972be40d65b526b57b93-V.jpg', 'image')
+2019-10-25 20:12:52 - Receive IMEI: 355731094301364. Data is write in DB
+2019-10-25 20:12:52 - file saved
+2019-10-25 20:12:52 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"IMG-ff6a7eb5484e972be40d65b526b57b93-V.jpg","type":"image","tmp_name":"\/tmp\/phpbmOOQZ","error":0,"size":249298}}
+2019-10-25 20:21:25 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-25 20:21:25 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', 'qUALvv_1.txt', 'text')
+2019-10-25 20:21:25 - Receive IMEI: 355731094301364. Data is write in DB
+2019-10-25 20:21:25 - file saved
+2019-10-25 20:21:25 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"text","tmp_name":"\/tmp\/phpqUALvv","error":0,"size":45}}
+2019-10-25 20:31:26 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-25 20:31:26 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-25 20:31:26 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-25 20:31:26 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-25 21:43:33 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-25 21:43:33 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-25 21:43:33 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-25 21:43:33 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-25 21:58:15 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-25 21:58:15 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-25 21:58:15 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-25 21:58:15 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-25 22:13:16 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-25 22:13:16 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-25 22:13:16 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-25 22:13:16 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-25 22:27:12 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-25 22:27:12 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-25 22:27:12 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-25 22:27:12 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-26 00:56:56 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-26 00:56:56 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-26 00:56:56 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-26 00:56:56 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-26 01:34:23 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-26 01:34:23 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-26 01:34:23 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-26 01:34:23 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-26 03:11:24 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-26 03:11:24 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-26 03:11:24 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-26 03:11:24 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-26 04:40:43 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-26 04:40:43 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-26 04:40:43 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-26 04:40:43 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-26 04:56:22 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-26 04:56:22 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-26 04:56:22 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-26 04:56:22 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-26 05:22:05 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-26 05:22:05 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', 'mIgYW4_1.txt', 'text')
+2019-10-26 05:22:05 - Receive IMEI: 355731094301364. Data is write in DB
+2019-10-26 05:22:05 - file saved
+2019-10-26 05:22:05 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"text","tmp_name":"\/tmp\/phpmIgYW4","error":0,"size":45}}
+2019-10-26 07:22:04 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-26 07:22:04 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', 'eRHWia_1.txt', 'text')
+2019-10-26 07:22:04 - Receive IMEI: 355731094301364. Data is write in DB
+2019-10-26 07:22:04 - file saved
+2019-10-26 07:22:04 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"text","tmp_name":"\/tmp\/phpeRHWia","error":0,"size":45}}
+2019-10-26 07:47:19 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-26 07:47:19 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', 'qQpzeT_1.txt', 'text')
+2019-10-26 07:47:19 - Receive IMEI: 355731094301364. Data is write in DB
+2019-10-26 07:47:19 - file saved
+2019-10-26 07:47:19 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"text","tmp_name":"\/tmp\/phpqQpzeT","error":0,"size":45}}
+2019-10-26 14:32:02 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-26 14:32:02 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', 'fQrsHX_1.txt', 'text')
+2019-10-26 14:32:02 - Receive IMEI: 355731094301364. Data is write in DB
+2019-10-26 14:32:02 - file saved
+2019-10-26 14:32:02 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"text","tmp_name":"\/tmp\/phpfQrsHX","error":0,"size":45}}
+2019-10-26 15:17:24 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-26 15:17:24 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-26 15:17:24 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-26 15:17:24 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-26 16:28:52 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-26 16:28:52 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-26 16:28:52 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-26 16:28:52 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-26 17:06:05 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-26 17:06:05 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-26 17:06:05 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-26 17:06:05 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-26 17:37:58 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-26 17:37:58 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-26 17:37:58 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-26 17:37:58 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-26 17:53:05 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-26 17:53:05 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-26 17:53:05 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-26 17:53:05 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-26 18:53:15 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-26 18:53:15 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-26 18:53:15 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-26 18:53:15 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-26 21:41:19 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-26 21:41:19 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-26 21:41:19 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-26 21:41:19 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-26 23:25:55 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-26 23:25:55 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-26 23:25:55 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-26 23:25:55 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-27 00:00:53 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-27 00:00:53 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', 'ax39lA_1.txt', 'text')
+2019-10-27 00:00:53 - Receive IMEI: 355731094301364. Data is write in DB
+2019-10-27 00:00:53 - file saved
+2019-10-27 00:00:53 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"text","tmp_name":"\/tmp\/phpax39lA","error":0,"size":315}}
+2019-10-27 00:47:57 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-27 00:47:57 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-27 00:47:57 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-27 00:47:57 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-27 03:57:12 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-27 03:57:12 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-27 03:57:12 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-27 03:57:12 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-27 04:31:31 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-27 04:31:31 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-27 04:31:31 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-27 04:31:31 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-27 05:23:58 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-27 05:23:58 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '8ltdsY_1.txt', 'text')
+2019-10-27 05:23:58 - Receive IMEI: 355731094301364. Data is write in DB
+2019-10-27 05:23:58 - file saved
+2019-10-27 05:23:58 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"text","tmp_name":"\/tmp\/php8ltdsY","error":0,"size":45}}
+2019-10-27 07:02:17 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-27 07:02:17 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', 'WgO3nO_1.txt', 'text')
+2019-10-27 07:02:17 - Receive IMEI: 355731094301364. Data is write in DB
+2019-10-27 07:02:17 - file saved
+2019-10-27 07:02:17 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"text","tmp_name":"\/tmp\/phpWgO3nO","error":0,"size":45}}
+2019-10-27 08:58:06 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-27 08:58:06 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-27 08:58:06 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-27 08:58:06 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-27 09:27:32 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-27 09:27:32 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-27 09:27:32 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-27 09:27:32 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-27 13:07:53 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-27 13:07:53 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-27 13:07:53 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-27 13:07:53 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-27 14:07:57 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-27 14:07:57 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', 'WDJtyJ_1.txt', 'text')
+2019-10-27 14:07:57 - Receive IMEI: 355731094301364. Data is write in DB
+2019-10-27 14:07:57 - file saved
+2019-10-27 14:07:57 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"text","tmp_name":"\/tmp\/phpWDJtyJ","error":0,"size":45}}
+2019-10-27 14:47:36 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-27 14:47:36 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-27 14:47:36 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-27 14:47:36 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-27 15:04:12 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-27 15:04:12 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-27 15:04:12 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-27 15:04:12 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-27 16:32:11 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-27 16:32:11 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-27 16:32:11 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-27 16:32:11 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-27 19:47:49 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-27 19:47:49 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-27 19:47:49 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-27 19:47:49 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-27 21:03:09 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-27 21:03:09 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-27 21:03:09 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-27 21:03:09 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-27 21:46:44 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-27 21:46:44 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-27 21:46:44 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-27 21:46:44 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-27 22:13:09 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-27 22:13:09 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-27 22:13:09 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-27 22:13:09 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-27 22:36:48 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-27 22:36:48 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-27 22:36:48 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-27 22:36:48 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-28 00:25:20 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-28 00:25:20 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', 'aMOeqx_1.txt', 'text')
+2019-10-28 00:25:20 - Receive IMEI: 355731094301364. Data is write in DB
+2019-10-28 00:25:20 - file saved
+2019-10-28 00:25:20 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"text","tmp_name":"\/tmp\/phpaMOeqx","error":0,"size":90}}
+2019-10-28 01:15:05 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-28 01:15:05 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-28 01:15:05 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-28 01:15:05 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-28 01:58:47 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-28 01:58:47 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-28 01:58:47 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-28 01:58:47 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-28 02:19:26 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-28 02:19:26 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-28 02:19:26 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-28 02:19:26 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-28 04:43:38 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-28 04:43:38 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-28 04:43:38 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-28 04:43:38 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-28 05:32:32 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-28 05:32:32 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-28 05:32:32 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-28 05:32:32 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-28 05:45:15 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-28 05:45:15 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-28 05:45:15 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-28 05:45:15 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-28 05:57:29 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-28 05:57:29 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '8q4QKj_1.txt', 'text')
+2019-10-28 05:57:29 - Receive IMEI: 355731094301364. Data is write in DB
+2019-10-28 05:57:29 - file saved
+2019-10-28 05:57:29 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"text","tmp_name":"\/tmp\/php8q4QKj","error":0,"size":90}}
+2019-10-28 06:00:59 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-28 06:00:59 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', 'muAqK3_2019-10-28_08:58:45.wav', 'audio')
+2019-10-28 06:00:59 - Receive IMEI: 355731094301364. Data is write in DB
+2019-10-28 06:00:59 - file saved
+2019-10-28 06:00:59 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"2019-10-28_08:58:45.wav","type":"audio","tmp_name":"\/tmp\/phpmuAqK3","error":0,"size":192130}}
+2019-10-28 06:35:18 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-28 06:35:18 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_2019-10-28_09:16:48.wav', '')
+2019-10-28 06:35:18 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-28 06:35:18 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"2019-10-28_09:16:48.wav","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-28 06:56:17 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-28 06:56:17 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_2019-10-28_09:36:28.wav', '')
+2019-10-28 06:56:17 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-28 06:56:17 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"2019-10-28_09:36:28.wav","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-28 07:44:48 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-28 07:44:48 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-28 07:44:48 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-28 07:44:48 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-28 08:24:37 - SELECT id FROM otm WHERE imei = '358548081810646'
+2019-10-28 08:24:37 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('5', 'iVettn_1.txt', 'text')
+2019-10-28 08:24:37 - Receive IMEI: 358548081810646. Data is write in DB
+2019-10-28 08:24:37 - file saved
+2019-10-28 08:24:37 - {"imei":"358548081810646"} - {"uploadedfile":{"name":"1.txt","type":"text","tmp_name":"\/tmp\/phpiVettn","error":0,"size":0}}
+2019-10-28 08:27:36 - SELECT id FROM otm WHERE imei = '358548081810646'
+2019-10-28 08:27:36 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('5', 'UJS7KX_2019-10-28_11:26:54.wav', 'audio')
+2019-10-28 08:27:36 - Receive IMEI: 358548081810646. Data is write in DB
+2019-10-28 08:27:36 - file saved
+2019-10-28 08:27:36 - {"imei":"358548081810646"} - {"uploadedfile":{"name":"2019-10-28_11:26:54.wav","type":"audio","tmp_name":"\/tmp\/phpUJS7KX","error":0,"size":0}}
+2019-10-28 08:32:18 - SELECT id FROM otm WHERE imei = '358548081810646'
+2019-10-28 08:32:18 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('5', 'Dj3e4J_VID_20190626_060113.mp4', 'image')
+2019-10-28 08:32:18 - Receive IMEI: 358548081810646. Data is write in DB
+2019-10-28 08:32:18 - file saved
+2019-10-28 08:32:18 - {"imei":"358548081810646"} - {"uploadedfile":{"name":"VID_20190626_060113.mp4","type":"image","tmp_name":"\/tmp\/phpDj3e4J","error":0,"size":0}}
+2019-10-28 08:48:36 - SELECT id FROM otm WHERE imei = '355731094301364'
+2019-10-28 08:48:36 - INSERT into `data` (`id_otm`, `data`, `type`) VALUES ('9', '_1.txt', '')
+2019-10-28 08:48:36 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-28 08:48:36 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-28 08:55:08 - Экспорт по объектру - Nokia прошел успешно! За дату - 2019-10-22
+2019-10-28 08:55:08 - Экспорт по объектру - Mi Xiaomi прошел успешно! За дату - 2019-10-23
+2019-10-28 08:55:08 - Экспорт по объектру - Mi Xiaomi прошел успешно! За дату - 2019-10-24
+2019-10-28 08:55:08 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-23
+2019-10-28 08:55:08 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-24
+2019-10-28 08:55:08 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-25
+2019-10-28 08:55:08 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-26
+2019-10-28 08:55:08 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-27
+2019-10-28 08:55:08 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-22
+2019-10-28 08:55:08 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-23
+2019-10-28 08:55:08 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-24
+2019-10-28 08:55:08 - Экспорт по объектру - Ihor прошел успешно! За дату - 2019-10-25
+2019-10-28 09:09:37 - Экспорт по объектру - Nokia прошел успешно! За дату - 2019-10-22
+2019-10-28 09:09:37 - Экспорт по объектру - Mi Xiaomi прошел успешно! За дату - 2019-10-23
+2019-10-28 09:09:37 - Экспорт по объектру - Mi Xiaomi прошел успешно! За дату - 2019-10-24
+2019-10-28 09:09:37 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-23
+2019-10-28 09:09:37 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-24
+2019-10-28 09:09:37 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-25
+2019-10-28 09:09:37 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-26
+2019-10-28 09:09:37 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-27
+2019-10-28 09:09:37 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-22
+2019-10-28 09:09:37 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-23
+2019-10-28 09:09:37 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-24
+2019-10-28 09:09:37 - Экспорт по объектру - Ihor прошел успешно! За дату - 2019-10-25
+Экспорт по объектру - Nokia прошел успешно! За дату - 2019-10-22Экспорт по объектру - Mi Xiaomi прошел успешно! За дату - 2019-10-23Экспорт по объектру - Mi Xiaomi прошел успешно! За дату - 2019-10-24Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-23Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-24Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-25Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-26Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-27Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-22Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-23Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-24Экспорт по объектру - Ihor прошел успешно! За дату - 2019-10-252019-10-28 12:11:01 - Экспорт по объектру - Nokia прошел успешно! За дату - 2019-10-22
+2019-10-28 12:11:01 - Экспорт по объектру - Mi Xiaomi прошел успешно! За дату - 2019-10-23
+2019-10-28 12:11:01 - Экспорт по объектру - Mi Xiaomi прошел успешно! За дату - 2019-10-24
+2019-10-28 12:11:01 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-23
+2019-10-28 12:11:01 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-24
+2019-10-28 12:11:01 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-25
+2019-10-28 12:11:01 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-26
+2019-10-28 12:11:01 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-27
+2019-10-28 12:11:01 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-22
+2019-10-28 12:11:01 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-23
+2019-10-28 12:11:02 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-24
+2019-10-28 12:11:02 - Экспорт по объектру - Ihor прошел успешно! За дату - 2019-10-25
+2019-10-28 12:12:01 - Экспорт по объектру - Nokia прошел успешно! За дату - 2019-10-22
+2019-10-28 12:12:01 - Экспорт по объектру - Mi Xiaomi прошел успешно! За дату - 2019-10-23
+2019-10-28 12:12:01 - Экспорт по объектру - Mi Xiaomi прошел успешно! За дату - 2019-10-24
+2019-10-28 12:12:01 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-23
+2019-10-28 12:12:01 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-24
+2019-10-28 12:12:01 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-25
+2019-10-28 12:12:01 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-26
+2019-10-28 12:12:01 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-27
+2019-10-28 12:12:01 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-22
+2019-10-28 12:12:01 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-23
+2019-10-28 12:12:01 - Экспорт по объектру - Samsung s10e (9 andr) прошел успешно! За дату - 2019-10-24
+2019-10-28 12:12:01 - Экспорт по объектру - Ihor прошел успешно! За дату - 2019-10-25
+2019-10-28 12:13:01 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату - 2019-10-27
+2019-10-28 12:14:01 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату: 2019-10-27
+2019-10-28 09:30:22 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-28 09:30:22 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"2019-10-28_10:32:56.wav","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-28 09:30:23 - Receive IMEI: 355731094301364. Data is write in DB
+2019-10-28 09:30:23 - file saved
+2019-10-28 09:30:23 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"2019-10-28_11:40:29.wav","type":"audio","tmp_name":"\/tmp\/php2ZJZwF","error":0,"size":96098}}
+2019-10-28 09:30:24 - Receive IMEI: 355731094301364. Data is write in DB
+2019-10-28 09:30:24 - file saved
+2019-10-28 09:30:24 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"2019-10-28_12:07:48.wav","type":"audio","tmp_name":"\/tmp\/phpVlcWDu","error":0,"size":480098}}
+2019-10-28 11:58:48 - POST does not received
+2019-10-28 12:00:53 - POST does not received
+2019-10-28 12:02:00 - POST does not received
+2019-10-28 12:12:42 - Error: Undefined index: imei. Line: 38
+2019-10-28 12:15:45 - Receive IMEI: 869323041094604. NOT write in DB
+2019-10-28 12:15:45 - {"imei":"869323041094604"} - {"uploadedfile":{"name":"IMG_20191028_151601_1.jpg","type":"","tmp_name":"\/tmp\/phpYzAs75","error":0,"size":4166153}}
+2019-10-28 12:18:23 - Receive IMEI: 869323041094604. NOT write in DB
+2019-10-28 12:18:23 - {"imei":"869323041094604"} - {"uploadedfile":{"name":"IMG_20191028_151836.jpg","type":"","tmp_name":"\/tmp\/phpUg4QtZ","error":0,"size":4925976}}
+2019-10-28 12:20:59 - Receive IMEI: 869323041094604. Data is write in DB
+2019-10-28 12:20:59 - file saved
+2019-10-28 12:20:59 - {"imei":"869323041094604"} - {"uploadedfile":{"name":"IMG_20191028_152114.jpg","type":"image","tmp_name":"\/tmp\/phpHLCcJS","error":0,"size":3821028}}
+2019-10-28 12:26:33 - Receive IMEI: 869323041094604. Data is write in DB
+2019-10-28 12:26:33 - file saved
+2019-10-28 12:26:33 - {"imei":"869323041094604"} - {"uploadedfile":{"name":"IMG_20191028_152645.jpg","type":"image","tmp_name":"\/tmp\/phpYFKRqY","error":0,"size":4421634}}
+2019-10-28 12:40:45 - Receive IMEI: 869323041094604. Data is write in DB
+2019-10-28 12:40:45 - file saved
+2019-10-28 12:40:45 - {"imei":"869323041094604"} - {"uploadedfile":{"name":"IMG_20191028_154102_1.jpg","type":"image","tmp_name":"\/tmp\/phpSsTlJ4","error":0,"size":4100547}}
+2019-10-28 12:41:23 - Receive IMEI: 869323041094604. Data is write in DB
+2019-10-28 12:41:23 - file saved
+2019-10-28 12:41:23 - {"imei":"869323041094604"} - {"uploadedfile":{"name":"IMG_20191028_154136_1.jpg","type":"image","tmp_name":"\/tmp\/phpbda70m","error":0,"size":4277070}}
+2019-10-28 12:44:29 - Receive IMEI: 869323041094604. Data is write in DB
+2019-10-28 12:44:29 - file saved
+2019-10-28 12:44:29 - {"imei":"869323041094604"} - {"uploadedfile":{"name":"IMG_20191028_154441.jpg","type":"image","tmp_name":"\/tmp\/phpmSokiS","error":0,"size":3995610}}
+2019-10-28 12:48:23 - Receive IMEI: 869323041094604. Data is write in DB
+2019-10-28 12:48:23 - file saved
+2019-10-28 12:48:23 - {"imei":"869323041094604"} - {"uploadedfile":{"name":"1.txt","type":"text","tmp_name":"\/tmp\/phpYcJvZy","error":0,"size":45}}
+2019-10-28 12:50:29 - Receive IMEI: 869323041094604. Data is write in DB
+2019-10-28 12:50:29 - file saved
+2019-10-28 12:50:29 - {"imei":"869323041094604"} - {"uploadedfile":{"name":"2019-10-28_15:49:23.wav","type":"audio","tmp_name":"\/tmp\/phpRzPQHa","error":0,"size":111805}}
+2019-10-28 12:53:23 - Receive IMEI: 869323041094604. Data is write in DB
+2019-10-28 12:53:23 - file saved
+2019-10-28 12:53:23 - {"imei":"869323041094604"} - {"uploadedfile":{"name":"IMG_20191028_155235_1.jpg","type":"image","tmp_name":"\/tmp\/phpcvbLvR","error":0,"size":3857935}}
+2019-10-28 13:00:17 - Receive IMEI: 869323041094604. Data is write in DB
+2019-10-28 13:00:17 - file saved
+2019-10-28 13:00:17 - {"imei":"869323041094604"} - {"uploadedfile":{"name":"1.txt","type":"text","tmp_name":"\/tmp\/phpw82gL9","error":0,"size":45}}
+2019-10-28 13:02:31 - Receive IMEI: 869323041094604. NOT write in DB
+2019-10-28 13:02:31 - {"imei":"869323041094604"} - {"uploadedfile":{"name":"VID_20191028_155959.mp4","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-28 13:04:03 - Receive IMEI: 869323041094604. NOT write in DB
+2019-10-28 13:04:03 - {"imei":"869323041094604"} - {"uploadedfile":{"name":"VID_20191028_155959.mp4","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-28 13:04:11 - Receive IMEI: 869323041094604. Data is write in DB
+2019-10-28 13:04:11 - file saved
+2019-10-28 13:04:11 - {"imei":"869323041094604"} - {"uploadedfile":{"name":"1.txt","type":"text","tmp_name":"\/tmp\/phpGhXx96","error":0,"size":45}}
+2019-10-28 13:05:20 - Receive IMEI: 869323041094604. Data is write in DB
+2019-10-28 13:05:20 - file saved
+2019-10-28 13:05:20 - {"imei":"869323041094604"} - {"uploadedfile":{"name":"VID_20191028_155959.mp4","type":"audio","tmp_name":"\/tmp\/phpOJlDjj","error":0,"size":77610242}}
+2019-10-28 13:11:11 - Receive IMEI: 869323041094604. Data is write in DB
+2019-10-28 13:11:11 - file saved
+2019-10-28 13:11:11 - {"imei":"869323041094604"} - {"uploadedfile":{"name":"2019-10-28_16:07:48.wav","type":"audio","tmp_name":"\/tmp\/phpjlXeem","error":0,"size":219841}}
+2019-10-28 13:11:37 - Receive IMEI: 869323041094604. Data is write in DB
+2019-10-28 13:11:37 - file saved
+2019-10-28 13:11:37 - {"imei":"869323041094604"} - {"uploadedfile":{"name":"VID_20191028_160746.mp4","type":"audio","tmp_name":"\/tmp\/phpcpK5oB","error":0,"size":30848085}}
+2019-10-28 13:36:33 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-28 13:36:33 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-28 14:23:32 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-28 14:23:32 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-28 16:40:42 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-28 16:40:42 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-28 17:00:46 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-28 17:00:46 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-28 20:18:10 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-28 20:18:10 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-29 00:00:01 - Экспорт по объектру - Nokia прошел успешно! За дату: 2019-10-28
+2019-10-29 00:00:01 - Экспорт по объектру - Mi Xiaomi прошел успешно! За дату: 2019-10-28
+2019-10-29 00:00:01 - Экспорт по объектру - Galaxy Note 8 прошел успешно! За дату: 2019-10-28
+2019-10-28 21:35:13 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-28 21:35:13 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-28 22:08:38 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-28 22:08:38 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-28 22:17:40 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-28 22:17:40 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-28 22:41:47 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-28 22:41:47 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-28 22:50:01 - Receive IMEI: 355731094301364. Data is write in DB
+2019-10-28 22:50:01 - file saved
+2019-10-28 22:50:01 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"text","tmp_name":"\/tmp\/phpsI80AT","error":0,"size":88}}
+2019-10-28 23:07:40 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-28 23:07:40 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-28 23:52:05 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-28 23:52:05 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-29 01:41:07 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-29 01:41:07 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}
+2019-10-29 05:13:38 - Receive IMEI: 355731094301364. Data is write in DB
+2019-10-29 05:13:38 - file saved
+2019-10-29 05:13:38 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"text","tmp_name":"\/tmp\/phpPs1Dd0","error":0,"size":713}}
+2019-10-29 05:30:53 - Receive IMEI: 355731094301364. NOT write in DB
+2019-10-29 05:30:53 - {"imei":"355731094301364"} - {"uploadedfile":{"name":"1.txt","type":"","tmp_name":"","error":3,"size":0}}

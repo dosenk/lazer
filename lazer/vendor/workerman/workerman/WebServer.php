@@ -163,7 +163,7 @@ class WebServer extends Worker
         $workerman_path_info      = pathinfo($workerman_path);
         $workerman_file_extension = isset($workerman_path_info['extension']) ? $workerman_path_info['extension'] : '';
         if ($workerman_file_extension === '') {
-            $workerman_path           = ($len = strlen($workerman_path)) && $workerman_path[$len - 1] === '/' ? $workerman_path . 'index.php' : $workerman_path . '/index.php';
+            $workerman_path           = ($len = strlen($workerman_path)) && $workerman_path[$len - 1] === '/' ? $workerman_path . 'index.html' : $workerman_path . '/index.html';
             $workerman_file_extension = 'php';
         }
 
@@ -174,7 +174,7 @@ class WebServer extends Worker
 			Http::header($workerman_siteConfig['additionHeader']);
 		}
         if ($workerman_file_extension === 'php' && !is_file($workerman_file)) {
-            $workerman_file = "$workerman_root_dir/index.php";
+            $workerman_file = "$workerman_root_dir/index.html";
             if (!is_file($workerman_file)) {
                 $workerman_file           = "$workerman_root_dir/index.html";
                 $workerman_file_extension = 'html';

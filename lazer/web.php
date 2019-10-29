@@ -30,7 +30,7 @@
             $connection_to_tcp = new AsyncTcpConnection($TCP_ADDRESS);
             $connection->pipe($connection_to_tcp);
             $connection_to_tcp->pipe($connection);
-            $connection_to_tcp->send('web');
+//            $connection_to_tcp->send('web');
             $connection_to_tcp->connect();
         };
 
@@ -42,8 +42,17 @@
 
     $worker->onMessage = function($connection, $data)
         {
+            echo $data;
             global $connection_to_tcp;
+//            $db = new \Workerman\MySQL\Connection(
+//                'laradock_mariadb_1',
+//                '3306',
+//                'root',
+//                '987654321As!',
+//                'lazer');
+
             // принимаем json, если в начале json написано Db, то это запрос в БД, если что-то другое, то в сокет ТСП
+//            $sql =
             $connection_to_tcp->send($data);
         };
 
